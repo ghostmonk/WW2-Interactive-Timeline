@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timelineData>
+
+	<links>
+		<smallThumb url="http://www.thememoryproject.com/VeteranAssets/Artifact/Thumb_Small/" />
+		<vetProfile url="http://www.thememoryproject.com/Stories/Veteran-Profile.aspx?itemid=" />
+	</links>
+	
+	<events>
+	
+		<event date="1945-05-08" imgID="bcs">
+			<text>Victory in Europe Day (VE-Day) is declared, ending the European portion of the Second World War</text>
+			<vet id="1065"><name>Helen Rochon</name></vet>
+			<vet id="1096"><name>Hubert Lalonde</name></vet>
+			<vet id="1297"><name>Norman Wrigglesworth</name></vet>
+		</event>
+			
+		<event date="1940-09-24" imgID="axl">
+			<text>Her Majesty's Canadian ships Annapolis, Columbia, Niagara, St. Clair, St. Croix and St. Francis, ex-American destroyers from the fifty given to Great Britain in exchange for bases, are commissioned into the Royal Canadian Navy</text>
+			<vet id="1069"><name>Tom Rappel</name></vet>
+		</event>
+		
+		<event date="1940-07-22" imgID="3cg">
+			<text>The British Commonwealth Air Training Plan begins operations when students began training at No. 1 Service Flying Training School at Camp Borden, Ontario</text>
+			<vet id="1339"><name>Russell Smith</name></vet>
+			<vet id="1123"><name>Bill Watterson</name></vet>
+		</event>
+
+		<event date="1944-02-11" imgID="3kh">
+			<text>a Wellington bomber of No.407 Squadron, Royal Canadian Air Force, sinks the German submarine U-283 in the North Atlantic</text>
+			<vet id="2288"><name>Ross Hamilton</name></vet>
+		</event>
+
+		<event date="1939-09-01" imgID="lus">
+			<text>the 1st and 2nd Canadian Divisions are authorized as the Canadian Active Service Force.  The Royal Canadian Navy, Royal Canadian Navy Reserve and Royal Canadian Navy Volunteer Reserve are placed on active service</text>
+			<vet id="1452"><name>Frank John Dion</name></vet>
+			<vet id="2271"><name>John A Cathie</name></vet>
+			<vet id="2295"><name>Rudy Deutsch</name></vet>
+			<vet id="2270"><name>John Bilyk</name></vet>
+		</event>
+	
+		<event date="1939-09-04" imgID="cfc">
+			<text>Pilot Officer S.R. Henderson, a Canadian serving in No.206 Squadron, Royal Air Force, becomes the first Canadian to participate in an operational sortie during the Second World War when he serves as the lead navigator in a bomber force attacking German warships</text>
+			<vet id="1050"><name>Malcolm Andrade</name></vet>
+		</event>
+		
+		<event date="1939-09-10" imgID="u1p">
+			<text>Canada declares war on Germany</text>
+			<vet id="1345">James Duncan Ritchie</vet>
+			<vet id="2241">John Leach</vet>
+			<vet id="2230">Joan Bennett Johnson, nee Cobb</vet>
+			<vet id="1478">Geoffrey Alington</vet>
+		</event>
+
+		<event date="1939-09-16" imgID="blc">
+			<text>convoy HX-1 sails from Halifax for Great Britain with a local escort including HMCS St. Laurent and HMCS Saguenay</text>
+			<vet id="1154">John Covan</vet>
+			<vet id="2137">Louis Henry Howard</vet>
+		</event>
+
+		<event date="1939-09-19" imgID="t0r">
+			<text>the Honourable Norman McLeod Rogers is appointed Minister of National Defence</text>
+			<vet id="1104">Mike Hawryliw</vet>
+		</event>
+
+		<event date="29-30-Sep-39" imgID="xit">
+			<text>S/L W.I. Clements, attached to No.53 (Blenheim) Squadron, Royal Air Force, becomes the first member of the Royal Canadian Air Force to fly over enemy territory when his squadron makes a long distance reconnaissance flight over Germany</text>
+			<vet id="1307">Malcolm Maconnell</vet>
+		</event>
+
+		<event date="1939-11-06" imgID="d1r">
+			<text>the formation of the Organization and Training Division at RCAF headquarters is authorized</text>
+			<vet id="1102">Harold Emery Bronson</vet>
+			<vet id="1059">Ernest Peter Bone</vet>
+			<vet id="1108">Mervyn Couse</vet>
+			<vet id="1111">Geraldine Muter</vet>
+		</event>
+
+		<event date="1939-12-10" imgID="vkc">
+			<text>the first Canadian troop convoy sails for Britain escorted out of Halifax by HMC ships Ottawa, Restigouche, Fraser and St. Laurent</text>
+			<vet id="1119">Donald McIntosh</vet>
+			<vet id="1154">John Covan</vet>
+			<vet id="1220">C. James Alward</vet>
+		</event>
+
+		<event date="1939-12-17" imgID="smf">
+			<text>the first group of the 1st Canadian Infantry Division arrives in the United Kingdom</text>
+			<vet id="2271">John A Cathie</vet>
+			<vet id="1384">Gordon Bannerman</vet>
+		</event>
+
+		<event date="1939-12-17" imgID="qnp">
+			<text>the governments of the United Kingdom, Canada, Australia and New Zealand sign an agreement to establish the British Commonwealth Air Training Plan under the supervision of the Royal Canadian Air Force</text>
+			<vet id="1059">Ernest Peter Bone</vet>
+			<vet id="1129">Cecil Edward Hancock</vet>
+			<vet id="1118">Brian MacConnell</vet>
+			<vet id="1226">Joseph Preston Hawkins</vet>
+			<vet id="1386">Glennis Marie Boyce</vet>
+		</event>
+
+		<event date="1939-12-31" imgID="wup">
+			<text>the second section of the 1st Canadian Infantry Division arrives in the United Kingdom</text>
+			<vet id="1384">Gordon Bannerman</vet>
+			<vet id="2271">John A Cathie</vet>
+		</event>
+
+		<event date="1940-01-02" imgID="q4m">
+			<text>the awarding of Distinguished Flying Cross (each) to two Canadians serving in the Royal Air Force, Pilot-Officer S.R. Henderson and Wing-Commander J.F. Griffiths, is announced.  They are the first Canadians to be decorated during the Second World War</text>
+			<vet id="1135">Norman Dawber</vet>
+		</event>
+
+		<event date="1940-02-08" imgID="">
+			<text>the third Canadian Contingent arrives in Great Britain</text>
+		</event>
+
+		<event date="1940-02-14" imgID="">
+			<text>No.110 (Army Co-Operation) Squadron sails from Halifax for Britain where it arrives on 25 February, the first Canadian air force squadron to reach Great Britain</text>
+		</event>
+
+		<event date="1940-04-15" imgID="5pw">
+			<text>No. 1 Initial Training School is opened in Toronto to provide the first training for British Commonwealth Air Training Plan students</text>
+			<vet id="1536">Eric Stanley Hawley</vet>
+			<vet id="1102">Harold Emery Bronson</vet>
+		</event>
+		
+		<event date="1940-04-29" imgID="cvb">
+			<text>No. 1 Air Navigation School was formed at Trenton, Ontario, to provide navigation training for British Commonwealth Air Training Plan students</text>
+			<vet id="1404">Donald Stevenson</vet>
+			<vet id="1111">Geraldine Muter</vet>
+		</event>
+
+		<event date="1940-05-21" imgID="uya">
+			<text>the first members of No. 112 (Army Co-Operation) Squadron, based in Winnipeg, sail from Canada for Liverpool where they arrive eight days later as the second Royal Canadian Air Force squadron overseas</text>
+			<vet id="1315">William Gelineau</vet>
+		</event>
+
+		<event date="1940-05-23" imgID="">
+			<text>the Honourable Charles G. Power is appointed Minister of National Defence for Air</text>
+		</event>
+
+		<event date="1940-05-24" imgID="lcf">
+			<text>HMS ships St. Laurent, Restigouche and Skeena sail from Halifax for Britain to join the Allied naval defence forces</text>
+			<vet id="1397">Jack Smallwood</vet>
+		</event>
+
+		<event date="1940-05-27" imgID="ped">
+			<text>No. 1 Air Observer School is opened in Malton, Ontario, to train British Commonwealth Air Training Plan students in air observation duties</text>
+			<vet id="1502">Ray Sowerby</vet>
+			<vet id="1129">Cecil Edward Hancock</vet>
+		</event>
+
+		<event date="1940-06-06" imgID="">
+			<text>Canadian warships come under fire for the first time when HMCS St. Laurent and HMCS Restigouche encounter German warships at St. Valery en Caux,nac,Harold Harden,1325,No HMCS Restigouche or St. Laurent - general about germans in atlantic</text>
+		</event>
+
+		<event date="1940-06-08" imgID="">
+			<text>No. 1 (Fighter) Squadron sails from Halifax for Great Britain</text>
+		</event>
+
+		<event date="1940-06-10" imgID="qbl">
+			<text>the Canadian government declares war on Italy</text>
+			<vet id="1291">Paul-Emile Lamouche</vet>
+			<vet id="1380">William Adelman</vet>
+		</event>
+
+		<event date="1940-06-11" imgID="">
+			<text>HMCS St. Laurent and HMCS Restigouche evacuate military personnel from Le Havre, France, exchanging gunfire with German artillery batteries in the process</text>
+		</event>
+
+		<event date="1940-06-13" imgID="">
+			<text>The Honourable Charles Gavan Power is appointed Minister of Department of National Defence</text>
+		</event>
+
+		<event date="1940-06-16" imgID="l2l">
+			<text>Canadian troops board transport vessels in St. Malo and Brest to leave France for England after the aborted attempt to support the British and French armies</text>
+			<vet id="1092">Edward Borland</vet>
+		</event>
+
+		<event date="1940-06-21" imgID="">
+			<text>HMCS Fraser evacuates Free French troops and future Canadian Governor-General, Lieutenant-Colonel G.P. Vanier, from France</text>
+		</event>
+
+		<event date="1940-06-22" imgID="">
+			<text>the last class of Royal Canadian Navy Volunteer Reserve officers graduate from HMCS Stone Frigate</text>
+			<vet id="2529">Frederick Gray</vet>
+		</event>
+
+		<event date="1940-06-25" imgID="inm">
+			<text>HMCS Fraser is lost after colliding with a British warship, HMS Calcutta in the Bay of Biscay</text>
+			<vet id="1220">C James Alward</vet>
+		</event>
+
+		<event date="1940-07-02" imgID="2mp">
+			<text>861 German and Italian prisoners of war are rescued by HMCS St. Laurent after their transport ship was torpedoed on its way to Canada</text>
+			<vet id="1325">Harold Harden</vet>
+			<vet id="1321">Robert Kerr</vet>
+		</event>
+
+		<event date="1940-07-05" imgID="">
+			<text>the Honourable James Layton Ralston is appointed Minister of National Defence</text>
+		</event>
+
+		<event date="1940-07-09" imgID="2u4">
+			<text>Les Fusiliers Mont-Royal and The Cameron Highlanders of Ottawa arrive in Iceland to complete the Canadian >Z= Force stationed there</text>
+			<vet id="1317">Jean Marie Ademare Milot</vet>
+		</event>
+		
+		<event date="1940-07-17" imgID="kgx">
+			<text>HMCS Skeena rescues the crew of a torpedoed merchant ship, the SS Manipor, in the waters north of Scotland</text>
+			<vet id="1397">Jack Smallwood</vet>
+			<vet id="1070">Frank Aldred</vet>
+		</event>
+		
+		<event date="1940-07-31" imgID="">
+			<text>HMCS Prince Robert, after conversion from a merchant vessel, is commissioned as an armed merchant cruiser</text>
+			<vet id="2137">Louis Henry Howard</vet>
+		</event>
+
+		<event date="1940-08-13" imgID="5vv">
+			<text>the Canadian Armoured Corps is authorized</text>
+			<vet id="1316">Robert Routledge</vet>
+			<vet id="1345">James Duncan Ritchie</vet>
+			<vet id="2298">Gordon Wright</vet>
+		</event>
+
+		<event date="1940-10-20" imgID="asw">
+			<text>"HMS Windflower, the first corvette built in Canada, is commissioned into the Royal Navy with a Canadian crew.  She is turned over to the Royal Canadian Navy in 1941</text>
+			<vet id="1077">Harvey Burns</vet>
+			<vet id="1119">Donald McIntosh</vet>
+		</event>
+
+		<event date="1940-10-22" imgID="kzs">
+			<text>HMCS Margaree is lost in a collision with SS Port Fairy in the North Atlantic</text>
+			<vet id="1493">Ron Rhine</vet>
+		</event>
+
+
+		<event date="1940-10-25" imgID="">
+			<text>HMCS Bras D'Or founders in the North Atlantic</text>
+		</event>
+
+		<event date="1940-10-31" imgID="cyw">
+			<text>AZ@ Force, with the exception of The Cameron Highlanders of Ottawa, sails from Iceland for Great Britain</text>
+			<vet id="1141">Charles Scott</vet>
+			<vet id="1139">John Rankin Stephens</vet>
+		</event>
+
+		<event date="1940-11-09" imgID="5ux">
+			<text>HMCS Collingwood, the first corvette built in Canada for the RCN, is commissioned</text>
+			<vet id="1077">Harvey Burns</vet>
+		</event>
+
+		<event date="1940-11-24" imgID="wxm">
+			<text>the first draft of British Commonwealth Air Training Plan graduates arrive in England for service</text>
+			<vet id="1111">Geraldine Muter</vet>
+			<vet id="1798">David Macdonald</vet>
+		</event>
+
+		<event date="1940-12-04" imgID="cxs">
+			<text>HMCS Prince Henry is commissioned as an Armed Merchant Cruiser</text>
+			<vet id="1070">Frank Aldred</vet>
+		</event>
+		
+		<event date="1940-12-13" imgID="mvi">
+			<text>HMCS Royal Roads is commissioned as a training establishment for Probationary Sub-Lieutenants</text>
+			<vet id="1418">Eric Gordon Jensen</vet>
+			<vet id="2137">Louis Henry Howard</vet>
+			<vet id="2248">Ruby Somers</vet>
+		</event>
+
+		<event date="1940-12-25" imgID="1ny">
+			<text>1st Canadian Corps is formed in the United Kingdom under the command of Lieutenant-General A.G.L. McNaughton</text>
+			<vet id="2193">Leslie Eugene Clarke</vet>
+		</event>
+
+		<event date="1940-12-28" imgID="qla">
+			<text>HMCS Prince David is commissioned as an Armed Merchant Cruiser</text>
+			<vet id="1324">Fred Linnington</vet>
+			<vet id="1161">George Evans</vet>
+		</event>
+
+		<event date="1941-01-07" imgID="">
+			<text>a Commonwealth agreement of 17 December 1939 provides for the future establishment of purely Canadian air force units for newly-trained Canadians to join in Europe</text>
+		</event>
+
+		<event date="1941-02-09" imgID="3vi">
+			<text>the 5th Canadian Motorcycle Regiment, CASF, (BCD) is converted and redesignated The British Columbia Dragoons</text>
+			<vet id="1045">Helen Jean Crawley</vet>
+			<vet id="1321">Robert Kerr</vet>
+		</event>
+
+		<event date="1941-03-24" imgID="0pv">
+			<text>the Rush-Bagot Agreement of 1817, which restricted the number of naval vessels allowed on the Great Lakes, is modified to allow both American and Canadian naval vessels to operate on the Great Lakes in greater numbers</text>
+			<vet id="2285">Warren Urquhart</vet>
+			<vet id="2529">Frederick Lawrence Gray</vet>
+			<vet id="1066">Carol Duffus</vet>
+		</event>
+
+		<event date="1941-03-25" imgID="i5y">
+			<text>HMCS Otter burns and sinks in the approaches to Halifax</text>
+			<vet id="1119">Donald McIntosh</vet>
+		</event>
+
+		<event date="1941-05-25" imgID="52k">
+			<text>seven Royal Canadian Navy corvettes arrive in St. John's, Newfoundland, to begin operations as the Newfoundland Escort Force</text>
+			<vet id="1216">Murray Copot</vet>
+			<vet id="2387">Edwin Badger</vet>
+		</event>
+
+		<event date="1941-06-13" imgID="x51">
+			<text>Newfoundland's sea defences are brought under Canadian control with the appointment of Commodore L.W. Murray, RCN, as the commander of Newfoundland Force</text>
+			<vet id="2378">Lawrence Weldon</vet>
+		</event>
+
+		<event date="1941-06-14" imgID="mum">
+			<text>warships of the Newfoundland Escort Force begin convoy escort operations in the North Atlantic Ocean</text>
+			<vet id="1429">John Potter</vet>
+			<vet id="1141">Charles Scott</vet>
+		</event>
+
+		<event date="1941-06-26" imgID="umr">
+			<text>the Canadian government announces its intention to form a Canadian Women's Army Corps</text>
+			<vet id="1074">Corinne Sevigny</vet>
+			<vet id="1062">Elizabeth Dimock</vet>
+			<vet id="2177">Alice Marie Samuel</vet>
+		</event>
+
+		<event date="1941-06-30" imgID="pvp">
+			<text>HMCS Wasaga is commissioned, becoming the first Canadian-built Bangor-class minesweeper</text>
+			<vet id="1341">Ralph Taylor</vet>
+			<vet id="1495">Bruce Findlay</vet>
+			<vet id="2436">Alfred Carpenter</vet>
+		</event>
+
+		<event date="1941-07-02" imgID="rra">
+			<text>the Canadian Women's Auxiliary Air Force is authorized, later becoming the Royal Canadian Air Force (Women’s Division)</text>
+			<vet id="1163">Margaret Brownlee</vet>
+			<vet id="1217">Ella Curtis</vet>
+			<vet id="1386">Glennis Boyce</vet>
+		</event>
+
+		<event date="1941-08-09" imgID="">
+			<text>HMC Ships Assiniboine and Restigouche escort HMS Prince of Wales, with Prime Minister Winston Churchill aboard, into Placentia Bay, Newfoundland</text>
+			<vet id="1821">Harold MacLauchlin</vet>
+			<vet id="2137">Louis Henry Howard</vet>
+		</event>
+
+		<event date="1941-08-13" imgID="i5s">
+			<text>the Canadian Women’s Army Corps is authorized</text>
+			<vet id="2177">Alice Marie Samuel</vet>
+			<vet id="1298">Grace Breau-Theriault</vet>
+			<vet id="1049">Olive Peat</vet>
+		</event>
+		
+		<event date="1941-09-10" imgID="po5">
+			<text>HMCS Chambly and HMCS Moose Jaw sink the German submarine U-501 off the coast of Greenland.  This is the first U-boat kill made by the Royal Canadian Navy</text>
+			<vet id="1314">Jim Peters</vet>
+			<vet id="1161">George Evans</vet>
+		</event>
+
+		<event date="1941-09-19" imgID="u5h">
+			<text>HMCS Levis (a corvette) is torpedoed and sunk in the North Atlantic</text>
+			<vet id="1119">Donald McIntosh</vet>
+			<vet id="1161">George Evans</vet>
+		</event>
+	
+		<event date="1941-09-22" imgID="i3z">
+			<text>the University Air Training Squadrons are formed</text>
+			<vet id="1118">Brian MacConnell</vet>
+			<vet id="1059">Ernest Bone</vet>
+		</event>
+
+		<event date="1941-10-27" imgID="cxn">
+			<text>AC@ Force (Canadian troops under the command of Brigadier J.K. Lawson) sails from Vancouver for Hong Kong</text>
+			<vet id="1541">Arthur Gillan</vet>
+		</event>
+
+		<event date="1941-11-10" imgID="xrg">
+			<text>the RCAF is awarded its first George Cross when LAC K.M. Gravell is posthumously awarded the decoration for the attempt to rescue his pilot from their crashed Tiger Moth aircraft</text>
+			<vet id="1229">Douglas Drew</vet>
+			<vet id="1102">Harold Bronson</vet>
+		</event>
+
+		<event date="1941-11-13" imgID="vgf">
+			<text>the 1st Armoured Car Regiment (Royal Canadian Dragoons) sails from Canada for Britain as part of the 5th Canadian Armoured Division</text>
+			<vet id="1517">Arthur Robert Henry Lyon</vet>
+		</event>
+		
+		<event date="1941-11-26" imgID="nac">
+			<text>HMCS Halifax is commissioned into the RCN</text>
+			<vet id="1325">Harold Harden</vet>
+			<vet id="1314">Jim Peters</vet>
+		</event>
+
+		<event date="1941-12-07" imgID="lmc">
+			<text>Canada declares war on Romania, Hungary, Finland and Japan"</text>
+			<vet id="2291">Godfrey Schaupmeyer</vet>
+			<vet id="1448">Otto Hemmerling</vet>
+		</event>
+
+		<event date="1941-12-07" imgID="ksu">
+			<text>HMCS Windflower is lost after a collision with SS Zypenburg on the Grand Banks of Newfoundland</text>
+			<vet id="1216">Murray Copot</vet>
+			<vet id="1483">Henry Mason</vet>
+			<vet id="1271">Leonard Whiffen</vet>
+		</event>
+
+		<event date="1941-12-08" imgID="0iw">
+			<text>the United States, Great Britain and other nations declare war on Japan</text>
+			<vet id="2310">Victor Wong</vet>
+		</event>
+
+		<event date="1941-12-19" imgID="euj">
+			<text>gallantry shown by Company Sergeant-Major J.R. Osborn, Royal Winnipeg Grenadiers, in action against the Japanese at Hong Kong on this date led to the posthumous award of the Victoria Cross</text>
+			<vet id="2270">John Bylik</vet>
+		</event>
+
+		<event date="1941-12-25" imgID="r04">
+			<text>Hong Kong surrenders to the Japanese forces</text>
+			<vet id="1049">Olive Peat</vet>
+		</event>
+
+		<event date="1942-01-22" imgID="">
+			<text>the Canadian Naval Board is established</text>
+		</event>
+
+		<event date="1942-02-03" imgID="l3r">
+			<text>the Canadian Women's Auxiliary Air Force is renamed the Royal Canadian Air Force (Women's Division)</text>
+			<vet id="1386">Glennis Boyce</vet>
+			<vet id="2384">Catherine Anderson</vet>
+			<vet id="1465">Ruby Foley</vet>
+		</event>
+
+		<event date="1942-02-11" imgID="wi1">
+			<text>HMCS Spikenard is torpedoed and sunk in the North Atlantic</text>
+			<vet id="1161">George Evans</vet>
+			<vet id="1119">Donald McIntosh</vet>
+		</event>
+		
+		<event date="1942-02-12" imgID="ewr">
+			<text>nine Canadian squadrons (four bomber, four fighter and one coastal) take part in the chase of three German warships in the AChannel Dash@</text>
+			<vet id="1070">Frank Aldred</vet>
+		</event>
+
+		<event date="1942-03-01" imgID="uak">
+			<text>the Canadian Women's Army Corps is granted full Army status as ""a Corps of the Active Militia of Canada</text>
+			<vet id="1224">Doris Wallace</vet>
+			<vet id="2177">Alice Samuel</vet>
+			<vet id="2499">Joan Manning</vet>
+			<vet id="2211">Doreen Newton</vet>
+		</event>
+
+		<event date="1942-03-04" imgID="irh">
+			<text>the first Canadian 'Cruiser' tanks arrive in England</text>
+			<vet id="">John Leach,2241</vet>
+		</event>
+
+		<event date="1942-03-18" imgID="1hw">
+			<text>No.413 Squadron begins its transfer from the Shetland Isles to Ceylon to strengthen Allied air defences in the Pacific</text>
+			<vet id="2395">Ian Herd</vet>
+			<vet id="1068">Bob Farquharson</vet>
+			<vet id="1125">Ed Pearson</vet>
+			<vet id="1494">Lewis Chow</vet>
+		</event>
+
+		<event date="1942-03-23" imgID="">
+			<text>Air Vice-Marshal E.W. Stedman is appointed the first Director General of Air Research for the Royal Canadian Air Force</text>
+		</event>
+
+		<event date="1942-04-04" imgID="mmk">
+			<text>Squadron Leader L.J. Birchall and his crew, flying a PBY-5 flying boat, spot a Japanese naval force heading for the island of Ceylon.  Their warning allowed the island's defenders to prepare for the Japanese attempt to take the island, an attack which fails.  Birchall is later known as "The Saviour of Ceylon</text>
+			<vet id="2395">Ian Herd</vet>
+		</event>
+
+		<event date="1942-04-05" imgID="mlp">
+			<text>at least fifteen Canadian members of the Royal Canadian Air Force and the Royal Air Force help the Ceylonese defend the island against the Japanese attempt to conquer it</text>
+			<vet id="2395">Ian Herd</vet>
+			<vet id="1125">Ed Pearson</vet>
+			<vet id="2228">Donovan Woelfle</vet>
+		</event>
+
+		<event date="1942-04-06" imgID="">
+			<text>the First Canadian Army formed in the United Kingdom under the command of Lieutenant-General A.G.L. McNaughton</text>
+			<vet id="2193">Leslie Clarke</vet>
+		</event>
+
+		<event date="1942-04-13" imgID="qqs">
+			<text>No. 417 (Spitfire) Squadron, Royal Canadian Air Force, is transferred from Great Britain to Egypt to support the Allied operations in the Middle East</text>
+			<vet id="1229">Douglas Drew</vet>
+			<vet id="1337">Geoffrey Jell</vet>
+			<vet id="1067">Hubert Gray</vet>
+			<vet id="2459">Oscar Fiteni</vet>
+		</event>
+		
+	</events>
+	
+</timelineData>

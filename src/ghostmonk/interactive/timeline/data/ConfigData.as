@@ -26,9 +26,14 @@ package ghostmonk.interactive.timeline.data
 			 return XMLUtils.XMLListToArray( _data.categories.category );
 		}
 		
-		public function get allString() : String
+		public function get months() : Array 
 		{
-			return _data.all;
+			return _data.months.toString().split( " " );
+		}
+		
+		public function get years() : Array 
+		{
+			return _data.years.toString().split( " " );
 		}
 	}
 }

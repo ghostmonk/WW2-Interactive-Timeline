@@ -7,10 +7,10 @@ package ghostmonk.interactive.timeline.components
 	import ghostmonk.interactive.timeline.utils.Animation;
 
 	public class MainTitle extends MainTitleAsset
-	{
+	{	
 		public function MainTitle()
 		{
-			alpha = 0;
+			alpha = 0
 			addEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
 		}
 		
@@ -22,8 +22,7 @@ package ghostmonk.interactive.timeline.components
 		private function onAddedToStage( e:Event ) : void
 		{
 			removeEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
-			
-			Animation.tween( this, Animation.TITLE_ANIMATE_IN );
+			Animation.delay = 0.5;
 			Animation.tween( this, Animation.ALPHA_IN );
 		}
 	}

@@ -6,6 +6,6 @@
 		<category>Vetrans</category>
 		<category>Significant Dates</category>
 	</categories>
-	<months>Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</months>
-	<all>All</all>
+	<months>All Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</months>
+	<years>All 1939 1940 1941 1942 1943 1944 1945</years>
 </localization>

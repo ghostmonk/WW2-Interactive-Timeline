@@ -1,40 +1,53 @@
 package ghostmonk.interactive.timeline.components.ui
 {
-	import com.ghostmonk.events.IDEvent;
 	import com.ghostmonk.ui.interactive.buttons.NavigationButton;
 	
+	import flash.display.Sprite;
 	import flash.events.MouseEvent;
 	import flash.filters.GlowFilter;
-	import flash.geom.ColorTransform;
 	import flash.text.TextField;
+	import flash.text.TextFieldAutoSize;
 
 	public class FilterEffectButton extends NavigationButton
 	{
-		private var _id:int;
 		private var _field:TextField;
 		
 		public function FilterEffectButton( view:Sprite, field:TextField )
 		{
 			super( view );
 			_field = field;
-			rollOutFunc = onRollOut;
-			rollOverFunc = onRollOver;
+			_field.autoSize = TextFieldAutoSize.LEFT;
+			rollOutFunc = rollOut;
+			rollOverFunc = rollOver;
 		}
 		
 		override public function set text( value:String ) : void
 		{
-			_field.text = id;
+			_field.text = value;
 		}
 		
-		private function onRollOut( e:MouseEvent ) : void
+		override public function activate() : void
+		{
+			rollOver();
+			disable();
+		}
+		
+		override public function deactivate() : void
+		{
+			rollOut();
+			enable();
+		}
+		
+		private function rollOut( e:MouseEvent = null ) : void
 		{
 			view.filters = [];
+			_field.textColor = 0x000000;
 		}
 		
-		private function onRollOver( e:MouseEvent ) : void
+		private function rollOver( e:MouseEvent = null ) : void
 		{
-			view.filters = [ new GlowFilter() ];
-			_field.transform.colorTransform = new ColorTransform(  );
-		}
+			view.filters = [ new GlowFilter( 0x990101, 0.8, 15, 15, 10, 3 ) ];
+			_field.textColor = 0xFFFFFF;
+		}	
 	}
 }

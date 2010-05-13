@@ -33,9 +33,14 @@ package ghostmonk.interactive.timeline.framework.model
 			 return config.categories;
 		}
 		
-		public function get allString() : String
+		public function get months() : Array 
 		{
-			return config.allString;
+			return config.months;
+		}
+		
+		public function get years() : Array 
+		{
+			return config.years;
 		}
 	}
 }

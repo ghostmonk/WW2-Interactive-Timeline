@@ -38,7 +38,7 @@ package ghostmonk.interactive.timeline.framework.view
 		public function set background( value:Background ) : void
 		{
 			_background = value;
-			stage.addChild( _background );
+			stage.addChild( _background.view );
 		}
 		
 		public function get stage() : Stage 

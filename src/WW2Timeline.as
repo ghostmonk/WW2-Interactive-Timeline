@@ -1,5 +1,7 @@
 package 
 {
+	import com.ghostmonk.utils.Iterator;
+	
 	import flash.display.MovieClip;
 	import flash.events.Event;
 	

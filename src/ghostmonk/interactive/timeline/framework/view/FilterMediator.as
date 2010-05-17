@@ -58,7 +58,7 @@ package ghostmonk.interactive.timeline.framework.view
 		private function positionAssets() : void
 		{
 			_yearNav.y = _monthNav.height + 10;
-			_monthNav.x = ( _yearNav.width - _monthNav.width ) * 0.5;
+			_monthNav.x = ( _yearNav.width - _monthNav.width ) * 0.5 + 20;
 			
 			_holder.addChild( _monthNav );
 			_holder.addChild( _yearNav );

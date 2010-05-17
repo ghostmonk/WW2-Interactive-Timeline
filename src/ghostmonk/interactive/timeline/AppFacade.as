@@ -3,6 +3,7 @@ package ghostmonk.interactive.timeline
 	import ghostmonk.interactive.timeline.data.BootStrapData;
 	import ghostmonk.interactive.timeline.framework.controller.BootStrapCmd;
 	import ghostmonk.interactive.timeline.framework.controller.CreateComponentsCmd;
+	import ghostmonk.interactive.timeline.framework.controller.CreateTimelineCmd;
 	
 	import org.puremvc.as3.patterns.facade.Facade;
 
@@ -15,6 +16,7 @@ package ghostmonk.interactive.timeline
 	{	
 		public static const BOOT_STRAP:String = "bootStrap";
 		public static const CREATE_COMPONENTS:String = "createComponents";
+		public static const LOAD_TIMELINE_DATA:String = "loadTimelineData";
 		
 		override protected function initializeController() : void 
 		{	
@@ -22,6 +24,7 @@ package ghostmonk.interactive.timeline
 			
 			registerCommand( BOOT_STRAP, BootStrapCmd );
 			registerCommand( CREATE_COMPONENTS, CreateComponentsCmd );
+			registerCommand( LOAD_TIMELINE_DATA, CreateTimelineCmd );
 		}
 		
 		public function bootStrap( data:BootStrapData ) : void 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <localization>
-	<timelineData>timelineConfig_en.xml</timelineData>
+	<timelineData>data/timelineConfig_en.xml</timelineData>
 	<mainTitle>World War II Timeline</mainTitle>
 	<categories>
-		<category>Vetrans</category>
 		<category>Significant Dates</category>
+		<category>Vetrans</category>
 	</categories>
 	<months>All Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec</months>
 	<years>All 1939 1940 1941 1942 1943 1944 1945</years>

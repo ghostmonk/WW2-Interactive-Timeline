@@ -30,8 +30,8 @@ package ghostmonk.interactive.timeline.framework.view
 		public function set title( value:MainTitle ) : void
 		{
 			_title = value;
-			_title.x = stage.width * 0.5;
-			_title.y = _title.field.height * 0.5 + PADDING;
+			_title.x = ( stage.width - _title.width ) * 0.5;
+			_title.y = PADDING;
 			stage.addChild( _title );
 		}
 		
@@ -44,16 +44,6 @@ package ghostmonk.interactive.timeline.framework.view
 		public function get stage() : Stage 
 		{	
 			return viewComponent as Stage;	
-		}
-		
-		override public function listNotificationInterests() : Array 
-		{	
-			return [  ];	
-		}
-		
-		override public function handleNotification( note:INotification ) : void 
-		{	
-			
 		}
 	}
 }

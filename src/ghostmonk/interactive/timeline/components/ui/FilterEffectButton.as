@@ -7,15 +7,19 @@ package ghostmonk.interactive.timeline.components.ui
 	import flash.filters.GlowFilter;
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
+	
+	import ghostmonk.interactive.timeline.utils.Animation;
 
 	public class FilterEffectButton extends NavigationButton
 	{
+		private static const GLOW:GlowFilter = new GlowFilter( 0x990101, 0, 15, 15, 10, 3 );
 		private var _field:TextField;
 		
 		public function FilterEffectButton( view:Sprite, field:TextField )
 		{
 			super( view );
 			_field = field;
+			_field.filters = [ GLOW ];
 			_field.autoSize = TextFieldAutoSize.LEFT;
 			rollOutFunc = rollOut;
 			rollOverFunc = rollOver;
@@ -34,20 +38,24 @@ package ghostmonk.interactive.timeline.components.ui
 		
 		override public function deactivate() : void
 		{
-			rollOut();
+			GLOW.alpha = 0;
+			view.filters = [ GLOW ];
+			_field.textColor = 0x000000;
 			enable();
 		}
 		
 		private function rollOut( e:MouseEvent = null ) : void
 		{
-			view.filters = [];
-			_field.textColor = 0x000000;
+			GLOW.alpha = 0;
+			Animation.filterTween( view, GLOW );
+			Animation.tween( _field, { _text_color:0x000000, time:Animation.BASIC_TIME } );
 		}
 		
 		private function rollOver( e:MouseEvent = null ) : void
 		{
-			view.filters = [ new GlowFilter( 0x990101, 0.8, 15, 15, 10, 3 ) ];
-			_field.textColor = 0xFFFFFF;
+			GLOW.alpha = 0.8;
+			Animation.filterTween( view, GLOW );
+			Animation.tween( _field, { _text_color:0xFFFFFF, time:Animation.BASIC_TIME } );
 		}	
 	}
 }

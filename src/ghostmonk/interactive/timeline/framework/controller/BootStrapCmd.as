@@ -30,6 +30,7 @@ package ghostmonk.interactive.timeline.framework.controller
 			var config:ConfigProxy = new ConfigProxy( new ConfigData( data ) );
 			facade.registerProxy( config );
 			sendNotification( AppFacade.CREATE_COMPONENTS, config );
+			sendNotification( AppFacade.LOAD_TIMELINE_DATA, config.timelineDataURL );
 		}
 	}
 }

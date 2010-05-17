@@ -4,7 +4,7 @@ package ghostmonk.interactive.timeline.components.ui
 
 	public class Icon extends IconAsset
 	{
-		public function Icon()
+		public function Icon( type:String )
 		{
 		}
 	}

@@ -10,7 +10,6 @@ package ghostmonk.interactive.timeline.components.timeline
 
 	public class TimelineFilter extends NavigationBar
 	{
-		
 		override public function init( btns:NavButtonCollection ) : void
 		{
 			super.init( btns );
@@ -26,7 +25,7 @@ package ghostmonk.interactive.timeline.components.timeline
 			{
 				var btn:NavigationButton = collection.iterator.next as NavigationButton;
 				showBtn( btn, delay );
-				delay += 0.1;
+				delay += 0.05;
 			}
 		}
 		
@@ -40,13 +39,16 @@ package ghostmonk.interactive.timeline.components.timeline
 		{
 			Animation.delay = delay;
 			Animation.tween( btn.view, Animation.ALPHA_IN, false );
-			Animation.offsetTween( btn.view, 0, -20 );
+			var offset:int = Math.random() > 0.5 ? -20 : 20;
+			Animation.offsetTween( btn.view, 0, offset );
 			btn.enable();
 		}
 		
 		private function onAddedToStage( e:Event ) : void
 		{
 			buildIn();
+			collection.getButtonByID( 0 ).activate();
+			collection.getButtonByID( 0 ).disable();
 		}
 	}
 }

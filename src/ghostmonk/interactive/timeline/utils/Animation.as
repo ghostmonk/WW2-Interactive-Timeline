@@ -2,15 +2,22 @@ package ghostmonk.interactive.timeline.utils
 {
 	import caurina.transitions.Equations;
 	import caurina.transitions.Tweener;
+	import caurina.transitions.properties.FilterShortcuts;
+	import caurina.transitions.properties.TextShortcuts;
 	
 	import com.ghostmonk.utils.ObjectFuncs;
 	
 	import flash.display.DisplayObject;
+	import flash.filters.BitmapFilter;
 	import flash.geom.Point;
+	import flash.text.TextField;
 	
 	public class Animation
 	{
-		public static const BACKGROUND_BUILD_IN:Object = { alpha:1, time:0.3, delay:0.3, transition:Equations.easeNone };
+		public static const BUILD_IN_DELAY:Number = 0.3;
+		public static const BASIC_TIME:Number = 0.3;
+		public static const BACKGROUND_BUILD_IN:Object = { alpha:1, time:0.3, delay:BUILD_IN_DELAY, transition:Equations.easeNone };
+		public static const SCALE_Y_OUT:Object = { time:0.3, scaleY:0 };
 		public static const ALPHA_IN:Object = { alpha:1, time:0.3, transition:Equations.easeNone };
 		public static const SCALE_IN:Object = { time:0.3, scaleX:1, scaleY:1 };
 		public static const ALL_IN:Object = { time:0.3, scaleX:1, scaleY:1, alpha:1, rotation:0 };
@@ -18,6 +25,12 @@ package ghostmonk.interactive.timeline.utils
 		private static var _position:Point;
 		private static var _delay:Number;
 		private static var _transition:String;
+		
+		public static function init() : void
+		{
+			TextShortcuts.init();
+			FilterShortcuts.init();
+		}
 		
 		public static function set position( value:Point ) : void
 		{
@@ -52,6 +65,16 @@ package ghostmonk.interactive.timeline.utils
 			item.x += x;
 			item.y += y;
 			start( item, animObj, reset );
+		}
+		
+		public static function textTween( field:TextField, text:String, time:Number = 0.3, reset:Boolean = true ) : void
+		{
+			start( field, { _text:text, time:time, transition:Equations.easeNone }, reset );
+		}
+		
+		public static function filterTween( item:DisplayObject, filter:BitmapFilter, time:Number = 0.3, reset:Boolean = true ) : void
+		{
+			start( item, { _filter:filter, time:time }, reset );
 		}
 		
 		private static function start( item:DisplayObject, animObj:Object, reset:Boolean ) : void

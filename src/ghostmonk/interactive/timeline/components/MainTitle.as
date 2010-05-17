@@ -10,8 +10,8 @@ package ghostmonk.interactive.timeline.components
 	{	
 		public function MainTitle()
 		{
-			alpha = 0
 			addEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
+			plane.alpha = boat.alpha = 0;
 		}
 		
 		public function set text( value:String ) : void
@@ -22,8 +22,18 @@ package ghostmonk.interactive.timeline.components
 		private function onAddedToStage( e:Event ) : void
 		{
 			removeEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
-			Animation.delay = 0.5;
-			Animation.tween( this, Animation.ALPHA_IN );
+			
+			var text:String = field.text;
+			field.text = "";
+			
+			Animation.delay = Animation.BUILD_IN_DELAY;
+			Animation.tween( boat, Animation.ALPHA_IN );
+			
+			Animation.delay = Animation.BUILD_IN_DELAY+ 0.2;
+			Animation.textTween( field, text );
+			
+			Animation.delay = Animation.BUILD_IN_DELAY + 0.4;
+			Animation.tween( plane, Animation.ALPHA_IN );
 		}
 	}
 }

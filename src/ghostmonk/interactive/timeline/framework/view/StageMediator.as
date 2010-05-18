@@ -5,7 +5,6 @@ package ghostmonk.interactive.timeline.framework.view
 	import ghostmonk.interactive.timeline.components.Background;
 	import ghostmonk.interactive.timeline.components.MainTitle;
 	
-	import org.puremvc.as3.interfaces.INotification;
 	import org.puremvc.as3.patterns.mediator.Mediator;
 
 	/**
@@ -13,8 +12,8 @@ package ghostmonk.interactive.timeline.framework.view
 	 * @author ghostmonk 16/08/2009
 	 * 
 	 */
-	public class StageMediator extends Mediator {
-		
+	public class StageMediator extends Mediator 
+	{
 		public static const NAME:String = "stageMediator";
 		private static const PADDING:Number = 10;
 		

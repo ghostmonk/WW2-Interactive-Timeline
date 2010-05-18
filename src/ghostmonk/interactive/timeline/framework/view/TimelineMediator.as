@@ -3,8 +3,9 @@ package ghostmonk.interactive.timeline.framework.view
 	import flash.display.Stage;
 	
 	import ghostmonk.interactive.timeline.components.timeline.Timeline;
-	import ghostmonk.interactive.timeline.framework.model.ConfigProxy;
+	import ghostmonk.interactive.timeline.framework.model.TimelineDataProxy;
 	
+	import org.puremvc.as3.interfaces.INotification;
 	import org.puremvc.as3.patterns.mediator.Mediator;
 
 	public class TimelineMediator extends Mediator
@@ -14,27 +15,66 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private var _soldierTimeline:Timeline;
 		private var _eventTimeline:Timeline;
-		private var _config:ConfigProxy;
+		private var _data:TimelineDataProxy;
 		private var _stage:Stage;
 		
-		public function TimelineMediator( soldierTimeline:Timeline, eventTimeline:Timeline, config:ConfigProxy, stage:Stage )
+		public function TimelineMediator( soldierTimeline:Timeline, eventTimeline:Timeline, categories:Array, stage:Stage )
 		{
 			super( NAME );
 			_soldierTimeline = soldierTimeline;
 			_eventTimeline = eventTimeline;
-			_config = config;
 			_stage = stage;
-			setup();
+			setup( categories );
 		}
 		
-		private function setup() : void
+		override public function listNotificationInterests() : Array 
 		{
-			var eventTitle:Array = String( _config.categories[ 0 ] ).split( " " );
+			return [ 
+				TimelineDataProxy.TIMELINE_DATA_READY,
+				FilterMediator.MONTH_NAV,
+				FilterMediator.YEAR_NAV 
+			];
+		}
+		
+		override public function handleNotification( note:INotification ) : void
+		{
+			switch( note.getName() )
+			{
+				case TimelineDataProxy.TIMELINE_DATA_READY :
+					onTimelineDataReady( note.getBody() as TimelineDataProxy );
+					break;
+				
+				case FilterMediator.MONTH_NAV:
+					onMonthNav( note.getBody() as int );
+					break;
+					
+				case FilterMediator.YEAR_NAV:
+					onYearNav( note.getBody() as int );
+					break;
+			}
+		}
+		
+		private function onTimelineDataReady( proxy:TimelineDataProxy ) : void
+		{
+			_data = proxy;
+		}
+		
+		private function onMonthNav( node:int ) : void
+		{
+		}
+		
+		private function onYearNav( node:int ) : void
+		{
+		}
+		
+		private function setup( categories:Array ) : void
+		{
+			var eventTitle:Array = String( categories[ 0 ] ).split( " " );
 			_eventTimeline.header.field1.text = eventTitle[ 0 ];
 			_eventTimeline.header.field2.text = eventTitle[ 1 ];
 			
 			_soldierTimeline.header.image.gotoAndStop( 2 );
-			_soldierTimeline.header.field1.text = _config.categories[ 1 ];
+			_soldierTimeline.header.field1.text = categories[ 1 ];
 			
 			normalView();
 		}

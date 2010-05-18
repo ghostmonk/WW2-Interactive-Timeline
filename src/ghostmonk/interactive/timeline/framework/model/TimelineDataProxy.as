@@ -4,12 +4,14 @@ package ghostmonk.interactive.timeline.framework.model
 	
 	import org.puremvc.as3.patterns.proxy.Proxy;
 
-	public class TimelineProxy extends Proxy
+	public class TimelineDataProxy extends Proxy
 	{
+		public static const TIMELINE_DATA_READY:String = "timelineDataReady";
 		public static const NAME:String = "TimelineProxy";
+		
 		private var _timelineData:TimelineData;
 		
-		public function TimelineProxy( data:TimelineData )
+		public function TimelineDataProxy( data:TimelineData )
 		{
 			_timelineData = data;
 			super( NAME, _timelineData );

@@ -2,7 +2,6 @@
 package ghostmonk.interactive.timeline.framework.view
 {
 	import com.ghostmonk.events.IDEvent;
-	import com.ghostmonk.ui.navigation.NavigationBar;
 	
 	import flash.display.Sprite;
 	import flash.display.Stage;

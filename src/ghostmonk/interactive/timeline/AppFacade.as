@@ -1,9 +1,7 @@
 package ghostmonk.interactive.timeline 
 {	
 	import ghostmonk.interactive.timeline.data.BootStrapData;
-	import ghostmonk.interactive.timeline.framework.controller.BootStrapCmd;
-	import ghostmonk.interactive.timeline.framework.controller.CreateComponentsCmd;
-	import ghostmonk.interactive.timeline.framework.controller.CreateTimelineCmd;
+	import ghostmonk.interactive.timeline.framework.controller.CommandTree;
 	
 	import org.puremvc.as3.patterns.facade.Facade;
 
@@ -14,22 +12,16 @@ package ghostmonk.interactive.timeline
 	 */
 	public class AppFacade extends Facade
 	{	
-		public static const BOOT_STRAP:String = "bootStrap";
-		public static const CREATE_COMPONENTS:String = "createComponents";
-		public static const LOAD_TIMELINE_DATA:String = "loadTimelineData";
-		
 		override protected function initializeController() : void 
 		{	
 			super.initializeController();
-			
-			registerCommand( BOOT_STRAP, BootStrapCmd );
-			registerCommand( CREATE_COMPONENTS, CreateComponentsCmd );
-			registerCommand( LOAD_TIMELINE_DATA, CreateTimelineCmd );
+			registerCommand( CommandTree.EXECUTE, CommandTree );
 		}
 		
 		public function bootStrap( data:BootStrapData ) : void 
-		{	
-			sendNotification( BOOT_STRAP, data );
+		{
+			sendNotification( CommandTree.EXECUTE );
+			sendNotification( CommandTree.CREATE_STAGE_MEDIATOR, data );
 		}
 	}
 }

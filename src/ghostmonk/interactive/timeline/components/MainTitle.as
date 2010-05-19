@@ -4,7 +4,8 @@ package ghostmonk.interactive.timeline.components
 	
 	import flash.events.Event;
 	
-	import ghostmonk.interactive.timeline.utils.Animation;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
 	public class MainTitle extends MainTitleAsset
 	{	
@@ -26,14 +27,14 @@ package ghostmonk.interactive.timeline.components
 			var text:String = field.text;
 			field.text = "";
 			
-			Animation.delay = Animation.BUILD_IN_DELAY;
-			Animation.tween( boat, Animation.ALPHA_IN );
+			Animator.delay = Tween.BUILD_IN_DELAY;
+			Animator.tween( boat, Tween.ALPHA_IN );
 			
-			Animation.delay = Animation.BUILD_IN_DELAY+ 0.2;
-			Animation.textTween( field, text );
+			Animator.delay = Tween.BUILD_IN_DELAY+ 0.2;
+			Animator.textTween( field, text );
 			
-			Animation.delay = Animation.BUILD_IN_DELAY + 0.4;
-			Animation.tween( plane, Animation.ALPHA_IN );
+			Animator.delay = Tween.BUILD_IN_DELAY + 0.4;
+			Animator.tween( plane, Tween.ALPHA_IN );
 		}
 	}
 }

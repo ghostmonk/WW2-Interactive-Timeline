@@ -62,7 +62,7 @@ package ghostmonk.interactive.timeline.framework.view
 			_holder.addChild( _monthNav );
 			_holder.addChild( _yearNav );
 			
-			_holder.x = _stage.stageWidth - _holder.width - 10;
+			_holder.x = _stage.stageWidth - _holder.width - 80;
 			_holder.y = _stage.stageHeight - _holder.height - 10;
 			
 			_stage.addChild( _holder );

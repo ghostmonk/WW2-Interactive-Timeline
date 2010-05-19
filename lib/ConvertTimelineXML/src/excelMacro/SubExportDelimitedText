@@ -1,0 +1,51 @@
+Sub subExportDelimitedText()
+ Dim vFF As Long, sData(), r As Long, C As Long, tempStr As String, NonBlank As Boolean
+ Dim ExpRG As Range, vDelim As String, vFile As String
+ On Error Resume Next
+ Set ExpRG = Application.InputBox("Please select the range to export", _
+  "Select range on worksheet", ActiveSheet.UsedRange.Address(0, 0), Type:=8)
+ On Error GoTo 0
+ If ExpRG Is Nothing Then Exit Sub
+ If ExpRG.Areas.Count > 1 Then
+  MsgBox "Please only select 1 continuous range to export. Exiting."
+  Exit Sub
+ End If
+ vFile = Application.GetSaveAsFileName(FileFilter:="Text files,*.txt,All Files,*.*", _
+  Title:="Please choose file to export")
+ If LCase(vFile) = "false" Then Exit Sub 'user hit cancel
+ vDelim = InputBox("Please choose the string to delimit records with" & vbCrLf & _
+  "For a null character, enter ""nullchar"" (no quotes)", "Please enter delimiter", ",")
+ If Len(vDelim) = 0 Then Exit Sub
+ If LCase(vDelim) = "nullchar" Then vDelim = Chr(0)
+ If Len(Dir(vFile)) > 0 Then
+  Select Case MsgBox("'" & vFile & "' already exists.  Would you like to add this " & _
+    "sheet to the file?" & vbCrLf & vbCrLf & "Clicking No will overwrite the file," & _
+    " clicking Yes will append to the file.", vbYesNoCancel, "File already exists")
+   Case vbCancel: Exit Sub
+   Case vbNo: Kill vFile
+   Case vbYes:
+  End Select
+ End If
+ sData = ExpRG.Value
+ vFF = FreeFile
+ Open vFile For Append As #vFF
+ For r = 1 To UBound(sData, 1)
+  tempStr = ""
+  NonBlank = False
+  For C = UBound(sData, 2) To 1 Step -1
+   If NonBlank Then
+    tempStr = vDelim & IIf(InStr(1, sData(r, C), vDelim) > 0, """" & sData(r, C) & _
+     """", sData(r, C)) & tempStr
+   Else
+    If sData(r, C) <> "" Then
+     NonBlank = True
+     tempStr = vDelim & IIf(InStr(1, sData(r, C), vDelim) > 0, """" & sData(r, C) & _
+      """", sData(r, C)) & tempStr
+    End If
+   End If
+  Next 'C
+  If NonBlank Then Print #vFF, Mid(tempStr, Len(vDelim) + 1)
+ Next 'R
+ Close #vFF
+ MsgBox "Done! " & vFile & " created!"
+End Sub

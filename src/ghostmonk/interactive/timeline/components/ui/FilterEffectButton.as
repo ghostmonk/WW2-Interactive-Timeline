@@ -8,7 +8,8 @@ package ghostmonk.interactive.timeline.components.ui
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	
-	import ghostmonk.interactive.timeline.utils.Animation;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
 	public class FilterEffectButton extends NavigationButton
 	{
@@ -47,15 +48,15 @@ package ghostmonk.interactive.timeline.components.ui
 		private function rollOut( e:MouseEvent = null ) : void
 		{
 			GLOW.alpha = 0;
-			Animation.filterTween( view, GLOW );
-			Animation.tween( _field, { _text_color:0x000000, time:Animation.BASIC_TIME } );
+			Animator.filterTween( view, GLOW );
+			Animator.tween( _field, { _text_color:0x000000, time:Tween.BASE_TIME } );
 		}
 		
 		private function rollOver( e:MouseEvent = null ) : void
 		{
 			GLOW.alpha = 0.8;
-			Animation.filterTween( view, GLOW );
-			Animation.tween( _field, { _text_color:0xFFFFFF, time:Animation.BASIC_TIME } );
+			Animator.filterTween( view, GLOW );
+			Animator.tween( _field, { _text_color:0xFFFFFF, time:Tween.BASE_TIME } );
 		}	
 	}
 }

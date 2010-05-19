@@ -12,6 +12,11 @@ package ghostmonk.interactive.timeline.data
 			_date = value;
 		}
 		
+		public function get date() : Date
+		{
+			return _date;
+		}
+		
 		public function get formattedDate() : String
 		{
 			return _date.toDateString();

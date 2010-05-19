@@ -6,7 +6,8 @@ package ghostmonk.interactive.timeline.components.timeline
 	
 	import flash.events.Event;
 	
-	import ghostmonk.interactive.timeline.utils.Animation;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
 	public class TimelineFilter extends NavigationBar
 	{
@@ -37,10 +38,10 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		private function showBtn( btn:NavigationButton, delay:Number ) : void
 		{
-			Animation.delay = delay;
-			Animation.tween( btn.view, Animation.ALPHA_IN, false );
+			Animator.delay = delay;
+			Animator.tween( btn.view, Tween.ALPHA_IN, false );
 			var offset:int = Math.random() > 0.5 ? -20 : 20;
-			Animation.offsetTween( btn.view, 0, offset );
+			Animator.offsetTween( btn.view, 0, offset );
 			btn.enable();
 		}
 		

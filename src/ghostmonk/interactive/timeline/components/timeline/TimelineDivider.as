@@ -2,7 +2,10 @@ package ghostmonk.interactive.timeline.components.timeline
 {
 	import assets.category.TimelineDividerAsset;
 	
-	import ghostmonk.interactive.timeline.utils.Animation;
+	import com.ghostmonk.utils.GridMaker;
+	
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
 	public class TimelineDivider extends TimelineDividerAsset
 	{
@@ -28,17 +31,26 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		public function set viewHeight( value:Number ) : void
 		{
-			Animation.tween( this, { height:value, time:Animation.BASIC_TIME } );
+			Animator.tween( this, { height:value, time:Tween.BASE_TIME } );
 		}
 		
 		public function buildIn() : void
 		{
-			Animation.tween( this, Animation.SCALE_IN );
+			Animator.setCallback( showGrid );
+			Animator.tween( this, Tween.SCALE_IN );
 		}
 		
 		public function buildOut() : void
 		{
-			Animation.tween( this, Animation.SCALE_Y_OUT );
+			Animator.tween( this, Tween.SCALE_Y_OUT );
+		}
+		
+		public function showGrid() : void
+		{
+			GridMaker.lineStyle( 3, 0x00FF00, 1 );
+			GridMaker.drawGrid( this, 7, 0 );
+			GridMaker.lineStyle( 0, 0x00FF00, 0.5 );
+			GridMaker.drawGrid( this, 84, 5 );
 		}
 	}
 }

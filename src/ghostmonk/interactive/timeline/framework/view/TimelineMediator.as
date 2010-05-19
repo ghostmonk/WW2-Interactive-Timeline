@@ -3,6 +3,7 @@ package ghostmonk.interactive.timeline.framework.view
 	import flash.display.Stage;
 	
 	import ghostmonk.interactive.timeline.components.timeline.Timeline;
+	import ghostmonk.interactive.timeline.data.EventDateData;
 	import ghostmonk.interactive.timeline.framework.model.TimelineDataProxy;
 	
 	import org.puremvc.as3.interfaces.INotification;
@@ -57,6 +58,10 @@ package ghostmonk.interactive.timeline.framework.view
 		private function onTimelineDataReady( proxy:TimelineDataProxy ) : void
 		{
 			_data = proxy;
+			for each( var event:EventDateData in _data.eventCollection )
+			{
+				_eventTimeline.createDateIcon( event );
+			}
 		}
 		
 		private function onMonthNav( node:int ) : void
@@ -82,7 +87,7 @@ package ghostmonk.interactive.timeline.framework.view
 		private function normalView() : void
 		{
 			var timelineHeight:Number = _eventTimeline.height;
-			_eventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5 + timelineHeight * 0.5;
+			_eventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5;
 			_soldierTimeline.y = _eventTimeline.y + timelineHeight + PADDING;
 			_stage.addChild( _soldierTimeline );
 			_stage.addChild( _eventTimeline );

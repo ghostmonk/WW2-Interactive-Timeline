@@ -2,7 +2,8 @@ package ghostmonk.interactive.timeline.components.timeline
 {
 	import assets.category.HeaderAsset;
 	
-	import ghostmonk.interactive.timeline.utils.Animation;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
 	public class CategoryHeader extends HeaderAsset
 	{
@@ -14,12 +15,12 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		public function disable() : void
 		{
-			Animation.tween( this, { alpha:0.3, time:Animation.BASIC_TIME } );
+			Animator.tween( this, { alpha:0.3, time:Tween.BASE_TIME } );
 		}
 		
 		public function enable() : void
 		{
-			Animation.tween( this, Animation.ALPHA_IN );
+			Animator.tween( this, Tween.ALPHA_IN );
 		}
 	}
 }

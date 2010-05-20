@@ -51,7 +51,7 @@ def readFile() :
             newFileContent += "\t\t</vetrans>";
 
         line = file.readline();
-        
+    print len( vetLines );    
     file.close();
     return newFileContent;
 

@@ -5,6 +5,8 @@ package ghostmonk.interactive.timeline.framework.view
 	import ghostmonk.interactive.timeline.components.Background;
 	import ghostmonk.interactive.timeline.components.MainTitle;
 	
+	import net.hires.debug.Stats;
+	
 	import org.puremvc.as3.patterns.mediator.Mediator;
 
 	/**
@@ -38,6 +40,7 @@ package ghostmonk.interactive.timeline.framework.view
 		{
 			_background = value;
 			stage.addChild( _background.view );
+			stage.addChild( new Stats() );
 		}
 		
 		public function get stage() : Stage 

@@ -30,6 +30,12 @@ package ghostmonk.interactive.timeline.components.timeline
 			}
 		}
 		
+		public function activateButton( id:Number ) : void
+		{
+			collection.getButtonByID( id ).activate();
+			collection.getButtonByID( id ).disable();
+		}
+		
 		private function hideBtn( btn:NavigationButton ) : void
 		{
 			btn.view.alpha = 0;
@@ -42,14 +48,11 @@ package ghostmonk.interactive.timeline.components.timeline
 			Animator.tween( btn.view, Tween.ALPHA_IN, false );
 			var offset:int = Math.random() > 0.5 ? -20 : 20;
 			Animator.offsetTween( btn.view, 0, offset );
-			btn.enable();
 		}
 		
 		private function onAddedToStage( e:Event ) : void
 		{
 			buildIn();
-			collection.getButtonByID( 0 ).activate();
-			collection.getButtonByID( 0 ).disable();
 		}
 	}
 }

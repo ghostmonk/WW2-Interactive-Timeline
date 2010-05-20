@@ -36,21 +36,12 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		public function buildIn() : void
 		{
-			Animator.setCallback( showGrid );
 			Animator.tween( this, Tween.SCALE_IN );
 		}
 		
 		public function buildOut() : void
 		{
 			Animator.tween( this, Tween.SCALE_Y_OUT );
-		}
-		
-		public function showGrid() : void
-		{
-			GridMaker.lineStyle( 3, 0x00FF00, 1 );
-			GridMaker.drawGrid( this, 7, 0 );
-			GridMaker.lineStyle( 0, 0x00FF00, 0.5 );
-			GridMaker.drawGrid( this, 84, 5 );
 		}
 	}
 }

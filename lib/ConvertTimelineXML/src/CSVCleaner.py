@@ -5,15 +5,20 @@ Created on 2010-05-18
 '''
 from string import strip
 
+def printDict( data ):
+    for id, value in data.iteritems():
+        print id + " : " + value;
+
+
 def isCustomLink( testURL ):
-    test = testURL[0:4];
+    test = testURL[ 0:4 ];
     return test == "http" or test == "www."
 
 def getVetNode( data ):
     vetNode = '            <vet ';
     attribName = 'customLink' if isCustomLink( data[ 'vetID' ] ) else 'id';
     vetNode += attribName + '="' + data[ 'vetID' ].replace( "&", "&amp;" ) + '">' + data[ 'vetName' ] + '</vet>\n'
-    return ( 1, vetNode );
+    return vetNode;
 
 def getEventNode( data ):
     output = '\n        <event date="' + data[ 'date' ] + '" ';
@@ -22,8 +27,8 @@ def getEventNode( data ):
     output += attribName + '="' + data[ 'img' ] + '">\n';
     
     output += '            <text>' + data[ 'text' ] + '</text>\n';
-    output += getVetNode( data )[ 1 ];
-    return ( 0, output );
+    output += getVetNode( data );
+    return output;
 
 def getXMLNode( data ):
     
@@ -34,12 +39,21 @@ def getXMLNode( data ):
     eventDict[ 'vetName' ] = strip( data[3] );
     eventDict[ 'vetID' ] = strip( data[4] );
     
-    if eventDict[ 'date' ] == "" and eventDict[ 'text' ] == "" and eventDict[ 'img' ] == "" :
-        return getVetNode( eventDict );
-    if eventDict[ 'date' ] == 'Date':
-        return ( 3, '' );
+    isVetNode = eventDict[ 'date' ] == "" and eventDict[ 'text' ] == "" and eventDict[ 'img' ] == "" and not eventDict[ 'vetName' ] == "" and not eventDict[ 'vetID' ] == "";
+    isEmpty = not isVetNode and eventDict[ 'img' ] == "";
+    isCusLink = isCustomLink( eventDict[ 'img' ] );
+    isBadVetID = isCustomLink( eventDict[ 'vetID' ] );
+    isEmptyName = eventDict[ 'vetName' ] == "";
+    
+    if isEmpty or isCusLink or isBadVetID or isEmptyName:
+        return ( 3, eventDict );
+    
+    if isVetNode:
+        return ( 1, getVetNode( eventDict ) );
+    elif eventDict[ 'date' ] == 'Date':
+        return ( 2, '' );
     else :
-        return getEventNode( eventDict );
+        return ( 0, getEventNode( eventDict ) );
 
 def cleanLine( line ) :
     output = strip( line );
@@ -49,13 +63,14 @@ def cleanLine( line ) :
 
 def readFile():
     
+    badDataCollector = [];
     parsedFile = "";
-    
     openNode = "";
-    closeEventNode = '        </event>\n';
-    
+    eventNodeClose = '        </event>\n';
+    isFirst = True;
+    eventCount = 0;
+    vetCount = 0;
     rawFile = open("Timeline_may18~.txt", "rb");
-    count = 0;
     
     for line in rawFile:
         line = cleanLine( line ) + "\n";
@@ -65,14 +80,23 @@ def readFile():
         type = xmlTuple[ 0 ];
         
         if type == 0:
-            count += 1;
-            openNode = closeEventNode;
-            
-        if not type == 3:
-            openNode += xmlTuple[ 1 ];   
+            eventCount += 1;
+            if not isFirst : 
+                openNode += eventNodeClose;
+            isFirst = False;
             parsedFile += openNode;
-           
-    return parsedFile + closeEventNode;
+            openNode = xmlTuple[ 1 ];
+        elif type == 1:
+            vetCount += 1;
+            openNode += xmlTuple[ 1 ];
+        elif type == 3:
+            printDict( xmlTuple[ 1 ] );
+            badDataCollector += xmlTuple[ 1 ];
+    
+    
+    print eventCount;
+    print vetCount;
+    return parsedFile;
 
 outputHeader = """<?xml version="1.0" encoding="UTF-8"?>
 <timelineData>

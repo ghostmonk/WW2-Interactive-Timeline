@@ -31,8 +31,8 @@ package ghostmonk.interactive.timeline.framework.controller
 		
 		private function createFilterMediator( stage:Stage, proxy:ConfigProxy ) : void
 		{
-			var monthBar:TimelineFilter = getFilter( proxy.months, SmallTextBtnAsset, 22.5 );
-			var yearBar:TimelineFilter = getFilter( proxy.years, LargeTextBtnAsset, 26 );
+			var monthBar:TimelineFilter = getFilter( proxy.months, SmallTextBtnAsset, 45 );
+			var yearBar:TimelineFilter = getFilter( proxy.years, LargeTextBtnAsset, 54 );
 			facade.registerMediator( new FilterMediator( monthBar, yearBar, stage ) );
 		}
 		

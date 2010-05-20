@@ -32,12 +32,12 @@ package ghostmonk.interactive.timeline.data
 			return _text;
 		}
 		
-		public function set imgID( value:String ) : void
+		public function set img( value:String ) : void
 		{
 			_imgID = value;
 		}
 		
-		public function get imgID() : String
+		public function get img() : String
 		{
 			return _imgID;
 		}

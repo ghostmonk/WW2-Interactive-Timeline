@@ -35,6 +35,8 @@ package ghostmonk.interactive.timeline.framework.view
 			
 			_stage = stage;
 			positionAssets();
+			_yearNav.enable();
+			_yearNav.activateButton( 0 );
 		}
 		
 		public function get view() : Sprite
@@ -56,13 +58,14 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function positionAssets() : void
 		{
-			_yearNav.y = _monthNav.height + 10;
-			_monthNav.x = ( _yearNav.width - _monthNav.width ) * 0.5 + 20;
+			_yearNav.y = _monthNav.height + 5;
+			_monthNav.x = ( _yearNav.width - _monthNav.width ) * 0.5 + 45;
+			_monthNav.disable();
 			
 			_holder.addChild( _monthNav );
 			_holder.addChild( _yearNav );
 			
-			_holder.x = _stage.stageWidth - _holder.width - 80;
+			_holder.x = _stage.stageWidth - _holder.width - 50;
 			_holder.y = _stage.stageHeight - _holder.height - 10;
 			
 			_stage.addChild( _holder );

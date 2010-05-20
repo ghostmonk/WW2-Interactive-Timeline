@@ -12,7 +12,7 @@ package ghostmonk.interactive.timeline.framework.view
 	public class TimelineMediator extends Mediator
 	{
 		public static const NAME:String = "TimelineMediator";
-		private static const PADDING:int = 30;
+		private static const PADDING:int = 60;
 		
 		private var _soldierTimeline:Timeline;
 		private var _eventTimeline:Timeline;

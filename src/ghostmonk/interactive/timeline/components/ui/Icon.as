@@ -5,9 +5,7 @@ package ghostmonk.interactive.timeline.components.ui
 	import com.ghostmonk.ui.interactive.buttons.InteractiveSprite;
 	
 	import flash.events.MouseEvent;
-	
-	import ghostmonk.interactive.timeline.utils.Animator;
-	import ghostmonk.interactive.timeline.utils.Tween;
+	import flash.geom.ColorTransform;
 
 	public class Icon extends IconAsset
 	{
@@ -15,8 +13,9 @@ package ghostmonk.interactive.timeline.components.ui
 		public static const EVENT:String = "event";
 		
 		private var _interactive:InteractiveSprite;
+		private var _labelDirection:int;
 		
-		public function Icon( type:String )
+		public function Icon( type:String, labelDirection:int = 1 )
 		{
 			_interactive = new InteractiveSprite( this );
 			_interactive.rollOverFunc = onRollover;
@@ -25,21 +24,31 @@ package ghostmonk.interactive.timeline.components.ui
 			var frame:int = type == VET ? 2 : 1;
 			icon.gotoAndStop( frame );
 			bg.alpha = 0;
+			_labelDirection = labelDirection;
+		}
+		
+		private function get labelDirection() : int
+		{
+			return _labelDirection;
 		}
 		
 		private function onRollover( e:MouseEvent ) : void
 		{
-			Animator.tween( bg, { alpha:0.6, time:Tween.BASE_TIME } );
+			bg.alpha = 0.6;
+			icon.transform.colorTransform = new ColorTransform(1,1,1,1,255,255,255,0);
+			//Animator.tween( bg, { alpha:0.6, time:Tween.BASE_TIME } );
 		}
 		
 		private function onRollout( e:MouseEvent ) : void
 		{
-			Animator.tween( bg, Tween.ALPHA_OUT );
+			bg.alpha = 0;
+			icon.transform.colorTransform = new ColorTransform();
+			//Animator.tween( bg, Tween.ALPHA_OUT);
 		}
 		
 		private function onClick( e:MouseEvent ) : void
 		{
-			trace( "click" );
+			trace( _labelDirection );
 		}
 	}
 }

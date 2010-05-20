@@ -1,8 +1,11 @@
 package ghostmonk.interactive.timeline.components.timeline
 {
+	import com.ghostmonk.display.graphics.shapes.Circle;
+	
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
+	import flash.filters.BlurFilter;
 	import flash.utils.Timer;
 	
 	import ghostmonk.interactive.timeline.components.ui.Icon;
@@ -11,7 +14,7 @@ package ghostmonk.interactive.timeline.components.timeline
 	
 	public class Timeline extends Sprite
 	{
-		private static const PADDING:int = 25;
+		private static const PADDING:int = 30;
 		private static const BUILDIN_DELAY:Number = 300;
 		
 		private var _divider:TimelineDivider;
@@ -69,39 +72,59 @@ package ghostmonk.interactive.timeline.components.timeline
 			_divider.viewHeight = _divider.baseHeight;
 		}
 		
-		private function positionAssets() : void
-		{
-			_header.y = ( _divider.baseHeight - _header.height ) * 0.5;
-			_divider.x = _header.width + PADDING;
-			addChild( _header );
-			addChild( _divider );
-		}
-		
 		private function fillGrid() : void
 		{
 			var isFull:Boolean = false;
-			var currentX:Number = _divider.x;
-			var currentY:Number = _divider.y;
-			var xOver:Number = currentX + _divider.baseWidth;
-			var yOver:Number = currentY + _divider.baseHeight;
+			var currentX:Number = _divider.x - 10;
+			var currentY:Number = _divider.y - 10;
+			var xOver:Number = currentX + _divider.baseWidth + 10;
+			var yOver:Number = currentY + _divider.baseHeight + 10;
 			
 			var type:String = _header.image.currentFrame == 1 ? Icon.EVENT : Icon.VET;
-			
+			var count:int = 0;
 			while( !isFull ) 
 			{
-				var marker:Icon = new Icon( type );
-				marker.icon.stop();
+				count++;
+				var marker:Sprite = getMarker( type, getLabelDirection( currentX, currentY ) );
 				marker.x = currentX;
 				marker.y = currentY;
 				currentX += marker.width;
 				if( currentX >= xOver )
 				{
 					currentY += marker.height;
-					currentX = _divider.x;
+					currentX = _divider.x - 10;
 				}
 				addChild( marker );
 				isFull = currentY >= yOver;
 			}
+			trace( count );
+		}
+		
+		private function getLabelDirection( xPos:Number, yPos:Number ) : int
+		{
+			var isTop:Boolean = yPos >= _divider.y + _divider.baseHeight * 0.5;
+			var isLeft:Boolean = xPos >= _divider.x + _divider.baseWidth * 0.5;
+			
+			if( isTop && !isLeft ) return 1;
+			if( !isTop && !isLeft ) return 2;
+			if( !isTop && isLeft ) return 3;
+			return 4;
+		}
+		
+		private function getMarker( type:String, labelDirection:int, isCircle:Boolean = false ) : Sprite
+		{
+			if( isCircle )
+			{
+				var color:uint = type == Icon.EVENT ? 0xCF0202 : 0x2E3A76
+				var circle:Circle = new Circle( color, 3, false );
+				circle.filters = [ new BlurFilter() ]
+				return circle;
+			}
+			
+			var marker:Icon = new Icon( type, labelDirection );
+			marker.scaleX = marker.scaleY = 0.9;
+			marker.icon.stop();
+			return marker;
 		}
 		
 		private function onAddedToStage( e:Event ) : void
@@ -115,6 +138,14 @@ package ghostmonk.interactive.timeline.components.timeline
 				}
 			);
 			timer.start();
+		}
+		
+		private function positionAssets() : void
+		{
+			_header.y = ( _divider.baseHeight - _header.height ) * 0.5;
+			_divider.x = _header.width + PADDING;
+			addChild( _header );
+			addChild( _divider );
 		}
 	}
 }

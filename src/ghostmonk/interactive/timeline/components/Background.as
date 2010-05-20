@@ -14,8 +14,8 @@ package ghostmonk.interactive.timeline.components
 		public function Background( viewData:BitmapData )
 		{
 			_view = new Bitmap( viewData );
-			_view.alpha = 0.3;
-			//_view.addEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
+			_view.alpha = 0;
+			_view.addEventListener( Event.ADDED_TO_STAGE, onAddedToStage );
 		}
 		
 		public function get view() : Bitmap

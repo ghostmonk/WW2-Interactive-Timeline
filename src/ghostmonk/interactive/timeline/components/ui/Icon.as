@@ -6,49 +6,108 @@ package ghostmonk.interactive.timeline.components.ui
 	
 	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
+	
+	import ghostmonk.interactive.timeline.events.TimelineEvent;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 
-	public class Icon extends IconAsset
+	public class Icon extends InteractiveSprite
 	{
 		public static const VET:String = "vet";
 		public static const EVENT:String = "event";
 		
-		private var _interactive:InteractiveSprite;
-		private var _labelDirection:int;
+		private var _view:IconAsset;
+		private var _label:IconLabel;
+		private var _uid:String;
+		private var _labelText:String;
+		private var _date:Date;
+		private var _clickCallback:Function;
 		
-		public function Icon( type:String, labelDirection:int = 1 )
+		public function Icon( view:IconAsset, type:String )
 		{
-			_interactive = new InteractiveSprite( this );
-			_interactive.rollOverFunc = onRollover;
-			_interactive.rollOutFunc = onRollout;
-			_interactive.mouseClickFunc = onClick;
+			super( view );	
+			view.icon.stop();
+			
 			var frame:int = type == VET ? 2 : 1;
-			icon.gotoAndStop( frame );
-			bg.alpha = 0;
-			_labelDirection = labelDirection;
+			
+			_view = view;
+			_view.icon.gotoAndStop( frame );
+			_view.bg.alpha = 0;
+			_view.alpha = 0;
+			
+			_label = new IconLabel( view );
 		}
 		
-		private function get labelDirection() : int
+		public function set clickCallback( value:Function ) : void
 		{
-			return _labelDirection;
+			_clickCallback = value;
 		}
 		
-		private function onRollover( e:MouseEvent ) : void
+		public function set date( value:Date ) : void
 		{
-			bg.alpha = 0.6;
-			icon.transform.colorTransform = new ColorTransform(1,1,1,1,255,255,255,0);
-			//Animator.tween( bg, { alpha:0.6, time:Tween.BASE_TIME } );
+			_date = value;
 		}
 		
-		private function onRollout( e:MouseEvent ) : void
+		public function get date() : Date
 		{
-			bg.alpha = 0;
-			icon.transform.colorTransform = new ColorTransform();
-			//Animator.tween( bg, Tween.ALPHA_OUT);
+			return _date;
 		}
 		
-		private function onClick( e:MouseEvent ) : void
+		public function set uid( value:String ) : void
 		{
-			trace( _labelDirection );
+			_uid = value;
+		}
+		
+		public function get uid() : String
+		{
+			return _uid;
+		}
+		
+		public function set labelDirection( value:int ) : void
+		{
+			_label.direction = value;
+		}
+		
+		public function set labelText( value:String ) : void
+		{
+			_label.text = value;
+		}
+		
+		public function buildIn() : void
+		{
+			_view.alpha = 0;
+			Animator.destroyTweens( _view );
+			Animator.delay = Math.random();
+			Animator.tween( _view, Tween.ALPHA_IN, false );
+		}
+		
+		public function buildOut() : void
+		{
+			Animator.destroyTweens( _view );
+			Animator.setCallback( _view.parent.removeChild, [ _view ] );
+			Animator.tween( _view, Tween.ALPHA_OUT );
+		}
+		
+		override protected function onRollover( e:MouseEvent = null ) : void
+		{
+			_view.bg.alpha = 0.6;
+			_view.icon.transform.colorTransform = new ColorTransform(1,1,1,1,255,255,255,0);
+			_label.buildIn();
+			view.parent.addChild( view );
+			//Animator.tween( _view.bg, { alpha:0.6, time:Tween.BASE_TIME } );
+		}
+		
+		override protected function onRollout( e:MouseEvent = null ) : void
+		{
+			_view.bg.alpha = 0;
+			_view.icon.transform.colorTransform = new ColorTransform();
+			_label.buildOut();
+			//Animator.tween( _view.bg, Tween.ALPHA_OUT);
+		}
+		
+		override protected function onClick( e:MouseEvent = null ) : void
+		{
+			_clickCallback( _uid );
 		}
 	}
 }

@@ -22,8 +22,6 @@ package ghostmonk.interactive.timeline.components.ui
 			_field = field;
 			_field.filters = [ GLOW ];
 			_field.autoSize = TextFieldAutoSize.LEFT;
-			rollOutFunc = rollOut;
-			rollOverFunc = rollOver;
 		}
 		
 		override public function set text( value:String ) : void
@@ -33,7 +31,7 @@ package ghostmonk.interactive.timeline.components.ui
 		
 		override public function activate() : void
 		{
-			rollOver();
+			onRollover();
 			disable();
 		}
 		
@@ -45,18 +43,22 @@ package ghostmonk.interactive.timeline.components.ui
 			enable();
 		}
 		
-		private function rollOut( e:MouseEvent = null ) : void
+		override protected function onRollout( e:MouseEvent = null ) : void
 		{
 			GLOW.alpha = 0;
-			Animator.filterTween( view, GLOW );
-			Animator.tween( _field, { _text_color:0x000000, time:Tween.BASE_TIME } );
+			view.filters = [GLOW];
+			_field.textColor = 0x000000;
+			//Animator.filterTween( view, GLOW );
+			//Animator.tween( _field, { _text_color:0x000000, time:Tween.BASE_TIME } );
 		}
 		
-		private function rollOver( e:MouseEvent = null ) : void
+		override protected function onRollover( e:MouseEvent = null ) : void
 		{
-			GLOW.alpha = 0.8;
-			Animator.filterTween( view, GLOW );
-			Animator.tween( _field, { _text_color:0xFFFFFF, time:Tween.BASE_TIME } );
+			GLOW.alpha = 1;
+			view.filters = [GLOW];
+			_field.textColor = 0xFFFFFF;
+			//Animator.filterTween( view, GLOW );
+			//Animator.tween( _field, { _text_color:0xFFFFFF, time:Tween.BASE_TIME } );
 		}	
 	}
 }

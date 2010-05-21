@@ -77,6 +77,11 @@ package ghostmonk.interactive.timeline.utils
 			start( item, { _filter:filter, time:time }, reset );
 		}
 		
+		public static function destroyTweens( item:DisplayObject ) : void
+		{
+			Tweener.removeTweens( item );
+		}
+		
 		private static function start( item:DisplayObject, animObj:Object, reset:Boolean ) : void
 		{
 			if( _transition )  animObj.transition = _transition;

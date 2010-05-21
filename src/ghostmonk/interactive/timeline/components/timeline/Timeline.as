@@ -1,16 +1,21 @@
 package ghostmonk.interactive.timeline.components.timeline
 {
-	import com.ghostmonk.display.graphics.shapes.Circle;
+	import assets.category.IconAsset;
 	
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
-	import flash.filters.BlurFilter;
 	import flash.utils.Timer;
 	
 	import ghostmonk.interactive.timeline.components.ui.Icon;
-	import ghostmonk.interactive.timeline.data.EventDateData;
+	import ghostmonk.interactive.timeline.data.collections.Vetran;
+	import ghostmonk.interactive.timeline.data.collections.VetranCollection;
+	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
+	import ghostmonk.interactive.timeline.data.collections.WarEventData;
+	import ghostmonk.interactive.timeline.events.TimelineEvent;
 	import ghostmonk.interactive.timeline.utils.Tween;
+	
+	[Event ( name="iconClick", type="ghostmonk.interactive.timeline.events.TimelineEvent")]
 	
 	public class Timeline extends Sprite
 	{
@@ -20,6 +25,8 @@ package ghostmonk.interactive.timeline.components.timeline
 		private var _divider:TimelineDivider;
 		private var _header:CategoryHeader;
 		private var _positionCalc:PositionCalculator;
+		private var _visibleIcons:Array = [];
+		private var _icons:Object = {};
 		
 		public function set divider( value:TimelineDivider ) : void
 		{
@@ -44,16 +51,10 @@ package ghostmonk.interactive.timeline.components.timeline
 			_positionCalc = value;
 		}
 		
-		public function createDateIcon( value:EventDateData ) : void
-		{
-			_positionCalc.yPos( value.date );
-		}
-		
 		public function buildIn() : void
 		{
 			_divider.buildIn();
 			_header.enable();
-			fillGrid();
 		}
 		
 		public function buildOut() : void
@@ -62,42 +63,56 @@ package ghostmonk.interactive.timeline.components.timeline
 			_header.disable();
 		}
 		
-		public function fullMode() : void
+		public function removeAll() : void
 		{
-			
+			for each( var icon:Icon in _visibleIcons )
+				icon.buildOut();
+			_visibleIcons = [];
 		}
 		
-		public function normalMode() : void
+		public function showAll() : void
 		{
-			_divider.viewHeight = _divider.baseHeight;
+			for each( var icon:Icon in _icons ) showIcon( icon.uid, true );
 		}
 		
-		private function fillGrid() : void
+		public function createWarEventIcons( value:WarEventCollection ) : void
 		{
-			var isFull:Boolean = false;
-			var currentX:Number = _divider.x - 10;
-			var currentY:Number = _divider.y - 10;
-			var xOver:Number = currentX + _divider.baseWidth + 10;
-			var yOver:Number = currentY + _divider.baseHeight + 10;
-			
-			var type:String = _header.image.currentFrame == 1 ? Icon.EVENT : Icon.VET;
-			var count:int = 0;
-			while( !isFull ) 
+			for each( var eventData:WarEventData in value.totalList )
 			{
-				count++;
-				var marker:Sprite = getMarker( type, getLabelDirection( currentX, currentY ) );
-				marker.x = currentX;
-				marker.y = currentY;
-				currentX += marker.width;
-				if( currentX >= xOver )
-				{
-					currentY += marker.height;
-					currentX = _divider.x - 10;
-				}
-				addChild( marker );
-				isFull = currentY >= yOver;
+				var label:String = eventData.date.toDateString().substr( 4 ) + " \n " + eventData.shortDescription;
+				createMarker( eventData.guid, Icon.EVENT, label, eventData.date );
 			}
-			trace( count );
+		}
+		
+		public function createVetranIcons( vetData:VetranCollection ) : void
+		{
+			for each( var data:Vetran in vetData.totalList )
+			{
+				var randDate:Date = data.dates[ Math.floor( data.dates.length * Math.random() ) ];		
+				createMarker( data.id, Icon.VET, data.name, randDate );
+			}
+		}
+		
+		public function showIcon( id:String, isFullView:Boolean ) : void
+		{
+			var marker:Icon = _icons[ id ] as Icon;
+			marker.view.x = isFullView ? _positionCalc.fullViewX( marker.date ) : _positionCalc.yearViewX( marker.date );
+			marker.view.x  += _divider.x;
+			marker.view.y = Math.random() * _divider.baseHeight - 10;
+			marker.labelDirection = getLabelDirection( marker.view.x, marker.view.y );
+			addChild( marker.view );
+			marker.buildIn();
+			_visibleIcons.push( marker );
+		}
+		
+		private function createMarker( id:String, type:String, label:String, date:Date ) : void
+		{
+			var marker:Icon = new Icon( new IconAsset(), type );
+			marker.uid = id;
+			marker.labelText = label;
+			marker.date = date;
+			marker.clickCallback = onMarkerClick;
+			_icons[ id ] = marker;
 		}
 		
 		private function getLabelDirection( xPos:Number, yPos:Number ) : int
@@ -109,22 +124,6 @@ package ghostmonk.interactive.timeline.components.timeline
 			if( !isTop && !isLeft ) return 2;
 			if( !isTop && isLeft ) return 3;
 			return 4;
-		}
-		
-		private function getMarker( type:String, labelDirection:int, isCircle:Boolean = false ) : Sprite
-		{
-			if( isCircle )
-			{
-				var color:uint = type == Icon.EVENT ? 0xCF0202 : 0x2E3A76
-				var circle:Circle = new Circle( color, 3, false );
-				circle.filters = [ new BlurFilter() ]
-				return circle;
-			}
-			
-			var marker:Icon = new Icon( type, labelDirection );
-			marker.scaleX = marker.scaleY = 0.9;
-			marker.icon.stop();
-			return marker;
 		}
 		
 		private function onAddedToStage( e:Event ) : void
@@ -146,6 +145,11 @@ package ghostmonk.interactive.timeline.components.timeline
 			_divider.x = _header.width + PADDING;
 			addChild( _header );
 			addChild( _divider );
+		}
+		
+		private function onMarkerClick( id:String ) : void
+		{
+			dispatchEvent( new TimelineEvent( TimelineEvent.ICON_CLICK, id ) );
 		}
 	}
 }

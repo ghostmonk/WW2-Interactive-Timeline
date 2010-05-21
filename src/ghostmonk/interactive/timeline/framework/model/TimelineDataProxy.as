@@ -1,6 +1,8 @@
 package ghostmonk.interactive.timeline.framework.model
 {
 	import ghostmonk.interactive.timeline.data.TimelineData;
+	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
+	import ghostmonk.interactive.timeline.data.collections.VetranCollection;
 	
 	import org.puremvc.as3.patterns.proxy.Proxy;
 
@@ -27,14 +29,19 @@ package ghostmonk.interactive.timeline.framework.model
 			return _timelineData.vetProfileLink;
 		}
 		
-		public function get eventCollection() : Array
+		public function get warEventCollection() : WarEventCollection
 		{
 			return _timelineData.eventCollection;
 		}
 		
+		public function get vetranCollection() : VetranCollection
+		{
+			return _timelineData.vetranCollection;
+		}
+		
 		public function getVetranName( id:String ) : String
 		{
-			return getVetranName( id );
+			return _timelineData.getVetranName( id );
 		}
 	}
 }

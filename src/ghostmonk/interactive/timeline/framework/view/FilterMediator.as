@@ -5,38 +5,49 @@ package ghostmonk.interactive.timeline.framework.view
 	
 	import flash.display.Sprite;
 	import flash.display.Stage;
+	import flash.filters.DropShadowFilter;
 	
 	import ghostmonk.interactive.timeline.components.timeline.TimelineFilter;
+	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.Tween;
 	
 	import org.puremvc.as3.patterns.mediator.Mediator;
 
 	public class FilterMediator extends Mediator
 	{
 		public static const NAME:String = "TimelineMediator";
+		private static const DROP:DropShadowFilter = new DropShadowFilter(0,0,0,0.5,10,10);
 		
-		public static const MONTH_NAV:String = "monthNavigation";
-		public static const YEAR_NAV:String = "yearNavigation";
+		public static const FILTER_YEAR:String = "filterYear";
+		public static const FILTER_ALL:String = "filterAll";
 		
 		private var _holder:Sprite;
-		private var _monthNav:TimelineFilter;
-		private var _yearNav:TimelineFilter;
+		private var _monthBar:TimelineFilter;
+		private var _filterBar:TimelineFilter;
 		private var _stage:Stage;
+		private var _years:Array;
 		
-		public function FilterMediator( monthNav:TimelineFilter, yearNav:TimelineFilter, stage:Stage )
+		public function FilterMediator( monthBar:TimelineFilter, yearNav:TimelineFilter, stage:Stage )
 		{
 			_holder = new Sprite();
 			super( NAME, _holder );
 			
-			_monthNav = monthNav;
-			_monthNav.addEventListener( IDEvent.UPDATE, onMonthClick );
-			
-			_yearNav = yearNav;
-			_yearNav.addEventListener( IDEvent.UPDATE, onYearClick );
+			_filterBar = yearNav;
+			_monthBar = monthBar;
+			_monthBar.filters = [ DROP ];
+			_filterBar.filters = [ DROP ]
+			_monthBar.alpha = 0;
+			_filterBar.addEventListener( IDEvent.UPDATE, onFilterClick );
 			
 			_stage = stage;
 			positionAssets();
-			_yearNav.enable();
-			_yearNav.activateButton( 0 );
+			_filterBar.enable();
+			_filterBar.activateButton( 0 );
+		}
+		
+		public function set years( value:Array ) : void
+		{
+			_years = value;
 		}
 		
 		public function get view() : Sprite
@@ -44,26 +55,29 @@ package ghostmonk.interactive.timeline.framework.view
 			return _holder;
 		}
 		
-		private function onMonthClick( e:IDEvent ) : void
+		private function onFilterClick( e:IDEvent ) : void
 		{
-			sendNotification( MONTH_NAV, e.id );
-			_monthNav.selectItem( e.id );
-		}
-		
-		private function onYearClick( e:IDEvent ) : void
-		{
-			sendNotification( YEAR_NAV, e.id );
-			_yearNav.selectItem( e.id );
+			_filterBar.selectItem( e.id );
+			if( e.id == 0 ) 
+			{
+				sendNotification( FILTER_ALL );
+				Animator.tween( _monthBar, Tween.ALPHA_OUT );
+			}
+			else 
+			{
+				sendNotification( FILTER_YEAR, int( _years[ e.id ] ) );
+				Animator.tween( _monthBar, Tween.ALPHA_IN );
+			}
 		}
 		
 		private function positionAssets() : void
 		{
-			_yearNav.y = _monthNav.height + 5;
-			_monthNav.x = ( _yearNav.width - _monthNav.width ) * 0.5 + 45;
-			_monthNav.disable();
+			_filterBar.y = _monthBar.height + 5;
+			_monthBar.x = ( _filterBar.width - _monthBar.width ) * 0.5 + 45;
+			_monthBar.disable();
 			
-			_holder.addChild( _monthNav );
-			_holder.addChild( _yearNav );
+			_holder.addChild( _monthBar );
+			_holder.addChild( _filterBar );
 			
 			_holder.x = _stage.stageWidth - _holder.width - 50;
 			_holder.y = _stage.stageHeight - _holder.height - 10;

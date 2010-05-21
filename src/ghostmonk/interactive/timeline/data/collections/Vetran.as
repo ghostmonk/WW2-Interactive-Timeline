@@ -5,12 +5,19 @@ package ghostmonk.interactive.timeline.data.collections
 		private var _name:String;
 		private var _id:String;
 		private var _dates:Array;
+		private var _warEventIDs:Array;
 		
 		public function Vetran( id:String, name:String )
 		{
 			_name = name;
 			_id = id;
 			_dates = [];
+			_warEventIDs = [];
+		}
+		
+		public function get warEventIDs() : Array
+		{
+			return _warEventIDs;
 		}
 		
 		public function get name() : String
@@ -26,6 +33,11 @@ package ghostmonk.interactive.timeline.data.collections
 		public function get dates() : Array
 		{
 			return _dates;
+		}
+		
+		public function addWarEventID( value:String ) : void
+		{
+			_warEventIDs.push( value );
 		}
 		
 		public function addDate( date:Date ) : void

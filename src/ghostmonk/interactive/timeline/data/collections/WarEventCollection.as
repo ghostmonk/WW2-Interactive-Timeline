@@ -34,6 +34,17 @@ package ghostmonk.interactive.timeline.data.collections
 			return _yearList[ year ];
 		}
 		
+		public function getListByIDs( idList:Array ) : Array
+		{
+			var output:Array = [];
+			for each( var eventID:String in idList )
+			{
+				output.push( getDataByID( eventID ) );
+			}
+			
+			return output;
+		}
+		
 		public function get totalList() : Array
 		{
 			return _totalList;

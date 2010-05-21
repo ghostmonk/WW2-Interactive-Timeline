@@ -3,6 +3,7 @@ package ghostmonk.interactive.timeline.framework.controller
 	import flash.display.Stage;
 	
 	import ghostmonk.interactive.timeline.components.view.Overlay;
+	import ghostmonk.interactive.timeline.framework.model.ConfigProxy;
 	import ghostmonk.interactive.timeline.framework.view.OverlayMediator;
 	import ghostmonk.interactive.timeline.framework.view.StageMediator;
 	
@@ -13,8 +14,11 @@ package ghostmonk.interactive.timeline.framework.controller
 	{
 		override public function execute( note:INotification ) : void
 		{
+			var configProxy:ConfigProxy = note.getBody() as ConfigProxy;
 			var stage:Stage = ( facade.retrieveMediator( StageMediator.NAME ) as StageMediator ).stage;
-			facade.registerMediator( new OverlayMediator( new Overlay(), stage ) ); 
+			var overlay:Overlay = new Overlay();
+			overlay.vetransTitle = configProxy.vetransTitle;
+			facade.registerMediator( new OverlayMediator( overlay, stage ) ); 
 		}
 	}
 }

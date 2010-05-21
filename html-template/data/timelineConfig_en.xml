@@ -9,6 +9,8 @@
     <events>
 
         <event date="01/09/1939" img="lus.jpg">
+        	<title>Test Title</title>
+        	<shortDesc>Test Short Desc</shortDesc>
             <text>the 1st and 2nd Canadian Divisions are authorized as the Canadian Active Service Force.  The Royal Canadian Navy, Royal Canadian Navy Reserve and Royal Canadian Navy Volunteer Reserve are placed on active service</text>
             <vet id="1452">Frank John Dion</vet>
             <vet id="2271">John A Cathie</vet>

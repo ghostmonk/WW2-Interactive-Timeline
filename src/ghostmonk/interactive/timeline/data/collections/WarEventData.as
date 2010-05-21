@@ -7,6 +7,8 @@ package ghostmonk.interactive.timeline.data.collections
 		private var _vetIDs:Array;
 		private var _date:Date;
 		private var _text:String;
+		private var _title:String;
+		private var _shortDesc:String;
 		private var _imgID:String;
 		private var _guid:String;
 		
@@ -35,9 +37,25 @@ package ghostmonk.interactive.timeline.data.collections
 			return _date.toDateString();
 		}
 		
+		public function set title( value:String ) : void
+		{
+			_title = value;
+		}
+		
+		public function get title() : String
+		{
+			return _title;
+		}
+		
+		public function set shortDescription( value:String ) : void
+		{
+			_shortDesc = value;
+		}
+		
 		public function get shortDescription() : String
 		{
-			return _text.substr( 0, 50 ) + "...";
+			var output:String = _shortDesc ? _shortDesc : _text.substr( 0, 50 )+ "...";
+			return output;
 		}
 		
 		public function set text( value:String ) : void

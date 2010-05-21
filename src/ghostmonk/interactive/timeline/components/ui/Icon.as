@@ -14,7 +14,7 @@ package ghostmonk.interactive.timeline.components.ui
 	public class Icon extends InteractiveSprite
 	{
 		public static const VET:String = "vet";
-		public static const EVENT:String = "event";
+		public static const WAR_EVENT:String = "event";
 		
 		private var _view:IconAsset;
 		private var _label:IconLabel;

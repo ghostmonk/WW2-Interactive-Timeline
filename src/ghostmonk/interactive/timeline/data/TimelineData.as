@@ -14,12 +14,11 @@ package ghostmonk.interactive.timeline.data
  		
 		public function TimelineData( data:XML )
 		{
+			_vetrans = new VetranCollection();
 			_thumbLink = data.links.smallThumb.@url.toString();
 			_vetProfileLink = data.links.vetProfile.@url.toString();
 			
 			_eventDataCollection = getEventData( data.events.event );
-			_vetrans = getVetrans( data.events.event.vet );
-			
 			data = null;
 		}
 		
@@ -56,8 +55,11 @@ package ghostmonk.interactive.timeline.data
 			{
 				var eventData:WarEventData = new WarEventData();
 				eventData.img = rawData.@img.toString();
+				eventData.shortDescription = rawData.shortDesc;
+				eventData.title = rawData.title;
 				eventData.text = rawData.text.toString();
 				eventData.vetIDs = getVetIDs( rawData.vet );
+				addVetrans( rawData.vet, eventData.guid );
 				var dateArray:Array = rawData.@date.toString().split( "/" );
 				eventData.date = new Date( int( dateArray[ 2 ] ), int( dateArray[ 1 ] ), int( dateArray[ 0 ] ) );
 				output.addEvent( eventData );
@@ -73,18 +75,15 @@ package ghostmonk.interactive.timeline.data
 			return output;
 		}
 		
-		private function getVetrans( list:XMLList ) : VetranCollection
-		{
-			var output:VetranCollection = new VetranCollection();
-			
+		private function addVetrans( list:XMLList, warEventID:String ) : void
+		{	
 			for each( var vetData:XML in list )
 			{
-				var vet:Vetran = output.createVetran( vetData.@id.toString(), vetData.toString() );
+				var vet:Vetran = _vetrans.createVetran( vetData.@id.toString(), vetData.toString() );
+				vet.addWarEventID( warEventID );
 				var dateArray:Array = vetData.parent().@date.toString().split( "/" );
 				vet.addDate( new Date( int( dateArray[ 2 ] ), int( dateArray[ 1 ] ), int( dateArray[ 0 ] ) ) );
 			}
-			
-			return output;
 		}
 	}
 }

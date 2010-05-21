@@ -2,6 +2,7 @@ package ghostmonk.interactive.timeline.utils
 {
 	import caurina.transitions.Equations;
 	import caurina.transitions.Tweener;
+	import caurina.transitions.properties.DisplayShortcuts;
 	import caurina.transitions.properties.FilterShortcuts;
 	import caurina.transitions.properties.TextShortcuts;
 	
@@ -24,6 +25,7 @@ package ghostmonk.interactive.timeline.utils
 		{
 			TextShortcuts.init();
 			FilterShortcuts.init();
+			DisplayShortcuts.init();
 		}
 		
 		public static function set position( value:Point ) : void

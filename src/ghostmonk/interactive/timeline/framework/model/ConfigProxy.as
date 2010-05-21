@@ -18,6 +18,11 @@ package ghostmonk.interactive.timeline.framework.model
 			return data as ConfigData;
 		}
 		
+		public function get vetransTitle() : String
+		{
+			return config.vetransTitle;
+		}
+		
 		public function get timelineDataURL() : String 
 		{
 			return config.timelineDataURL;

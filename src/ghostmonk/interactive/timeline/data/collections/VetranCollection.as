@@ -27,6 +27,16 @@ package ghostmonk.interactive.timeline.data.collections
 			return _vetTable[ id ];
 		}
 		
+		public function getVetransByIDList( list:Array ) : Array
+		{
+			var output:Array = [];
+			for each( var id:String in list ) 
+			{
+				output.push( getVetranByID( id ) );
+			}
+			return output;
+		}
+		
 		public function getIDsByYear( year:int ) : Array
 		{
 			var output:Array = _yearIDs[ year ];

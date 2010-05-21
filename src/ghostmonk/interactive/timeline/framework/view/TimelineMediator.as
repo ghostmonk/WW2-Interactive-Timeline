@@ -5,6 +5,7 @@ package ghostmonk.interactive.timeline.framework.view
 	import flash.utils.setInterval;
 	
 	import ghostmonk.interactive.timeline.components.timeline.Timeline;
+	import ghostmonk.interactive.timeline.components.ui.Icon;
 	import ghostmonk.interactive.timeline.events.TimelineEvent;
 	import ghostmonk.interactive.timeline.framework.model.TimelineDataProxy;
 	
@@ -71,12 +72,12 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function onVetranIconClick( e:TimelineEvent ) : void
 		{
-			
+			sendNotification( Icon.VET, e.id );
 		}
 		
 		private function onWarEventIconClick( e:TimelineEvent ) : void
 		{
-			sendNotification( e.type, e.id );
+			sendNotification( Icon.WAR_EVENT, e.id );
 		}
 		
 		private function showAll() : void

@@ -80,7 +80,7 @@ package ghostmonk.interactive.timeline.components.timeline
 			for each( var eventData:WarEventData in value.totalList )
 			{
 				var label:String = eventData.date.toDateString().substr( 4 ) + " \n " + eventData.shortDescription;
-				createMarker( eventData.guid, Icon.EVENT, label, eventData.date );
+				createMarker( eventData.guid, Icon.WAR_EVENT, label, eventData.date );
 			}
 		}
 		

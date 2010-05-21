@@ -2,6 +2,7 @@
 <localization>
 	<timelineData>data/timelineConfig_en.xml</timelineData>
 	<mainTitle>World War II Timeline</mainTitle>
+	<vetransTitle>Vetran Profile Links</vetransTitle>
 	<categories>
 		<category>Significant Dates</category>
 		<category>Vetrans</category>

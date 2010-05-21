@@ -29,15 +29,18 @@ package ghostmonk.interactive.timeline.components.ui
 		public function set text( value:String ) : void
 		{
 			field.text = value;
+			
+			bg.height = field.height;
+			
 			if( field.numLines == 1 ) 
 			{
+				bg.height -= 2;
 				field.autoSize = TextFieldAutoSize.LEFT;
 				field.multiline = false;
 				field.wordWrap = false;
 				field.text = value;
 			}
 			_labelWidth = field.width + 10;
-			bg.height = field.height;
 			position();
 		}
 		

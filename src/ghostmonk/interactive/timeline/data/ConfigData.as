@@ -11,6 +11,11 @@ package ghostmonk.interactive.timeline.data
 			_data = data;
 		}
 		
+		public function get vetransTitle() : String
+		{
+			return _data.vetransTitle.toString();
+		}
+		
 		public function get timelineDataURL() : String 
 		{
 			return _data.timelineData.toString();

@@ -38,7 +38,7 @@ package ghostmonk.interactive.timeline.framework.controller
 			facade.registerProxy( config );
 			
 			createStageAssets( _stageMediator, config.mainTitle );
-			sendNotification( CommandTree.CREATE_OVERLAY );
+			sendNotification( CommandTree.CREATE_OVERLAY, config );
 			sendNotification( CommandTree.CONFIG_READY, config );
 			sendNotification( CommandTree.CREATE_TIMELINE, config );
 			sendNotification( CommandTree.CREATE_FILTER, config );

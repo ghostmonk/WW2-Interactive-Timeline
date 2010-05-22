@@ -5,6 +5,7 @@ package ghostmonk.interactive.timeline.components.timeline
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.TimerEvent;
+	import flash.geom.Point;
 	import flash.utils.Timer;
 	
 	import ghostmonk.interactive.timeline.components.ui.Icon;
@@ -65,6 +66,7 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		public function removeAll() : void
 		{
+			_positionCalc.reset();
 			for each( var icon:Icon in _visibleIcons )
 				icon.buildOut();
 			_visibleIcons = [];
@@ -82,6 +84,7 @@ package ghostmonk.interactive.timeline.components.timeline
 				var label:String = eventData.date.toDateString().substr( 4 ) + " \n " + eventData.shortDescription;
 				createMarker( eventData.guid, Icon.WAR_EVENT, label, eventData.date );
 			}
+			_positionCalc.setDimensions( _divider, _icons[ eventData.guid ] );
 		}
 		
 		public function createVetranIcons( vetData:VetranCollection ) : void
@@ -91,14 +94,16 @@ package ghostmonk.interactive.timeline.components.timeline
 				var randDate:Date = data.dates[ Math.floor( data.dates.length * Math.random() ) ];		
 				createMarker( data.id, Icon.VET, data.name, randDate );
 			}
+			_positionCalc.setDimensions( _divider, _icons[ data.id ] );
 		}
 		
 		public function showIcon( id:String, isFullView:Boolean ) : void
 		{
 			var marker:Icon = _icons[ id ] as Icon;
-			marker.view.x = isFullView ? _positionCalc.fullViewX( marker.date ) : _positionCalc.yearViewX( marker.date );
+			var point:Point = isFullView ? _positionCalc.fullViewPoint( marker.date ) : _positionCalc.yearViewPoint( marker.date ); 
+			marker.view.x = point.x;
 			marker.view.x  += _divider.x;
-			marker.view.y = Math.random() * _divider.baseHeight - 10;
+			marker.view.y = point.y;
 			marker.labelDirection = getLabelDirection( marker.view.x, marker.view.y );
 			addChild( marker.view );
 			marker.buildIn();

@@ -26,34 +26,33 @@ package ghostmonk.interactive.timeline.framework.controller
 		{	
 			var config:ConfigProxy = note.getBody() as ConfigProxy;
 			var stage:Stage = StageMediator( facade.retrieveMediator( StageMediator.NAME ) ).stage; 
-			createPositionCalculator( config.years );
 			
 			facade.registerMediator( 
 				new TimelineMediator( 
-					getTimeline(), 
-					getTimeline(), 
+					getTimeline( config.years ), 
+					getTimeline( config.years ), 
 					config.categories, 
 					stage 
 				)
 			);	
 		}
 		
-		private function createPositionCalculator( years:Array ) : void
-		{
-			_positionCalculator = new PositionCalculator();
-			var minDate:int = int( years[ 1 ] );
-			var maxDate:int = int( years[ years.length - 1 ] );
-			_positionCalculator.setDateRange( minDate, maxDate );
-		}
-		
-		private function getTimeline() : Timeline
+		private function getTimeline( years:Array ) : Timeline
 		{
 			var graph:TimelineDivider = new TimelineDivider(); 
 			var output:Timeline = new Timeline();
 			output.header = new CategoryHeader();
 			output.divider = graph;
-			_positionCalculator.graphWidth = graph.baseWidth; 
-			output.positionCalculator = _positionCalculator;
+			output.positionCalculator = createPositionCalculator( years );
+			return output;
+		}
+		
+		private function createPositionCalculator( years:Array ) : PositionCalculator
+		{
+			var output:PositionCalculator = new PositionCalculator();
+			var minDate:int = int( years[ 1 ] );
+			var maxDate:int = int( years[ years.length - 1 ] );
+			output.setDateRange( minDate, maxDate );
 			return output;
 		}
 	}

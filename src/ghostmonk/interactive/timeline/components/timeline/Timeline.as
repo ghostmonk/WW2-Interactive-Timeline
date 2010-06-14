@@ -74,6 +74,7 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		public function showAll() : void
 		{
+			removeAll();
 			for each( var icon:Icon in _icons ) showIcon( icon.uid, true );
 		}
 		
@@ -90,17 +91,22 @@ package ghostmonk.interactive.timeline.components.timeline
 		public function createVetranIcons( vetData:VetranCollection ) : void
 		{
 			for each( var data:Vetran in vetData.totalList )
-			{
-				var randDate:Date = data.dates[ Math.floor( data.dates.length * Math.random() ) ];		
-				createMarker( data.id, Icon.VET, data.name, randDate );
+			{	
+				createMarker( data.id, Icon.VET, data.name, data.randomDate );
 			}
 			_positionCalc.setDimensions( _divider, _icons[ data.id ] );
 		}
 		
-		public function showIcon( id:String, isFullView:Boolean ) : void
+		public function showIcon( id:String, isFullView:Boolean, date:Date = null ) : void
 		{
 			var marker:Icon = _icons[ id ] as Icon;
-			var point:Point = isFullView ? _positionCalc.fullViewPoint( marker.date ) : _positionCalc.yearViewPoint( marker.date ); 
+			var checkDate:Date = date != null ? date : marker.date;
+			
+			var point:Point = isFullView ? _positionCalc.fullViewPoint( checkDate ) : _positionCalc.yearViewPoint( checkDate ); 	
+			
+			//do not display the icon if the return point gives negative values
+			if( point.x == -1 && point.y == -1 ) return;
+			
 			marker.view.x = point.x;
 			marker.view.x  += _divider.x;
 			marker.view.y = point.y;
@@ -147,7 +153,7 @@ package ghostmonk.interactive.timeline.components.timeline
 		private function positionAssets() : void
 		{
 			_header.y = ( _divider.baseHeight - _header.height ) * 0.5;
-			_divider.x = _header.width + PADDING;
+			_divider.x = _header.width - 20;
 			addChild( _header );
 			addChild( _divider );
 		}

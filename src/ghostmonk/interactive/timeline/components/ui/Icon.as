@@ -7,7 +7,6 @@ package ghostmonk.interactive.timeline.components.ui
 	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
 	
-	import ghostmonk.interactive.timeline.events.TimelineEvent;
 	import ghostmonk.interactive.timeline.utils.Animator;
 	import ghostmonk.interactive.timeline.utils.Tween;
 
@@ -22,12 +21,13 @@ package ghostmonk.interactive.timeline.components.ui
 		private var _labelText:String;
 		private var _date:Date;
 		private var _clickCallback:Function;
+		private var _type:String;
 		
 		public function Icon( view:IconAsset, type:String )
 		{
 			super( view );	
 			view.icon.stop();
-			
+			_type = type;
 			var frame:int = type == VET ? 2 : 1;
 			
 			_view = view;
@@ -36,6 +36,11 @@ package ghostmonk.interactive.timeline.components.ui
 			_view.alpha = 0;
 			
 			_label = new IconLabel( view );
+		}
+		
+		public function get type() : String
+		{
+			return _type;
 		}
 		
 		public function set clickCallback( value:Function ) : void

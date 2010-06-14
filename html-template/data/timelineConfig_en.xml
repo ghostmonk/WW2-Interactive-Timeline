@@ -8,9 +8,35 @@
     
     <events>
 
+        <event date="08/05/1945" img="bcs.jpg">
+            <text>Victory in Europe Day (VE-Day) is declared, ending the European portion of the Second World War</text>
+            <vet id="1065">Helen Rochon</vet>
+            <vet id="1096">Hubert Lalonde</vet>
+            <vet id="1297">Norman Wrigglesworth</vet>
+            <vet id="1368">Marguerite Plante</vet>
+            <vet id="1738">Art Meyer</vet>
+            <vet id="2313">Peggy Lee</vet>
+            <vet id="1528">Bill Ramsbottom</vet>
+            <vet id="1176">Rex Fendick</vet>
+        </event>
+
+        <event date="24/09/1940" img="axl.jpg">
+            <text>Her Majesty's Canadian ships Annapolis, Columbia, Niagara, St. Clair, St. Croix and St. Francis, ex-American destroyers from the fifty given to Great Britain in exchange for bases, are commissioned into the Royal Canadian Navy</text>
+            <vet id="1069">Tom Rappel</vet>
+        </event>
+
+        <event date="22/07/1940" img="3cg.jpg">
+            <text>The British Commonwealth Air Training Plan begins operations when students began training at No. 1 Service Flying Training School at Camp Borden, Ontario</text>
+            <vet id="1339">Russell Smith</vet>
+            <vet id="1123">Bill Watterson</vet>
+        </event>
+
+        <event date="11/02/1944" img="3kh.jpg">
+            <text>a Wellington bomber of No.407 Squadron, Royal Canadian Air Force, sinks the German submarine U-283 in the North Atlantic</text>
+            <vet id="2288">Ross Hamilton</vet>
+        </event>
+
         <event date="01/09/1939" img="lus.jpg">
-        	<title>Test Title</title>
-        	<shortDesc>Test Short Desc</shortDesc>
             <text>the 1st and 2nd Canadian Divisions are authorized as the Canadian Active Service Force.  The Royal Canadian Navy, Royal Canadian Navy Reserve and Royal Canadian Navy Volunteer Reserve are placed on active service</text>
             <vet id="1452">Frank John Dion</vet>
             <vet id="2271">John A Cathie</vet>
@@ -83,17 +109,6 @@
             <vet id="1384">Gordon Bannerman</vet>
             <vet id="2271">John A Cathie</vet>
         </event>
-      	
-        <event date="24/09/1940" img="axl.jpg">
-            <text>Her Majesty's Canadian ships Annapolis, Columbia, Niagara, St. Clair, St. Croix and St. Francis, ex-American destroyers from the fifty given to Great Britain in exchange for bases, are commissioned into the Royal Canadian Navy</text>
-            <vet id="1069">Tom Rappel</vet>
-        </event>
-
-        <event date="22/07/1940" img="3cg.jpg">
-            <text>The British Commonwealth Air Training Plan begins operations when students began training at No. 1 Service Flying Training School at Camp Borden, Ontario</text>
-            <vet id="1339">Russell Smith</vet>
-            <vet id="1123">Bill Watterson</vet>
-        </event>
 
         <event date="02/01/1940" img="q4m.jpg">
             <text>the awarding of Distinguished Flying Cross (each) to two Canadians serving in the Royal Air Force, Pilot-Officer S.R. Henderson and Wing-Commander J.F. Griffiths, is announced.  They are the first Canadians to be decorated during the Second World War</text>
@@ -162,6 +177,7 @@
         <event date="16/06/1940" img="l2l.jpg">
             <text>Canadian troops board transport vessels in St. Malo and Brest to leave France for England after the aborted attempt to support the British and French armies</text>
             <vet id="1092">Edward Borland</vet>
+            <vet id="2528">Victor Guerin</vet>
         </event>
 
         <event date="22/06/1940" img="3sg.jpg">
@@ -260,7 +276,7 @@
         </event>
 
         <event date="09/02/1941" img="3vi.jpg">
-            <text>the 5th Canadian�Motorcycle Regiment, CASF, (BCD) is converted and redesignated The British Columbia Dragoons</text>
+            <text>the 5th Canadian Motorcycle Regiment, CASF, (BCD) is converted and redesignated The British Columbia Dragoons</text>
             <vet id="1045">Helen Jean Crawley</vet>
             <vet id="1321">Robert Kerr</vet>
         </event>
@@ -309,7 +325,7 @@
         </event>
 
         <event date="02/07/1941" img="rra.jpg">
-            <text>the Canadian Women's Auxiliary Air Force is authorized, later becoming the Royal Canadian Air Force (Women�s Division)</text>
+            <text>the Canadian Women's Auxiliary Air Force is authorized, later becoming the Royal Canadian Air Force (Women's Division)</text>
             <vet id="1163">Margaret Brownlee</vet>
             <vet id="1217">Ella Curtis</vet>
             <vet id="1386">Glennis Boyce</vet>
@@ -322,7 +338,7 @@
         </event>
 
         <event date="13/08/1941" img="i5s.jpg">
-            <text>the Canadian Women�s Army Corps is authorized</text>
+            <text>the Canadian Women's Army Corps is authorized</text>
             <vet id="2177">Alice Marie Samuel</vet>
             <vet id="1298">Grace Breau-Theriault</vet>
             <vet id="1049">Olive Peat</vet>
@@ -446,6 +462,7 @@
             <vet id="2395">Ian Herd</vet>
             <vet id="1125">Ed Pearson</vet>
             <vet id="2228">Donovan Woelfle</vet>
+            <vet id="2193">Leslie Clarke</vet>
         </event>
 
         <event date="13/04/1942" img="qqs.jpg">
@@ -560,7 +577,7 @@
             <vet id="1483">Henry Mason</vet>
         </event>
 
-        <event date="03/01/1943" img="ylwfajesabcgzylkdrzp.jpg">
+        <event date="04/01/1943" img="ylwfajesabcgzylkdrzp.jpg">
             <text>six bombers from No. 427 Squadron, Royal Canadian Air Force, carry out No.6 (RCAF) Bomber Group's first operation, laying mines near the Frisian Islands</text>
             <vet id="2212">Clinton Hayward</vet>
             <vet id="1102">Harold Bronson</vet>
@@ -763,6 +780,7 @@
             <vet id="1070">Frank Aldred</vet>
             <vet id="1161">George Evans</vet>
             <vet id="1397">Jack Smallwood</vet>
+            <vet id="1060">J. A Brunette</vet>
         </event>
 
         <event date="20/12/1943" img="1kz.jpg">
@@ -867,6 +885,7 @@
             <vet id="1070">Frank Aldred</vet>
             <vet id="1477">Donald Green</vet>
             <vet id="2298">Gordon Wright</vet>
+            <vet id="1176">Rex Fendick</vet>
         </event>
 
         <event date="22/03/1944" img="5ke.jpg">
@@ -1105,10 +1124,11 @@
             <vet id="1398">James Smitherman</vet>
         </event>
 
-        <event date="17/10/1944" img="vdq.jpg">
+        <event date="18/10/1944" img="vdq.jpg">
             <text>HMCS Prince Henry and HMCS Prince David engage in landing liberation forces in Greece</text>
             <vet id="1477">Donald Green</vet>
             <vet id="1070">Frank Aldred</vet>
+            <vet id="2356">Roy Page</vet>
         </event>
 
         <event date="25/10/1944" img="m5a.jpg">
@@ -1116,6 +1136,7 @@
             <vet id="2525">George Charrier</vet>
             <vet id="1397">Jack Smallwood</vet>
             <vet id="1070">Frank Aldred</vet>
+            <vet id="2193">Leslie Clarke</vet>
         </event>
 
         <event date="08/11/1944" img="dwt.jpg">
@@ -1166,11 +1187,6 @@
             <vet id="1500">Albert Sanderson</vet>
         </event>
 
-        <event date="11/02/1944" img="3kh.jpg">
-            <text>a Wellington bomber of No.407 Squadron, Royal Canadian Air Force, sinks the German submarine U-283 in the North Atlantic</text>
-            <vet id="2288">Ross Hamilton</vet>
-        </event>
-
         <event date="09/01/1945" img="qpk.jpg">
             <text>HMCS Ehkoli, a former Royal Canadian Navy patrol boat, is recommissioned in the RCN as a survey vessel</text>
             <vet id="2449">Richard Clements?</vet>
@@ -1219,6 +1235,7 @@
             <vet id="1139">John Stephen</vet>
             <vet id="1483">Henry Mason</vet>
             <vet id="1070">Frank Aldred</vet>
+            <vet id="2298">Gordon Wright</vet>
         </event>
 
         <event date="09/03/1945" img="ibt.jpg">
@@ -1311,16 +1328,2229 @@
             <vet id="1473">Nigel Taylor</vet>
         </event>
         
-        <event date="08/05/1945" img="bcs.jpg">
-            <text>Victory in Europe Day (VE-Day) is declared, ending the European portion of the Second World War</text>
+        <event date="01/05/1945" img="2im.jpg">
+            <text>James Brown, a gunner in the Murmansk Run, informs others the war is over</text>
+            <vet id="1034">James Brown</vet>
+        </event>
+
+        <event date="19/08/1942" img="ez0.jpg">
+            <text>David Peat enlists in the Army</text>
+            <vet id="1035">David Peat</vet>
+        </event>
+
+        <event date="19/08/1942" img="p1m.jpg">
+            <text>George Burrows loses his close friend in the Battle of Dieppe</text>
+            <vet id="1042">George Burrows</vet>
+        </event>
+
+        <event date="05/06/1944" img="z2q.jpg">
+            <text>Jan de Vries prepares as a bombardier for the D-Day battles in Normandy</text>
+            <vet id="1043">Jan de Vries</vet>
+        </event>
+
+        <event date="01/02/1942" img="3vi.jpg">
+            <text>Helen Crawley enlists and eventually becomes a motorcycle dispatch rider</text>
+            <vet id="1045">Helen Crawley</vet>
+        </event>
+
+        <event date="01/12/1939" img="xzw.jpg">
+            <text>Robert Guy enlists in the Army and volunteers for Royal Fusiliers' Parachute Regiment</text>
+            <vet id="1046">Robert Guy</vet>
+        </event>
+
+        <event date="01/10/1944" img="r04.jpg">
+            <text>Olive Peat is sent over to London as a clerk at the Canada House, the Canadian Military Headquarters.</text>
+            <vet id="1049">Olive Peat (nÈe Mattews)</vet>
+        </event>
+
+        <event date="01/09/1943" img="mbs.jpg">
+            <text>Malcolm Andrade enlists in the Air Force as a bomber</text>
+            <vet id="1050">Malcolm Andrade</vet>
+        </event>
+
+        <event date="01/10/1940" img="yjz.jpg">
+            <text>Douglas Annis joins the Army as a lineman</text>
+            <vet id="1058">Douglas Annis</vet>
+        </event>
+
+        <event date="01/06/1943" img="33s.jpg">
+            <text>Ernest Bone crosses the Atlantic to train at the Winnipeg Air Force Base</text>
+            <vet id="1059">Ernest Bone</vet>
+        </event>
+
+        <event date="07/03/1945" img="w20.jpg">
+            <text>J.A. Brunette's crew on HMCS La Hulloise sink a U-1302 submarine</text>
+            <vet id="1060">J.A. RenÈ Brunette</vet>
+        </event>
+
+        <event date="13/10/1944" img="2xh.jpg">
+            <text>Bill Davis participates in the Battle of the Scheldt</text>
+            <vet id="1061">Bill Davis</vet>
+        </event>
+
+        <event date="28/04/1942" img="qfg.jpg">
+            <text>Elizabeth Dimock travels to South Africa as part of the South African Medical Nursing Service</text>
+            <vet id="1062">Elizabeth (Betty) Dimock</vet>
+        </event>
+
+        <event date="15/06/1944" img="u3v.jpg">
+            <text>Helen Rochon experiences an air raid while stationed in London, England</text>
             <vet id="1065">Helen Rochon</vet>
+        </event>
+
+        <event date="01/03/1943" img="wow.jpg">
+            <text>Carol Duffus enlists in the Womens Royal Canadian Naval Service (WRCNS) and becomes a staff training officer</text>
+            <vet id="1066">Carol Duffus</vet>
+        </event>
+
+        <event date="01/07/1942" img="4qd.jpg">
+            <text>Hubert Gray participates as an Allied bomber in the Battle of El Alamein in Egypt</text>
+            <vet id="1067">Hubert Gray</vet>
+        </event>
+
+        <event date="01/02/1945" img="idt.jpg">
+            <text>Bob Farquharson flies in supplies to Allied troops in Burma</text>
+            <vet id="1068">Bob Farquharson</vet>
+        </event>
+
+        <event date="29/04/1944" img="axl.jpg">
+            <text>Tom Rappel and crew on HMCS Haida battle two German destroyers off the Ile de Bas, France</text>
+            <vet id="1069">Tom Rappel</vet>
+        </event>
+
+        <event date="02/03/1941" img="ewr.jpg">
+            <text>Frank Aldred crosses the equator on HMS Prince Henry</text>
+            <vet id="1070">Frank Aldred</vet>
+        </event>
+
+        <event date="01/12/1943" img="kx5.jpg">
+            <text>Bernard Finestone and troops from the British Colombia Dragoons cross the Moro River in Italy</text>
+            <vet id="1071">Bernard Finestone</vet>
+        </event>
+
+        <event date="07/03/1945" img="p5c.jpg">
+            <text>John Forbes is wounded in battle in Nijmegen, Holland</text>
+            <vet id="1073">John Forbes</vet>
+        </event>
+
+        <event date="01/01/1941" img="2w0.jpg">
+            <text>Corinne Sévigny joins the Canadian Womens Army Corps (CWAC) in Quebec City</text>
+            <vet id="1074">Corinne SÈvigny</vet>
+        </event>
+
+        <event date="01/10/1939" img="njd.jpg">
+            <text>Anthony Slugoski joins the Air Force and begins training</text>
+            <vet id="1075">Anthony Slugoski</vet>
+        </event>
+
+        <event date="01/09/1942" img="5ux.jpg">
+            <text>Harvey Burns trains as part of the Royal Canadian Navy in Cornwallis, Nova Scotia</text>
+            <vet id="1077">Harvey Burns</vet>
+        </event>
+
+        <event date="25/04/1945" img="gyf.jpg">
+            <text>John Springer is wounded near the border of Holland and Germany</text>
+            <vet id="1079">John Springer</vet>
+        </event>
+
+        <event date="05/06/1944" img="rc2.jpg">
+            <text>Cyril Roach and crew leave the Isle of Wight to participate in D-Day landings</text>
+            <vet id="1080">Cyril Roach</vet>
+        </event>
+
+        <event date="01/01/1943" img="h4z.jpg">
+            <text>Jack Stapleton joins the Merchant Navy and is eventually deployed to Calcutta, India</text>
+            <vet id="1081">Jack Stapleton</vet>
+        </event>
+
+        <event date="01/01/1943" img="5rp.jpg">
+            <text>Margarita Trull joins the Women Royal Naval Service (WRENS) and becomes a cryptologist (secret agent).</text>
+            <vet id="1082">Margarita Trull</vet>
+        </event>
+
+        <event date="01/09/1940" img="xhv.jpg">
+            <text>Leonard Allbon is stationed in England just as the Battle of Britain commences</text>
+            <vet id="1085">Leonard Allbon</vet>
+        </event>
+
+        <event date="01/06/1943" img="sqt.jpg">
+            <text>Marie Duchesnay joins the Women Royal Naval Service (WRENS) and begins training in coding and de-coding</text>
+            <vet id="1086">Marie Duchesnay</vet>
+        </event>
+
+        <event date="06/06/1944" img="v1w.jpg">
+            <text>John Honsberger watches troops land on D-Day</text>
+            <vet id="1087">John Honsberger</vet>
+        </event>
+
+        <event date="16/09/1944" img="0b1.jpg">
+            <text>Hugh Bartley crashes his Mosquito aircraft in Belgium</text>
+            <vet id="1088">Hugh Bartley</vet>
+        </event>
+
+        <event date="05/01/1945" img="zoi.jpg">
+            <text>Jean Cauchy performs his last air raid over Hannover</text>
+            <vet id="1089">Jean Cauchy</vet>
+        </event>
+
+        <event date="24/12/1944" img="3ob.jpg">
+            <text>Edward Beaven serves in Bethlehem on Christmas Eve</text>
+            <vet id="1091">Edward Beaven</vet>
+        </event>
+
+        <event date="01/09/1944" img="wgx.jpg">
+            <text>Edward Borland celebrates with Canadian troops and French civilians after the liberation of Dieppe</text>
+            <vet id="1092">Edward Borland</vet>
+        </event>
+
+        <event date="05/03/1945" img="xvd.jpg">
+            <text>Robert Lundmark trains as a motor mechanic in Saskatoon</text>
+            <vet id="1094">Robert Lundmark</vet>
+        </event>
+
+        <event date="30/11/1945" img="vcn.jpg">
+            <text>Stirling Squarebriggs is discharged from the Army</text>
+            <vet id="1095">Stirling Squarebriggs</vet>
+        </event>
+
+        <event date="08/05/1945" img="lls.jpg">
+            <text>Hubert Lalonde was stationed in Woerdon when the war ends</text>
             <vet id="1096">Hubert Lalonde</vet>
-            <vet id="1297">Norman Wrigglesworth</vet>
-            <vet id="1368">Marguerite Plante</vet>
-            <vet id="1738">Art Meyer</vet>
-            <vet id="2313">Peggy Lee</vet>
-            <vet id="1528">Bill Ramsbottom</vet>
+        </event>
+
+        <event date="20/12/1942" img="wzh.jpg">
+            <text>Leonard Link goes to Alberta to undergo poisonous gas testing</text>
+            <vet id="1099">Leonard Link</vet>
+        </event>
+
+        <event date="10/09/1942" img="vmy.jpg">
+            <text>Harold Bronson qualifies as an air navigator with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1102">Harold Bronson</vet>
+        </event>
+
+        <event date="12/09/1939" img="004.jpg">
+            <text>Philip Kazimir enlists as a driver for the Argyles D Company</text>
+            <vet id="1103">Philip Kazimir</vet>
+        </event>
+
+        <event date="01/09/1941" img="fod.jpg">
+            <text>Mike Hawryliw participates in experimental gas testing in Suffield, Alberta</text>
+            <vet id="1104">Mike Hawryliw</vet>
+        </event>
+
+        <event date="30/06/1942" img="gaq.jpg">
+            <text>Roy Heron enlists in the Canadian Army</text>
+            <vet id="1106">Roy Heron</vet>
+        </event>
+
+        <event date="06/11/1943" img="dwt.jpg">
+            <text>Arhtur Webster gets married before being stationed overseas</text>
+            <vet id="1107">Arthur Webster</vet>
+        </event>
+
+        <event date="13/02/1945" img="011.jpg">
+            <text>Mervyn Couse serves as a pilot during the Bombing of Dresden</text>
+            <vet id="1108">Mervyn Couse</vet>
+        </event>
+
+        <event date="17/04/1942" img="wxm.jpg">
+            <text>Geraldine Muter is called up to serve in the British Commonwealth Air Training Program</text>
+            <vet id="1111">Geraldine Muter</vet>
+        </event>
+
+        <event date="08/08/1944" img="phg.jpg">
+            <text>Charles Kewen takes a two week leave while stationed in India</text>
+            <vet id="1113">Charles Kewen</vet>
+        </event>
+
+        <event date="19/12/1944" img="pmv.jpg">
+            <text>Melbourne Le Marquand is awarded a Military Medal for his actions in Bruuk, Holland</text>
+            <vet id="1115">Melbourne Le Marquand</vet>
+        </event>
+
+        <event date="01/01/1942" img="usr.jpg">
+            <text>Alexander Scott enlists in the Air Force</text>
+            <vet id="1116">Alexander Scott</vet>
+        </event>
+
+        <event date="27/08/1942" img="klh.jpg">
+            <text>Edith Middleton enlists and works as a "Lumber Jill" in Scotland</text>
+            <vet id="1117">Edith Middleton</vet>
+        </event>
+
+        <event date="18/04/1945" img="pkd.jpg">
+            <text>Brian MacConnell shoots down a German Arado aircraft</text>
+            <vet id="1118">Brian MacConnell</vet>
+        </event>
+
+        <event date="01/09/1945" img="vkc.jpg">
+            <text>Donald McIntosh rides on HMS Queen Mary with Sir Winston Churchill</text>
+            <vet id="1119">Donald McIntosh</vet>
+        </event>
+
+        <event date="15/09/1944" img="gy2.jpg">
+            <text>Donald Racicot serves in the military as a mechanic</text>
+            <vet id="1121">Donald Racicot</vet>
+        </event>
+
+        <event date="03/01/1942" img="zfewbxlgjikcqjcsxvkh.jpg">
+            <text>Bill Watterson enlists in the Army</text>
+            <vet id="1123">Bill Watterson</vet>
+        </event>
+
+        <event date="20/08/1942" img="eue.jpg">
+            <text>Murray Ginsberg joins the Royal Canadian Ordinance Corps band</text>
+            <vet id="1124">Murray Ginsberg</vet>
+        </event>
+
+        <event date="01/01/1945" img="mlp.jpg">
+            <text>Ed Pearson is assigned to Special Operations Executive (SOE), flying to Sri Lanka (then Ceylon)</text>
+            <vet id="1125">Ed Pearson</vet>
+        </event>
+
+        <event date="01/06/1942" img="vjm.jpg">
+            <text>Cecil Hancock enlists in the Air Force and trains in the praries</text>
+            <vet id="1129">Cecil Hancock</vet>
+        </event>
+
+        <event date="08/05/1945" img="pga.jpg">
+            <text>Louis Curran was stationed in the trenches in Holland when the war ends</text>
+            <vet id="1130">Louis Curran</vet>
+        </event>
+
+        <event date="07/09/1940" img="guj.jpg">
+            <text>May Gillman serves as a nurse while London is bombed</text>
+            <vet id="1133">May Gillman</vet>
+        </event>
+
+        <event date="30/09/1944" img="mnv.jpg">
+            <text>John McCarst boards HMCS Midland, his first time on a ranger ship</text>
+            <vet id="1134">John McCarst</vet>
+        </event>
+
+        <event date="23/06/1944" img="hqt.jpg">
+            <text>Norman Dawber flies in France as part of the Royal Canadian Air Force (RCAF) 438 Squadron</text>
+            <vet id="1135">Norman Dawber</vet>
+        </event>
+
+        <event date="01/02/1940" img="hqi.jpg">
+            <text>Howard Love's squadron is re-equipped with Liberator aircrafts</text>
+            <vet id="1136">Howard Love</vet>
+        </event>
+
+        <event date="06/11/1940" img="1ax.jpg">
+            <text>Adeline Bowland is torpedoed en route to Europe</text>
+            <vet id="1138">Adeline Bowland</vet>
+        </event>
+
+        <event date="01/12/1940" img="fbr.jpg">
+            <text>John Stephen serves on HMS Majola</text>
+            <vet id="1139">John Stephen</vet>
+        </event>
+
+        <event date="25/11/1943" img="cvn.jpg">
+            <text>Pierre Bauset is shot down returning from Frankfurt</text>
+            <vet id="1140">Pierre Bauset</vet>
+        </event>
+
+        <event date="18/11/1944" img="nkr.jpg">
+            <text>Charles Scott serves on HMCS Fergus</text>
+            <vet id="1141">Charles Scott</vet>
+        </event>
+
+        <event date="19/07/1944" img="53c.jpg">
+            <text>Kenneth Wootton participates in the Battle of Verrieres Ridge</text>
+            <vet id="1142">Kenneth Wootton</vet>
+        </event>
+
+        <event date="01/04/1945" img="qyp.jpg">
+            <text>Anatole Cote crashes in Holland and stays hidden thanks to a Dutchman</text>
+            <vet id="1145">Anatole CÙtÈ</vet>
+        </event>
+
+        <event date="01/01/1942" img="ptz.jpg">
+            <text>John Slater joins the Royal Canadian Corps of Sgnals</text>
+            <vet id="1147">John Slater</vet>
+        </event>
+
+        <event date="01/07/1943" img="glb.jpg">
+            <text>Thomas Atherton joins the Merchant Navy and sails to India</text>
+            <vet id="1150">Thomas Atherton</vet>
+        </event>
+
+        <event date="01/12/1943" img="aqt.jpg">
+            <text>John Covan and crew on the SS Green Gables Park avoid a Japanese submarine attack</text>
+            <vet id="1154">John Covan</vet>
+        </event>
+
+        <event date="01/02/1945" img="4ks.jpg">
+            <text>Walter Hayden completes his tour with 432 Squadron</text>
+            <vet id="1158">Walter Hayden</vet>
+        </event>
+
+        <event date="21/05/1942" img="gcq.jpg">
+            <text>George Evans and crew on the SS Pieter de Hoogh are attacked departing Iceland</text>
+            <vet id="1161">George Evans</vet>
+        </event>
+
+        <event date="01/01/1944" img="rra.jpg">
+            <text>Margaret Brownlee is stationed in England as a driver</text>
+            <vet id="1163">Margaret Brownlee</vet>
+        </event>
+
+        <event date="20/01/1944" img="npo.jpg">
+            <text>Robert Govan prepares for battle in Dunkirk, France</text>
+            <vet id="1164">Robert Govan</vet>
+        </event>
+
+        <event date="23/10/1944" img="j3j.jpg">
+            <text>Ed Green carries out an airraid over the city of Essen</text>
+            <vet id="1165">Ed Green</vet>
+        </event>
+
+        <event date="01/02/1941" img="kod.jpg">
+            <text>Bruce Little survives German submarine attacks while crossing the Atlantic</text>
+            <vet id="1167">Bruce Little</vet>
+        </event>
+
+        <event date="01/04/1945" img="0ma.jpg">
+            <text>Robert Rodgers guards German Prisoners of War (POWs) in Quebec</text>
+            <vet id="1173">Robert Rodgers</vet>
+        </event>
+
+        <event date="06/06/1944" img="xp1.jpg">
+            <text>Rex Fendick lands on Sword Beach as part of D-Day operations</text>
             <vet id="1176">Rex Fendick</vet>
+        </event>
+
+        <event date="25/12/1943" img="tpo.jpg">
+            <text>Alec MacInnis spends his fourth consecutive Christmas away from his family</text>
+            <vet id="1178">Alec MacInnis</vet>
+        </event>
+
+        <event date="09/07/1944" img="ndy.jpg">
+            <text>Allan Backman participates in the Battle for Caen</text>
+            <vet id="1181">Allan Backman</vet>
+        </event>
+
+        <event date="01/10/1943" img="a1b.jpg">
+            <text>Lewis Billard begins training as part of the Royal canadian Air Force (RCAF)</text>
+            <vet id="1185">Lewis Billard</vet>
+        </event>
+
+        <event date="01/01/1945" img="gob.jpg">
+            <text>Jean Carroll is stationed in a Scottish hospital as a nurse</text>
+            <vet id="1189">Jean Carroll</vet>
+        </event>
+
+        <event date="16/12/1944" img="ecv.jpg">
+            <text>Fred Allison participates in the Battle of the Bulge</text>
+            <vet id="1199">Fred Allison</vet>
+        </event>
+
+        <event date="01/07/1943" img="i22.jpg">
+            <text>Robert Atkins serves in the Aleutian Islands</text>
+            <vet id="1201">Robert Atkins</vet>
+        </event>
+
+        <event date="01/11/1944" img="cnh.jpg">
+            <text>Lawrence Wagg travels from North Africa to Italy</text>
+            <vet id="1209">Lawrence Wagg</vet>
+        </event>
+
+        <event date="19/10/1941" img="soqqgurfufezsnkczlgv.jpg">
+            <text>Mavis Butlin enlists in the Womens Canadian Royal Naval Service (WCRNS)</text>
+            <vet id="1213">Mavis Butlin</vet>
+        </event>
+
+        <event date="01/03/1942" img="5r0.jpg">
+            <text>Murray Copot begins acitve service on HMCS Chippewa</text>
+            <vet id="1216">Murray Copot</vet>
+        </event>
+
+        <event date="30/03/1944" img="yum.jpg">
+            <text>Ella Curtis meets Princess Alice on her visit to the Royal Canadian Air Force (RCAF) Women's Division in Canada</text>
+            <vet id="1217">Ella Curtis</vet>
+        </event>
+
+        <event date="22/08/1942" img="jxo.jpg">
+            <text>Bruce Agnew joins the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1219">Bruce Agnew</vet>
+        </event>
+
+        <event date="01/09/1943" img="205.jpg">
+            <text>Mr. Alward survives German submarine attacks in the Atlantic</text>
+            <vet id="1220">C. Alward</vet>
+        </event>
+
+        <event date="07/05/1945" img="n4z.jpg">
+            <text>Doris Wallace plays in the Canadian Women's Army Corps (CWAC) Pipe Band for soldiers waiting to return home</text>
+            <vet id="1224">Doris Wallace</vet>
+        </event>
+
+        <event date="19/08/1942" img="pnl.jpg">
+            <text>Douglas Warren participates in the air battle in Dieppe</text>
+            <vet id="1225">Douglas Warren</vet>
+        </event>
+
+        <event date="06/06/1944" img="evb.jpg">
+            <text>Jospeh Hawkins serves as an air bomber during D-Day</text>
+            <vet id="1226">Joseph Hawkins</vet>
+        </event>
+
+        <event date="27/10/1944" img="qqs.jpg">
+            <text>Douglas Drew serves as a Royal Air Force (RAF) mechanic in North Africa</text>
+            <vet id="1229">Douglas Drew</vet>
+        </event>
+
+        <event date="19/08/1942" img="i1g.jpg">
+            <text>Jean-Marcel D'Aoust fights in the doomed battle of Dieppe</text>
+            <vet id="1231">Jean-Marcel D'Aoust</vet>
+        </event>
+
+        <event date="06/06/1944" img="csh.jpg">
+            <text>George McLean and crew land a mobile hospital on Omaha Beach in Normandy</text>
+            <vet id="1244">George McLean</vet>
+        </event>
+
+        <event date="25/03/1945" img="qnk.jpg">
+            <text>James Moffat experiences a mid-air collision and lands safely in a small Belgian town</text>
+            <vet id="1249">James Moffat</vet>
+        </event>
+
+        <event date="21/08/1944" img="lnq.jpg">
+            <text>Charles Owens is stationed in Antwerp after breaking through the Falaise Gap</text>
+            <vet id="1252">Charles Owens</vet>
+        </event>
+
+        <event date="02/10/1944" img="mjc.jpg">
+            <text>Wilbert Prentice participates in a transport platoon during the Battle of the Scheldt</text>
+            <vet id="1256">Wilbert Prentice</vet>
+        </event>
+
+        <event date="01/01/1944" img="vgq.jpg">
+            <text>David Seagar undergoes jungle training in India before being stationed in Burma</text>
+            <vet id="1260">David Seager</vet>
+        </event>
+
+        <event date="01/04/1945" img="yjh.jpg">
+            <text>Emile Thibault is released from a German Prisoner of War (POW) camp</text>
+            <vet id="1263">Emile Thibault</vet>
+        </event>
+
+        <event date="02/10/1944" img="s3o.jpg">
+            <text>David Havard crews a Bren Gun Carrier during the Battle of the Schedlt</text>
+            <vet id="1270">David Havard</vet>
+        </event>
+
+        <event date="25/05/1942" img="4ly.jpg">
+            <text>Leonard Whiffen, aboard HMS Menestheus, aids in sinking German bismark</text>
+            <vet id="1271">Leonard Whiffen</vet>
+        </event>
+
+        <event date="06/06/1944" img="oeeydwngbjgkttgpttlm.jpg">
+            <text>Francis Godon lands in Juno Beach on D-Day and is captured by the Germans</text>
+            <vet id="1280">Francis Godon</vet>
+        </event>
+
+        <event date="19/06/1944" img="3n1.jpg">
+            <text>Bill Hembroff begins active service on HMCS Chippewa</text>
+            <vet id="1290">Bill Hembroff</vet>
+        </event>
+
+        <event date="19/05/1944" img="v2n.jpg">
+            <text>Paul-Emile Lamouche is captured as a Prisoner of War (POW) in Cassino, Italy</text>
+            <vet id="1291">Paul-…mile Lamouche</vet>
+        </event>
+
+        <event date="16/12/1944" img="3gq.jpg">
+            <text>Malcolm McLeod and Canadian troops support the British army in the Battle of the Bulge</text>
+            <vet id="1293">Malcolm McLeod</vet>
+        </event>
+
+        <event date="23/10/1941" img="ps4.jpg">
+            <text>William Kondra enlists in the Royal Canadian Air Force (RCAF) and eventually earns numerous war medals</text>
+            <vet id="1294">William Kondra</vet>
+        </event>
+
+        <event date="01/01/1944" img="ksy.jpg">
+            <text>Grace Breau-Theriault works as a nurse in Pinewood, England</text>
+            <vet id="1298">Grace Breau-Theriault</vet>
+        </event>
+
+        <event date="01/12/1944" img="wbb.jpg">
+            <text>Joseph Friedman is shot down during a bombing raid of the town Witten</text>
+            <vet id="1299">Joseph Friedman</vet>
+        </event>
+
+        <event date="14/06/1944" img="xit.jpg">
+            <text>Malcolm MacConnell flies 21 operations with the 50 RAF Squadron</text>
+            <vet id="1307">Malcolm MacConnell</vet>
+        </event>
+
+        <event date="24/05/1941" img="ddk.jpg">
+            <text>Malcolm Lunan repairs some of the convoy ships sunk with HMS Hood</text>
+            <vet id="1310">Malcom Lunan</vet>
+        </event>
+
+        <event date="01/06/1940" img="tl4.jpg">
+            <text>Joseph Rivard enlists in the Army</text>
+            <vet id="1311">Joseph Rivard</vet>
+        </event>
+
+        <event date="24/12/1943" img="xlo.jpg">
+            <text>Norman Silver and crew aboard HMCS Quatsino avoid German submarines</text>
+            <vet id="1312">Norman Silver</vet>
+        </event>
+
+        <event date="01/08/1944" img="f0v.jpg">
+            <text>Peter Van Breevoort is detained in Vught concentration camp with his brother</text>
+            <vet id="1313">Peter Van Breevoort</vet>
+        </event>
+
+        <event date="01/01/1943" img="kds.jpg">
+            <text>Jim Peters and crew take Italian prisoners aboard HMCS Regina</text>
+            <vet id="1314">Jim Peters</vet>
+        </event>
+
+        <event date="01/01/1942" img="rhh.jpg">
+            <text>William Gelineau joins the Royal Canadian Air Force (RCAF) as a bomber</text>
+            <vet id="1315">William GÈlineau</vet>
+        </event>
+
+        <event date="01/10/1940" img="e1d.jpg">
+            <text>Robert Routledge is called for active duty with the Army</text>
+            <vet id="1316">Robert Routledge</vet>
+        </event>
+
+        <event date="17/08/1945" img="2u4.jpg">
+            <text>Jean Marie Milot completes Infantry training</text>
+            <vet id="1317">Jean Marie Milot</vet>
+        </event>
+
+        <event date="01/01/1943" img="yjb.jpg">
+            <text>Jean Clermont and his squadron are attacked by Germans in Canterbury</text>
+            <vet id="1319">Jean Clermont</vet>
+        </event>
+
+        <event date="23/01/1942" img="dez.jpg">
+            <text>Ernest Randle enlists in the Navy</text>
+            <vet id="1320">Ernest Randle</vet>
+        </event>
+
+        <event date="01/03/1945" img="yyo.jpg">
+            <text>Robert Kerr is captured and serves as a driver for a German Prisoner of War (POW) camp</text>
+            <vet id="1321">Robert Kerr</vet>
+        </event>
+
+        <event date="17/01/1944" img="d1y.jpg">
+            <text>Leonidas Lemaire participates in the Battle of Monte Cassino</text>
+            <vet id="1322">Leonidas Lemaire</vet>
+        </event>
+
+        <event date="15/11/1942" img="z2i.jpg">
+            <text>Andre-Paul Turin is stationed in Algeria with the French Army</text>
+            <vet id="1323">AndrÈ-Paul Turin</vet>
+        </event>
+
+        <event date="01/11/1940" img="uh5.jpg">
+            <text>Fred Linnington sails from Montreal to the Caribbean with the Merchant Navy</text>
+            <vet id="1324">Fred Linnington</vet>
+        </event>
+
+        <event date="01/01/1942" img="0d3.jpg">
+            <text>Harold Harden begins sailing the Atlantic as part of the Murmansk Run</text>
+            <vet id="1325">Harold Harden</vet>
+        </event>
+
+        <event date="01/01/1941" img="si1.jpg">
+            <text>Malcolm Young begins service with the 8th Reconnaisance Regiment</text>
+            <vet id="1326">Malcolm Young</vet>
+        </event>
+
+        <event date="01/11/1942" img="ifw.jpg">
+            <text>Olive Henderson begins training as a coder for the Women's Canadian Royal Navy Service (WCRNS)</text>
+            <vet id="1327">Olive Henderson</vet>
+        </event>
+
+        <event date="19/08/1942" img="3gc.jpg">
+            <text>Arthur Fraser is captured as a Prisoner of War (POW) during the Battle of Dieppe</text>
+            <vet id="1331">Arthur Fraser</vet>
+        </event>
+
+        <event date="24/05/1942" img="ivhukbgzvslsoplcttex.jpg">
+            <text>Raymond Lewis serves as a Bren Gun Carrier at the Hitler Line</text>
+            <vet id="1333">Raymond "Ray" Lewis</vet>
+        </event>
+
+        <event date="20/12/1942" img="2gr.jpg">
+            <text>Geoffrey Jell arrives in Egypt in advance of the Battle of El Alamein</text>
+            <vet id="1337">Geoffrey Jell</vet>
+        </event>
+
+        <event date="06/06/1944" img="s5n.jpg">
+            <text>Earl Stiles works as a Medical Officer during the Normany Invasion on D-Day</text>
+            <vet id="1338">Earl Stiles</vet>
+        </event>
+
+        <event date="08/05/1943" img="bzq.jpg">
+            <text>Russell Smith trains at Camp Borden, Ontario</text>
+            <vet id="1339">Russell Smith</vet>
+        </event>
+
+        <event date="24/12/1942" img="gof.jpg">
+            <text>Gordon Partridge trains as a navigator with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1340">Gordon Partridge</vet>
+        </event>
+
+        <event date="01/07/1942" img="pvp.jpg">
+            <text>Raplh taylor serves aboard a minesweeper</text>
+            <vet id="1341">Ralph Taylor</vet>
+        </event>
+
+        <event date="01/05/1943" img="r4u.jpg">
+            <text>Al Wallace is captured and is sent to a Prisoner of War (POW) camp</text>
+            <vet id="1342">Al Wallace</vet>
+        </event>
+
+        <event date="01/04/1941" img="u1p.jpg">
+            <text>James Ritchie serves in the Royal Canadian Corps of Signals</text>
+            <vet id="1345">James Ritchie</vet>
+        </event>
+
+        <event date="10/06/1944" img="hll.jpg">
+            <text>Len Van Roon sends a note to his family after D-Day letting them know he's all right</text>
+            <vet id="1350">Len Van Roon</vet>
+        </event>
+
+        <event date="01/04/1942" img="zap.jpg">
+            <text>Edison Yeadon's merchant ship is attacked and he is sent to a Japanese Prisoner of war (POW) camp</text>
+            <vet id="1351">Edison Yeadon</vet>
+        </event>
+
+        <event date="20/10/1944" img="zey.jpg">
+            <text>Allan Smith is transferred from the Buchenwald concentration camp to a Prisoner of War (POW) camp</text>
+            <vet id="1357">Allan Smith</vet>
+        </event>
+
+        <event date="01/01/1945" img="hbxaawrrjxpjwvqwstex.jpg">
+            <text>Herb Pragnell is stationed in Italy near the Gothic Line</text>
+            <vet id="1362">Herb Pragnell</vet>
+        </event>
+
+        <event date="12/12/1944" img="ock.jpg">
+            <text>Marguerite Plante's brother is killed in action in Italy</text>
+            <vet id="1368">Marguerite Plante</vet>
+        </event>
+
+        <event date="01/01/1944" img="cgprglqmnzrymbzzltlo.jpg">
+            <text>Charles Ross joins the Canadian Film and Photo Unit</text>
+            <vet id="1371">Charles Ross</vet>
+        </event>
+
+        <event date="06/06/1944" img="hwp.jpg">
+            <text>Okill Stuart participates in D-Day as part of the 3rd Canadian Infantry Division</text>
+            <vet id="1375">Okill Stuart</vet>
+        </event>
+
+        <event date="06/06/1944" img="eoi.jpg">
+            <text>George Mann capsizes his first truck in the landings on Normandy</text>
+            <vet id="1376">George Mann</vet>
+        </event>
+
+        <event date="10/01/1945" img="rrj.jpg">
+            <text>William Adelman is shot and injured while stationed in Italy</text>
+            <vet id="1380">William Adelman</vet>
+        </event>
+
+        <event date="01/07/1944" img="wup.jpg">
+            <text>Gordon Bannerman sees the Vatican while stationed in Italy</text>
+            <vet id="1384">Gordon Bannerman</vet>
+        </event>
+
+        <event date="17/09/1943" img="l3r.jpg">
+            <text>Glennis Boyce enlists in the Royal Canadian Air Force (RCAF) Women's Division</text>
+            <vet id="1386">Glennis Boyce</vet>
+        </event>
+
+        <event date="01/01/1943" img="yklvrfphumjzeuxrnqxs.jpg">
+            <text>Helen Arbuthnot serves in the Royal Canadian Medical Army Corps</text>
+            <vet id="1391">Helen Arbuthnot</vet>
+        </event>
+
+        <event date="01/11/1940" img="lcf.jpg">
+            <text>Jack Smallwood begins serving on HMCS Skeena</text>
+            <vet id="1397">Jack Smallwood</vet>
+        </event>
+
+        <event date="01/01/1944" img="vjf.jpg">
+            <text>James Smitherman crosses the Atlantic on  HMCS Bittersweet</text>
+            <vet id="1398">James Smitherman</vet>
+        </event>
+
+        <event date="01/07/1942" img="e0w.jpg">
+            <text>Donald Stevenson begins service in theRoyal canadian Air Force (RCAF)</text>
+            <vet id="1404">Donald Stevenson</vet>
+        </event>
+
+        <event date="19/08/1942" img="opx.jpg">
+            <text>Armond Emond fights with the 14th Army Tank Regiment in Dieppe</text>
+            <vet id="1412">Armand Emond</vet>
+        </event>
+
+        <event date="19/02/1944" img="mvi.jpg">
+            <text>Eric Jensen serves as a cook aboard  HMCS Haida</text>
+            <vet id="1418">Eric Jensen</vet>
+        </event>
+
+        <event date="01/09/1942" img="i10.jpg">
+            <text>Jacques Nadeau is sent to a Prisoner of War (POW) camp and makes several unsuccessful attempts at escape</text>
+            <vet id="1423">Jacques Nadeau</vet>
+        </event>
+
+        <event date="07/09/1944" img="ypc.jpg">
+            <text>Sidney Appleyard enlists and serves as a guard at a Prisoner of War (POW) camp</text>
+            <vet id="1427">Sidney Appleyard</vet>
+        </event>
+
+        <event date="25/05/1943" img="mgf.jpg">
+            <text>John Potter and crew aboard HMCS Regina sink an Italian submarine</text>
+            <vet id="1429">John Potter</vet>
+        </event>
+
+        <event date="30/09/1943" img="mms.jpg">
+            <text>Otto Hemmerling is posted at a radar station in Queen Charlotte Islands</text>
+            <vet id="1448">Otto Hemmerling</vet>
+        </event>
+
+        <event date="09/09/1939" img="5g1.jpg">
+            <text>Andrew Miller enlists in the Army</text>
+            <vet id="1450">Andrew Miller</vet>
+        </event>
+
+        <event date="15/10/1942" img="lus.jpg">
+            <text>Frank Dion enlists in the Navy</text>
+            <vet id="1452">Frank Dion</vet>
+        </event>
+
+        <event date="01/01/1942" img="egl.jpg">
+            <text>Borden Tymchuk serves as a fireman on the homefront</text>
+            <vet id="1456">Borden Tymchuk</vet>
+        </event>
+
+        <event date="01/01/1942" img="ya1.jpg">
+            <text>Douglas Smith begins training as a pilot with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1457">Douglas Smith</vet>
+        </event>
+
+        <event date="01/06/1943" img="gdf.jpg">
+            <text>Nellie Rettenbacher enlists in the Canadian Army</text>
+            <vet id="1458">Nellie Rettenbacher</vet>
+        </event>
+
+        <event date="20/12/1943" img="n30.jpg">
+            <text>Fred Maiden is stationed in Italy during the Battle of Ortona</text>
+            <vet id="1460">Fred Maiden</vet>
+        </event>
+
+        <event date="01/01/1941" img="5ib.jpg">
+            <text>Gertrude Luscombe enlists in Vancouver and serves in an Army mess hall</text>
+            <vet id="1463">Gertrude Luscombe nÈe Lovgren</vet>
+        </event>
+
+        <event date="15/08/1945" img="l5z.jpg">
+            <text>Ruby Foley travels with others from the Royal Canadian Air Force (RCAF) to begin shutting down the eastern stations</text>
+            <vet id="1465">Ruby Foley</vet>
+        </event>
+
+        <event date="05/06/1944" img="qy4.jpg">
+            <text>Brian Murphy and troops enter Rome</text>
+            <vet id="1466">Brian Murphy</vet>
+        </event>
+
+        <event date="13/10/1943" img="bcs.jpg">
+            <text>Alan Cameron enlists in the Army</text>
+            <vet id="1469">Alan Cameron</vet>
+        </event>
+
+        <event date="01/12/1943" img="xqkjitlpsqcnepogbdwg.jpg">
+            <text>Eugenie Turner is posted overseas with the Royal Canadian Air Force (RCAF) bomber command</text>
+            <vet id="1470">Eugenie Turner</vet>
+        </event>
+
+        <event date="24/05/1944" img="2ah.jpg">
+            <text>Nigel Taylor is wounded advancing on the Hitler Line</text>
+            <vet id="1473">Nigel Taylor</vet>
+        </event>
+
+        <event date="12/04/1942" img="lkg.jpg">
+            <text>Michael Faryna is stationed as an air mechanic in Brandon, Manitoba</text>
+            <vet id="1474">Michael Faryna</vet>
+        </event>
+
+        <event date="20/02/1940" img="2e1.jpg">
+            <text>Donald Green enlists in the Navy</text>
+            <vet id="1477">Donald Green</vet>
+        </event>
+
+        <event date="03/09/1941" img="n32.jpg">
+            <text>Geoffry Arlington serves as a flying Instructor for the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1478">Geoffrey Alington</vet>
+        </event>
+
+        <event date="01/07/1941" img="4fj.jpg">
+            <text>Steve Lubky serves as a driver mechanic for the Army</text>
+            <vet id="1479">Steve Lubky</vet>
+        </event>
+
+        <event date="01/01/1941" img="teh.jpg">
+            <text>Harold Walton enlists in the Army</text>
+            <vet id="1480">Harold Walton</vet>
+        </event>
+
+        <event date="07/01/1944" img="cfu.jpg">
+            <text>Kenneth France serves in the Royal Canadian Air Force (RCAF) Bomber Command</text>
+            <vet id="1481">Kenneth France</vet>
+        </event>
+
+        <event date="06/06/1944" img="tlmfujmukxxkqszoqtan.jpg">
+            <text>Doris Mitchell watches the planes fly over Sussex en route to Normandy</text>
+            <vet id="1482">Doris Mitchell</vet>
+        </event>
+
+        <event date="01/08/1941" img="ksu.jpg">
+            <text>Henry Mason enlists in the Navy</text>
+            <vet id="1483">Henry Mason</vet>
+        </event>
+
+        <event date="01/04/1945" img="je1.jpg">
+            <text>Gerald James is liberated from a Prisoner of War (POW) camp</text>
+            <vet id="1486">Gerald James</vet>
+        </event>
+
+        <event date="01/01/1942" img="jul.jpg">
+            <text>Robert Roth enlists in the Army</text>
+            <vet id="1487">Robert Roth</vet>
+        </event>
+
+        <event date="18/09/1942" img="sx3.jpg">
+            <text>Arthur Brown enlists and eventually fights in the Battle of Monte Cassino</text>
+            <vet id="1488">Arthur Brown</vet>
+        </event>
+
+        <event date="16/05/1945" img="5vv.jpg">
+            <text>Ron Rhine returns home after his vessel, HMCS Niobe, is decommissioned</text>
+            <vet id="1493">Ron Rhine</vet>
+        </event>
+
+        <event date="01/01/1940" img="524.jpg">
+            <text>Lewis Chow enlists and serves as a spy</text>
+            <vet id="1494">Lewis Chow</vet>
+        </event>
+
+        <event date="06/08/1945" img="y3d.jpg">
+            <text>Bruce Findley ends his tour of the Pacific as the first atomic bomb is dropped on Hiroshima</text>
+            <vet id="1495">Bruce Findlay</vet>
+        </event>
+
+        <event date="26/05/1940" img="mkh.jpg">
+            <text>Harry Ramsey is ordered to retreat in the evacuation of Dunkirk, France</text>
+            <vet id="1498">Harry Ramsey</vet>
+        </event>
+
+        <event date="26/06/1941" img="e2z.jpg">
+            <text>Winifred Sirois joins the Army and trains in Morse Code signalling</text>
+            <vet id="1499">Winifred Sirois</vet>
+        </event>
+
+        <event date="20/06/1941" img="uvz.jpg">
+            <text>Albert Sanderson enlists in the Air Force</text>
+            <vet id="1500">Albert Sanderson</vet>
+        </event>
+
+        <event date="12/08/1944" img="0r0.jpg">
+            <text>Douglas Storey participates in the battle of the Falaise Pocket</text>
+            <vet id="1501">Douglas Storey</vet>
+        </event>
+
+        <event date="01/09/1943" img="ped.jpg">
+            <text>Ray Sowerby enlists in the Army</text>
+            <vet id="1502">Ray Sowerby</vet>
+        </event>
+
+        <event date="01/04/1945" img="a0h.jpg">
+            <text>Clifford Hobbs serves in the Army in Holland</text>
+            <vet id="1504">Clifford Hobbis</vet>
+        </event>
+
+        <event date="01/04/1944" img="oad.jpg">
+            <text>John Pavey enlists as a Boy Seaman in the Royal Navy</text>
+            <vet id="1505">John Pavey</vet>
+        </event>
+
+        <event date="20/07/1940" img="13o.jpg">
+            <text>Philip Zeman enlists in the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1506">Philip Zeman</vet>
+        </event>
+
+        <event date="01/03/1945" img="n2k.jpg">
+            <text>Robert Mason is permitted compassionate leave to visit his sick mother</text>
+            <vet id="1511">Robert Mason</vet>
+        </event>
+
+        <event date="10/05/1945" img="kxm.jpg">
+            <text>Rod McNeill and a German soldier inform German snipers the war has ended</text>
+            <vet id="1515">Rod McNeill</vet>
+        </event>
+
+        <event date="08/05/1945" img="b0i.jpg">
+            <text>Arthur Lyon is stationed in Germany when the war ends</text>
+            <vet id="1517">Arthur Lyon</vet>
+        </event>
+
+        <event date="01/01/1942" img="t4f.jpg">
+            <text>Herbert Shillington is stationed in North Africa in Tunis, Tunisia</text>
+            <vet id="1518">Herbert Shillington</vet>
+        </event>
+
+        <event date="16/01/1943" img="0gx.jpg">
+            <text>John Marchand enlists in the Army</text>
+            <vet id="1521">John Marchand</vet>
+        </event>
+
+        <event date="24/02/1942" img="ajv.jpg">
+            <text>John Penner enlists in the Air Force</text>
+            <vet id="1524">John Penner</vet>
+        </event>
+
+        <event date="20/05/1942" img="s0y.jpg">
+            <text>Frank Moore enlists in the Navy and serves as a 2nd Class Stoker</text>
+            <vet id="1527">Frank Moore</vet>
+        </event>
+
+        <event date="08/05/1945" img="jb0.jpg">
+            <text>Bill Ramsbottom celebrates VE Day in Camp Shilo</text>
+            <vet id="1528">Bill Ramsbottom</vet>
+        </event>
+
+        <event date="09/07/1943" img="h0w.jpg">
+            <text>Eric Saunders participates in the Allied invasion on Sicily</text>
+            <vet id="1530">Eric Saunders</vet>
+        </event>
+
+        <event date="01/07/1943" img="xsw.jpg">
+            <text>Stuart Richardson enlists in the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1531">Stuart Richardson</vet>
+        </event>
+
+        <event date="01/01/1941" img="i5j.jpg">
+            <text>James Fox is sent to the UK as an engineer for the Army</text>
+            <vet id="1532">James Fox</vet>
+        </event>
+
+        <event date="10/09/1945" img="fpenageilrxhpggaxzdv.jpg">
+            <text>Stephen Bandurka ends his service with the Army</text>
+            <vet id="1534">Stephen Bandurka</vet>
+        </event>
+
+        <event date="05/05/1944" img="w0m.jpg">
+            <text>Jack Williams is certified as a Flying Instructor with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1535">Jack Williams</vet>
+        </event>
+
+        <event date="01/12/1943" img="5pw.jpg">
+            <text>Eric Hawley joins the Air Force</text>
+            <vet id="1536">Eric Hawley</vet>
+        </event>
+
+        <event date="11/11/1945" img="ooa.jpg">
+            <text>Michael Sich visits the Vimy Ridge Memorial in France</text>
+            <vet id="1538">Michael Sich</vet>
+        </event>
+
+        <event date="01/04/1943" img="m1k.jpg">
+            <text>Edgar Branch helps a British pilot after a crash</text>
+            <vet id="1539">Edgar Branch</vet>
+        </event>
+
+        <event date="01/01/1940" img="cxn.jpg">
+            <text>Arthur Gillan enlists in the Navy</text>
+            <vet id="1541">Arthur Gillan</vet>
+        </event>
+
+        <event date="01/06/1944" img="tq4.jpg">
+            <text>Joan Brownson enlists in the Army</text>
+            <vet id="1680">Joan Brownson, nÈe Roberts</vet>
+        </event>
+
+        <event date="08/05/1945" img="5el.jpg">
+            <text>Glenn Price and troops prepare vehicles for a victory parade in Holland</text>
+            <vet id="1702">Glenn Price</vet>
+        </event>
+
+        <event date="08/05/1945" img="wak.jpg">
+            <text>Rex Fendick is stationed in the English Channel when Victory in Europe is announced</text>
+            <vet id="1735">Rex Rose</vet>
+        </event>
+
+        <event date="03/01/1942" img="ojzgufyvlxhuuglskrxq.jpg">
+            <text>Art Meyer sails for England as part of the Royal Canadian Electrical and Mechanical Engineers Corps</text>
+            <vet id="1738">Art Meyer</vet>
+        </event>
+
+        <event date="06/06/1944" img="5ry.jpg">
+            <text>John Charlwood lands on Juno Beach for D-Day</text>
+            <vet id="1797">John Charlwood</vet>
+        </event>
+
+        <event date="01/03/1943" img="g5v.jpg">
+            <text>David Macdonald serves as an Air Force mechanic overseas</text>
+            <vet id="1798">David MacDonald</vet>
+        </event>
+
+        <event date="01/10/1942" img="leibymwvvguepmwzypnt.jpg">
+            <text>Sam Garnet joins the Royal Canadian Air Force (RCAF)</text>
+            <vet id="1802">Sam Garnet</vet>
+        </event>
+
+        <event date="25/12/1944" img="lzuhdhbmraxnbcktezad.jpg">
+            <text>Joseph Gautreau serves with the Army in Belgium</text>
+            <vet id="1804">Joseph Gautreau</vet>
+        </event>
+
+        <event date="01/09/1944" img="53f.jpg">
+            <text>Fraser Muir completes his first trip as part of the Bomber Command</text>
+            <vet id="1811">Fraser Muir</vet>
+        </event>
+
+        <event date="01/01/1942" img="4ly.jpg">
+            <text>Harold MacLauchlan serves in the Navy</text>
+            <vet id="1821">Harold MacLauchlan</vet>
+        </event>
+
+        <event date="17/09/1944" img="bwumxdzeypfgwkkdcefp.jpg">
+            <text>Bruce Cox serves as a paratrooper during the Battle of Arnhem</text>
+            <vet id="1838">Bruce Cox</vet>
+        </event>
+
+        <event date="06/11/1943" img="sputvfzjcgqjkeylpcsq.jpg">
+            <text>Pauline Cox Walker's ship is torpedoed</text>
+            <vet id="1840">Pauline Cox Walker</vet>
+        </event>
+
+        <event date="08/08/1942" img="jyl.jpg">
+            <text>Murray Whetung enlists in the Army</text>
+            <vet id="1901">Murray Whetung</vet>
+        </event>
+
+        <event date="01/01/1943" img="ybi.jpg">
+            <text>William Jepps enlists in the Navy and participates in the Murmansk Run</text>
+            <vet id="1903">William Jepps</vet>
+        </event>
+
+        <event date="01/09/1944" img="hrgwdawqtctjlxmgjplv.jpg">
+            <text>John Neville is deployed to France</text>
+            <vet id="1920">John Neville</vet>
+        </event>
+
+        <event date="16/04/1945" img="ibt.jpg">
+            <text>Louis Howard and crew aboard HMCS Sarnia fail to make contact with HMCS Esquimalt</text>
+            <vet id="2137">Louis Howard</vet>
+        </event>
+
+        <event date="25/12/1944" img="ztp.jpg">
+            <text>Hewitt Quick is deployed to Europe as a paratrooper</text>
+            <vet id="2160">Hewitt Quick</vet>
+        </event>
+
+        <event date="21/06/1940" img="3ik.jpg">
+            <text>Wladyslaw Pasaj, after hiding from the Germans, boards a train for Scotland</text>
+            <vet id="2165">Wladyslaw Pasaj</vet>
+        </event>
+
+        <event date="20/08/1944" img="t2r.jpg">
+            <text>Leo Pikulski takes part in the battle for Mont Ormel Ridge</text>
+            <vet id="2169">Leo Pikulski</vet>
+        </event>
+
+        <event date="01/01/1943" img="z1l.jpg">
+            <text>Marie Venne serves in the Royal Canadian Air Force (RCAF) - Women's Division</text>
+            <vet id="2172">Marie Venne</vet>
+        </event>
+
+        <event date="15/07/1943" img="d23.jpg">
+            <text>Art Lang is deployed overseas as part of the Army</text>
+            <vet id="2176">Art Lang</vet>
+        </event>
+
+        <event date="17/12/1943" img="uak.jpg">
+            <text>Alice Samuels trains in Vermilion with the Canadian Women's Army Corpy (CWAC)</text>
+            <vet id="2177">Alice Samuel</vet>
+        </event>
+
+        <event date="30/11/1942" img="eem.jpg">
+            <text>Daniel Lee enlists in the Army</text>
+            <vet id="2178">Daniel Lee</vet>
+        </event>
+
+        <event date="12/06/1939" img="gqw.jpg">
+            <text>Jospeh Forest enlists in the Army</text>
+            <vet id="2188">Joseph Forest</vet>
+        </event>
+
+        <event date="21/02/1945" img="bgi.jpg">
+            <text>Rodolophe Lavoie completes his first tour with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2190">Rodolophe Lavoie</vet>
+        </event>
+
+        <event date="12/09/1944" img="lmc.jpg">
+            <text>John Deluca participates in a raid of Wanne-Eckel in Germany</text>
+            <vet id="2191">John Deluca</vet>
+        </event>
+
+        <event date="29/06/1942" img="wgq.jpg">
+            <text>Gerald Connick sends birthday wishes home to his wife</text>
+            <vet id="2192">Gerald Connick</vet>
+        </event>
+
+        <event date="04/07/1944" img="1ny.jpg">
+            <text>Leslie Clarke is wounded while fighting in Carpiquet</text>
+            <vet id="2193">Leslie Clarke</vet>
+        </event>
+
+        <event date="18/12/1942" img="z5l.jpg">
+            <text>Kenneth Richardson is en route to serve in Europe when his son is born</text>
+            <vet id="2195">Kenneth Richardson</vet>
+        </event>
+
+        <event date="09/05/1943" img="pg2.jpg">
+            <text>Bob Worrell is promoted to Corporal in the Army</text>
+            <vet id="2198">Bob Worrell</vet>
+        </event>
+
+        <event date="01/07/1942" img="rwh.jpg">
+            <text>Horace Hetherington trains in England with the Canadian Army</text>
+            <vet id="2202">Horace Hetherington</vet>
+        </event>
+
+        <event date="20/12/1943" img="elo.jpg">
+            <text>Leraine Munn serves as an Infantry Signaler in the Battle of Ortona</text>
+            <vet id="2205">Leraine Munn</vet>
+        </event>
+
+        <event date="01/11/1942" img="uby.jpg">
+            <text>Giles Doucet and crew run into a pack of submarines on the Atlantic</text>
+            <vet id="2206">Giles Doucet</vet>
+        </event>
+
+        <event date="08/05/1945" img="zueocfqhvbloctyfgwxp.jpg">
+            <text>Ivan Killam serves as a guard in York when the war ends</text>
+            <vet id="2210">Ivan Killam</vet>
+        </event>
+
+        <event date="11/10/1943" img="glu.jpg">
+            <text>Doreen Newton joins the Canadian Women's Army Corps (CWAC)</text>
+            <vet id="2211">Doreen Newton</vet>
+        </event>
+
+        <event date="20/06/1945" img="kxw.jpg">
+            <text>Clinton Hayward returns home on SS Ile de France</text>
+            <vet id="2212">Clinton Hayward</vet>
+        </event>
+
+        <event date="01/03/1943" img="2se.jpg">
+            <text>Robert Breau continues Army training in Greenock, Scotland</text>
+            <vet id="2214">Robert Breau</vet>
+        </event>
+
+        <event date="01/01/1940" img="2vz.jpg">
+            <text>Fred Kirkpatrick enters the Air Force and serves at the Chatham base</text>
+            <vet id="2216">Fred Kirkpatrick</vet>
+        </event>
+
+        <event date="15/06/1940" img="wua.jpg">
+            <text>Mark Macdonald enlists in the Army and serves in the North Shore Regiment</text>
+            <vet id="2219">Mark MacDonald</vet>
+        </event>
+
+        <event date="08/08/1944" img="ggd.jpg">
+            <text>Allan MacDonald sees action in the Battle of Verrieres Ridge</text>
+            <vet id="2220">Allan MacDonald</vet>
+        </event>
+
+        <event date="01/06/1944" img="ib1.jpg">
+            <text>John Everard MacLean is housed with fellow recruits in Ditchling, UK</text>
+            <vet id="2223">John Everard MacLean</vet>
+        </event>
+
+        <event date="28/05/1944" img="esk.jpg">
+            <text>Bob Phair is wounded while fighting in Sicily</text>
+            <vet id="2226">Bob Phair</vet>
+        </event>
+
+        <event date="26/05/1943" img="jsa.jpg">
+            <text>Donovan Woelfle enlists in the Merchant Navy</text>
+            <vet id="2228">Donovan Woelfle</vet>
+        </event>
+
+        <event date="15/08/1945" img="vff.jpg">
+            <text>Joan Johnson goes to Trafalgar Square to celebrate VJ-Day</text>
+            <vet id="2230">Joan Johnson, nÈe Cobb</vet>
+        </event>
+
+        <event date="01/01/1942" img="kmd.jpg">
+            <text>Gordon Waters leaves the Air Force to join the Army</text>
+            <vet id="2231">Gordon Waters</vet>
+        </event>
+
+        <event date="01/01/1942" img="s4j.jpg">
+            <text>Benjamin Kenny joins theRoyal Canadian Air Force (RCAF)</text>
+            <vet id="2234">Benjamin Kenny</vet>
+        </event>
+
+        <event date="07/06/1944" img="rd2.jpg">
+            <text>John Leach lands additional tanks on the shores of Normandy</text>
+            <vet id="2241">John Leach</vet>
+        </event>
+
+        <event date="06/07/1944" img="lro.jpg">
+            <text>Fred Bryant serves in France as a medical officer</text>
+            <vet id="2243">Fred Bryant</vet>
+        </event>
+
+        <event date="01/07/1944" img="cey.jpg">
+            <text>Owen Lockyer and the 4th Canadian Armoured Regiment arrive in Normandy</text>
+            <vet id="2247">Owen Lockyer</vet>
+        </event>
+
+        <event date="01/01/1943" img="uio.jpg">
+            <text>Ruby Somers becomes a Women's Royal Navy (WRN) and is stationed in Newfoundland</text>
+            <vet id="2248">Ruby Somers</vet>
+        </event>
+
+        <event date="17/02/1945" img="um1.jpg">
+            <text>Henry Masters enlists in the Army</text>
+            <vet id="2250">Henry Masters</vet>
+        </event>
+
+        <event date="13/01/1940" img="2ln.jpg">
+            <text>Eileen Green is married to Tom Green while serving as a Women's Royal Navy Service (WRNS)</text>
+            <vet id="2256">Eileen Green, nÈe Short</vet>
+        </event>
+
+        <event date="01/01/1941" img="nuk.jpg">
+            <text>Molly Campbell serves as a nursery nurse in England</text>
+            <vet id="2257">Molly Campbell</vet>
+        </event>
+
+        <event date="06/06/1944" img="g3m.jpg">
+            <text>Belmont Shannon participates in D-Day landings</text>
+            <vet id="2261">Belmont Shannon</vet>
+        </event>
+
+        <event date="01/07/1943" img="ddo.jpg">
+            <text>William Hitchon serves as protection for the Royal family in England</text>
+            <vet id="2262">William Hitchon</vet>
+        </event>
+
+        <event date="01/09/1945" img="fxf.jpg">
+            <text>Clyde Bougie travels to Hong Kong to free prisoners of war</text>
+            <vet id="2266">Clyde Bougie</vet>
+        </event>
+
+        <event date="06/07/1943" img="qwuipvcvisuoipqvbfig.jpg">
+            <text>Audrey Detheridge is called to duty in Toronto for the Canaadian Woman's Army Core (CWAC)</text>
+            <vet id="2267">Audrey Detheridge</vet>
+        </event>
+
+        <event date="08/03/1945" img="gm1.jpg">
+            <text>Edward Jesseman is wounded in Germany</text>
+            <vet id="2269">Edward Jesseman</vet>
+        </event>
+
+        <event date="19/07/1942" img="gts.jpg">
+            <text>John Bylik enlists in the Navy</text>
+            <vet id="2270">John Bilyk</vet>
+        </event>
+
+        <event date="01/09/1943" img="smf.jpg">
+            <text>John Cathie and troops land in Italy</text>
+            <vet id="2271">John Cathie</vet>
+        </event>
+
+        <event date="28/06/1941" img="hxr.jpg">
+            <text>Harold Shaw and his twin brother enlist in the Air Force</text>
+            <vet id="2272">Harold Shaw</vet>
+        </event>
+
+        <event date="02/07/1941" img="ejqwxlepaniwdiukwbso.jpg">
+            <text>Sol Zulauf enlists in the Army</text>
+            <vet id="2273">Sol Zulauf</vet>
+        </event>
+
+        <event date="24/12/1943" img="bfasuqyvnfmsgbtegtnr.jpg">
+            <text>Mendel Thresher is interrogated by Germans on induction to a Prisoners of War (POW) camp</text>
+            <vet id="2274">Mendel Thrasher</vet>
+        </event>
+
+        <event date="30/06/1940" img="wzv.jpg">
+            <text>Jan Szklarz is serving in the Polish Army when he is captured by Germans</text>
+            <vet id="2276">Jan Szklarz</vet>
+        </event>
+
+        <event date="10/01/1940" img="qouycgfyyhxdglnefqjp.jpg">
+            <text>Harold Hall enlists in the Army</text>
+            <vet id="2277">Harold Hall</vet>
+        </event>
+
+        <event date="13/07/1943" img="ov0.jpg">
+            <text>Frederick Chapman and his regiment land in Sicily</text>
+            <vet id="2280">Frederick Chapman</vet>
+        </event>
+
+        <event date="13/08/1944" img="gvv.jpg">
+            <text>Joe Bill is wounded while fighting in France</text>
+            <vet id="2282">Joe Bill</vet>
+        </event>
+
+        <event date="29/07/1941" img="0pv.jpg">
+            <text>Warren Urquhart enlists in the Navy</text>
+            <vet id="2285">Warren Urquhart</vet>
+        </event>
+
+        <event date="24/12/1943" img="uho.jpg">
+            <text>Bill Teleske is stationed in the trenches in Ortona, Italy on Christmas Eve</text>
+            <vet id="2286">Bill Teleske</vet>
+        </event>
+
+        <event date="01/10/1944" img="zwe.jpg">
+            <text>Ross Hamilton serves in the Royal Canadian Air Force (RCAF) 407 Squadron in Sussex</text>
+            <vet id="2288">Ross Hamilton</vet>
+        </event>
+
+        <event date="01/06/1940" img="aqv.jpg">
+            <text>Roman Zaraza serves in the Polish Army in Lithuania</text>
+            <vet id="2289">Roman Zaraza</vet>
+        </event>
+
+        <event date="21/08/1944" img="lmc.jpg">
+            <text>Godfrey Schaupmeyer and his division serve in the Falaise Gap</text>
+            <vet id="2291">Godfrey Schaupmeyer</vet>
+        </event>
+
+        <event date="01/03/1943" img="sf3.jpg">
+            <text>Stephen Boczar and his squadron complete air raids on Berlin</text>
+            <vet id="2293">Stephen Boczar</vet>
+        </event>
+
+        <event date="04/01/1943" img="vij.jpg">
+            <text>Rudy Deutsch enlists as a stretcher bearer in the Army</text>
+            <vet id="2295">Rudy Deutsch</vet>
+        </event>
+
+        <event date="15/05/1944" img="a42.jpg">
+            <text>Gordon Wright participates in the English Channel blackade leading up to D-Day</text>
+            <vet id="2298">Gordon Wright</vet>
+        </event>
+
+        <event date="09/07/1944" img="uzl.jpg">
+            <text>Frank Wong serves in the 2nd National Workshop Unit in Caen, France</text>
+            <vet id="2299">Frank Wong</vet>
+        </event>
+
+        <event date="16/01/1944" img="sdj.jpg">
+            <text>Victor Wong serves as a "Zombie" for the Canadian Army</text>
+            <vet id="2310">Victor Wong</vet>
+        </event>
+
+        <event date="01/01/1942" img="0q3.jpg">
+            <text>Peggy Lee serves in the St. John's Ambulance Corps</text>
+            <vet id="2313">Peggy Lee</vet>
+        </event>
+
+        <event date="01/01/1942" img="3yh.jpg">
+            <text>Norm Jenkins enlists in the Royal Canadian Air Force (RCAF) and oversees engine and propellor manufacturing</text>
+            <vet id="2317">Norm Jenkins</vet>
+        </event>
+
+        <event date="06/06/1944" img="weu.jpg">
+            <text>Joseph Sullivan serves in the 3rd Canadian Infantry Division during D-Day</text>
+            <vet id="2318">Joseph Sullivan</vet>
+        </event>
+
+        <event date="25/12/1944" img="gjl.jpg">
+            <text>Fred Guest finishes his tour with Bomber Command during the Battle of the Bulge</text>
+            <vet id="2319">Fred Guest</vet>
+        </event>
+
+        <event date="07/06/1944" img="lm3.jpg">
+            <text>Gordon Ritchie and 429 Royal Canadian Air Force (RCAF) Squadron are attacked while on mission in France</text>
+            <vet id="2320">Gordon Ritchie</vet>
+        </event>
+
+        <event date="20/12/1943" img="fenyfizggokwhpedgmrj.jpg">
+            <text>Gordon MacKenzie partcipates in the Battle of Ortona</text>
+            <vet id="2321">Gordon MacKenzie</vet>
+        </event>
+
+        <event date="01/12/1944" img="myb.jpg">
+            <text>Leonard Bookbinder serves in the navy on HMCS New Liskeard</text>
+            <vet id="2325">Leonard Bookbinder</vet>
+        </event>
+
+        <event date="29/12/1942" img="wgi.jpg">
+            <text>Robert O'Conner enlists in the Air Force</text>
+            <vet id="2327">Robert O'Connor</vet>
+        </event>
+
+        <event date="04/07/1944" img="1pl.jpg">
+            <text>William Rawluk and the Calgary Highlanders land in France</text>
+            <vet id="2329">William Rawluk</vet>
+        </event>
+
+        <event date="01/02/1944" img="42z.jpg">
+            <text>Jean Holmes enlists as a nurse with the Army and serves in England</text>
+            <vet id="2331">Jean Holmes</vet>
+        </event>
+
+        <event date="10/07/1943" img="wmi.jpg">
+            <text>Maurice White lands in Sicily, Italy</text>
+            <vet id="2333">Maurice White</vet>
+        </event>
+
+        <event date="23/07/1940" img="m55.jpg">
+            <text>Roy Page lies about his age and enters the Army</text>
+            <vet id="2356">Roy Page</vet>
+        </event>
+
+        <event date="25/12/1944" img="551.jpg">
+            <text>Doug Dickson proposes to his future wife with the ring he paid for by flying under a bridge in Lethridge, AB</text>
+            <vet id="2357">Doug Dickson</vet>
+        </event>
+
+        <event date="01/01/1943" img="jt5.jpg">
+            <text>George Ens enlists and trains in Camp Borden, Ontario</text>
+            <vet id="2358">George Ens</vet>
+        </event>
+
+        <event date="29/04/1943" img="lry.jpg">
+            <text>Jim Venables serves in the 435 Squadron making runs in Burma</text>
+            <vet id="2359">Jim Venables</vet>
+        </event>
+
+        <event date="25/09/1944" img="vfv.jpg">
+            <text>Russell Earl completes a bombing raid in Calais, France</text>
+            <vet id="2360">Russell Earl</vet>
+        </event>
+
+        <event date="01/06/1944" img="oif.jpg">
+            <text>Paul Bentley is stationed in Shaftesbury, England before D-Day</text>
+            <vet id="2362">Paul Bentley</vet>
+        </event>
+
+        <event date="01/08/1941" img="2ck.jpg">
+            <text>Harold ward transfers over to the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2366">Harold Ward</vet>
+        </event>
+
+        <event date="10/08/1943" img="i5d.jpg">
+            <text>Arthur Dean participates as an Air Bomber in a raid on Nuremburg, Germany</text>
+            <vet id="2367">Arthur Dean</vet>
+        </event>
+
+        <event date="01/12/1944" img="uh1.jpg">
+            <text>Archie Stover is part of Canadian reinforcements in France</text>
+            <vet id="2369">Archie Stover</vet>
+        </event>
+
+        <event date="25/12/1944" img="ovj.jpg">
+            <text>George Ufnal and troops spend Christmas in Ortona, Italy</text>
+            <vet id="2370">George Ufnal</vet>
+        </event>
+
+        <event date="15/12/1944" img="0zu.jpg">
+            <text>Bill Baluk has his first mission in Bomber Command over Ludwickshaven, Germany</text>
+            <vet id="2371">Bill Baluk</vet>
+        </event>
+
+        <event date="01/09/1942" img="fpoaiapokxmndmvntfpm.jpg">
+            <text>Joe Hickson enlists in the Air Force</text>
+            <vet id="2372">Joe Hickson</vet>
+        </event>
+
+        <event date="07/09/1940" img="bvq.jpg">
+            <text>Diane Hawthorne serves in the army during the London Blitz</text>
+            <vet id="2373">Diane Hawthorne</vet>
+        </event>
+
+        <event date="06/06/1944" img="fh3.jpg">
+            <text>Vernon Barr participates in D-day</text>
+            <vet id="2374">Vernon Barr</vet>
+        </event>
+
+        <event date="01/01/1944" img="cdz.jpg">
+            <text>Alexander Bramson begins service on HMCS Ettrick</text>
+            <vet id="2376">Alexander Bramson</vet>
+        </event>
+
+        <event date="03/05/1944" img="qzq.jpg">
+            <text>Lawrence Weldon completes his Navy training in Toronto, Ontario</text>
+            <vet id="2378">Lawrence Weldon</vet>
+        </event>
+
+        <event date="01/01/1943" img="mkr.jpg">
+            <text>Beryl Howe enlists with the Women's Royal Navy Service (WRNS) as a cryptologist</text>
+            <vet id="2380">Beryl Howe, nÈe Howard</vet>
+        </event>
+
+        <event date="09/07/1944" img="lg2.jpg">
+            <text>Alfred Warford serves in the army during the Battle for Caen</text>
+            <vet id="2381">Alfred Warford</vet>
+        </event>
+
+        <event date="01/01/1944" img="oam.jpg">
+            <text>John Wasilenchuk and crew are torpedoed off the coast of North Africa</text>
+            <vet id="2382">John Wasilenchuk</vet>
+        </event>
+
+        <event date="20/10/1940" img="4d3.jpg">
+            <text>Catherine Anderson is called to duty for the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2384">Catherine Anderson</vet>
+        </event>
+
+        <event date="11/08/1940" img="ekh.jpg">
+            <text>Edwin Badger enlists in the Navy</text>
+            <vet id="2387">Edwin Badger</vet>
+        </event>
+
+        <event date="09/09/1939" img="umo.jpg">
+            <text>Edward Plummer enlists in the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2393">Edward Plummer</vet>
+        </event>
+
+        <event date="28/05/1945" img="mmk.jpg">
+            <text>Ian Herd's fellow navigators die in a crash off the coast of Sri Lanka</text>
+            <vet id="2395">Ian Herd</vet>
+        </event>
+
+        <event date="11/01/1943" img="ajirtqehzgygloassalq.jpg">
+            <text>Eugene Steeves enlists in the Air Force</text>
+            <vet id="2423">Eugene Steeves</vet>
+        </event>
+
+        <event date="10/11/1943" img="xrdqrkhzjtmlkjnepahw.jpg">
+            <text>Richard Dutka is captured by Germans after his plane is shot down after a bombing raid</text>
+            <vet id="2427">Richard Dutka</vet>
+        </event>
+
+        <event date="24/10/1943" img="zmh.jpg">
+            <text>Kenneth Marchant finishes his basic training and is shipped to BC</text>
+            <vet id="2428">Kenneth Marchant</vet>
+        </event>
+
+        <event date="12/06/1944" img="3zr.jpg">
+            <text>George Heron and crew support troops already in Normandy</text>
+            <vet id="2432">George Heron</vet>
+        </event>
+
+        <event date="27/06/1944" img="tde.jpg">
+            <text>Herbert Britton and crew arrive in France</text>
+            <vet id="2434">Herbert Britton</vet>
+        </event>
+
+        <event date="01/12/1942" img="1ww.jpg">
+            <text>Hugh Kidney enlists in the Army and serves as a dispatch rider</text>
+            <vet id="2435">Hugh Kidney</vet>
+        </event>
+
+        <event date="01/01/1943" img="0ei.jpg">
+            <text>Aldfred Carpenter serves as in the Navy doing minesweeping</text>
+            <vet id="2436">Alfred Carpenter</vet>
+        </event>
+
+        <event date="01/07/1943" img="szuhdamubnocajzryvsz.jpg">
+            <text>Harry Inns and the 621 Strike Squadron make their way up the eastern coast of Africa</text>
+            <vet id="2438">Harry Inns</vet>
+        </event>
+
+        <event date="01/04/1945" img="z3l.jpg">
+            <text>Robert Yule boards RMS Aquitania to serve in Europe</text>
+            <vet id="2440">Robert Yule</vet>
+        </event>
+
+        <event date="11/09/1939" img="fa3.jpg">
+            <text>Albert Hogg enlists as a medic for the Army</text>
+            <vet id="2441">Albert Hogg</vet>
+        </event>
+
+        <event date="01/02/1943" img="ecf.jpg">
+            <text>Blanche Lund performs as a dancer for troops with the Navy Special Service</text>
+            <vet id="2446">Blanche Lund</vet>
+        </event>
+
+        <event date="19/09/1944" img="orn.jpg">
+            <text>Richard Clements is called to serve in the Army</text>
+            <vet id="2449">Richard Clements</vet>
+        </event>
+
+        <event date="01/01/1944" img="sdn.jpg">
+            <text>Paul Chan and troops are deployed to Sri Lanka</text>
+            <vet id="2454">Paul Chan</vet>
+        </event>
+
+        <event date="07/03/1945" img="fi0.jpg">
+            <text>Wendell Harper gets a surprise attack by a German air fighter</text>
+            <vet id="2458">Wendell Harper</vet>
+        </event>
+
+        <event date="09/01/1940" img="p4d.jpg">
+            <text>Oscar Fetini joins the Army in his native Egypt</text>
+            <vet id="2459">Oscar Fiteni</vet>
+        </event>
+
+        <event date="01/01/1945" img="ylwfajesabcgzylkdrzp.jpg">
+            <text>Weldon Moffatt performs his first mission for the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2460">Weldon Moffatt</vet>
+        </event>
+
+        <event date="25/12/1944" img="inhjrhnyuslwcgkeyxjj.jpg">
+            <text>Stanley Creelman spends Christmas fighting in Ortona, Italy</text>
+            <vet id="2462">Stanley Creelman</vet>
+        </event>
+
+        <event date="11/02/1940" img="1nk.jpg">
+            <text>Daniel Goniea is called to serve in the Navy</text>
+            <vet id="2463">Daniel Goniea</vet>
+        </event>
+
+        <event date="15/07/1944" img="lr2.jpg">
+            <text>William Sheppard arrives in Normandy</text>
+            <vet id="2466">William Sheppard</vet>
+        </event>
+
+        <event date="08/06/1944" img="cvr.jpg">
+            <text>Lloyd Queen and reinforcements arrive on Juno Beach</text>
+            <vet id="2478">Lloyd Queen</vet>
+        </event>
+
+        <event date="01/07/1944" img="gxo.jpg">
+            <text>Herbert Heron gets married in Canada</text>
+            <vet id="2479">Herbert Heron</vet>
+        </event>
+
+        <event date="01/01/1943" img="tl0.jpg">
+            <text>Cyril Hammond trains with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2480">Cyril Hammond</vet>
+        </event>
+
+        <event date="28/08/1942" img="3pr.jpg">
+            <text>Frank Reneau begins serving in the Navy</text>
+            <vet id="2485">Frank Reneau</vet>
+        </event>
+
+        <event date="07/09/1942" img="4x3.jpg">
+            <text>Robert McGirr enlists in the Army</text>
+            <vet id="2489">Robert McGirr</vet>
+        </event>
+
+        <event date="22/07/1944" img="qrarbvnvfwezelaldckd.jpg">
+            <text>Stanley Anderson is wounded in battle</text>
+            <vet id="2491">Stanley Anderson</vet>
+        </event>
+
+        <event date="15/03/1940" img="lgk.jpg">
+            <text>William Elliot joins the Army as a driver</text>
+            <vet id="2493">William Elliott</vet>
+        </event>
+
+        <event date="12/04/1943" img="wre.jpg">
+            <text>Clarence Sweeney enlists in the Navy</text>
+            <vet id="2496">Clarence Sweeney</vet>
+        </event>
+
+        <event date="03/04/1945" img="exlraecgldrgmarvoncn.jpg">
+            <text>Joan Manning runs into her childhood friend before he is sent back into battle</text>
+            <vet id="2499">Joan Manning</vet>
+        </event>
+
+        <event date="01/01/1942" img="yac.jpg">
+            <text>Raymond Lefrancois joins the navy over the Army</text>
+            <vet id="2509">Raymond Lefrancois</vet>
+        </event>
+
+        <event date="02/09/1940" img="n5f.jpg">
+            <text>Leo Fortin begins primary training in Quebec</text>
+            <vet id="2510">LÈo Fortin</vet>
+        </event>
+
+        <event date="24/03/1944" img="351.jpg">
+            <text>Clifford Mizzen qualifies as an air gunner</text>
+            <vet id="2511">Clifford Mizzen</vet>
+        </event>
+
+        <event date="17/09/1943" img="ugf.jpg">
+            <text>Romuald Pepin is certified as a gunner with the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2512">Romuald Pepin</vet>
+        </event>
+
+        <event date="08/05/1945" img="xdcrizpwnlzbnudizoqd.jpg">
+            <text>Emile Turcot and troops take the city of Oldenburg, Germany before the war ends</text>
+            <vet id="2513">Emile Turcot</vet>
+        </event>
+
+        <event date="19/08/1942" img="jxq.jpg">
+            <text>Roland Gravel survives the raid on Dieppe</text>
+            <vet id="2515">Roland Gravel</vet>
+        </event>
+
+        <event date="15/08/1945" img="lzn.jpg">
+            <text>Jacques Catudel is stationed in Vancouver during Victory in Japan Day</text>
+            <vet id="2516">Jacques Catudal</vet>
+        </event>
+
+        <event date="01/01/1945" img="3bt.jpg">
+            <text>Léon DesLauriers enlists in the Army</text>
+            <vet id="2517">LÈon DesLauriers</vet>
+        </event>
+
+        <event date="08/05/1945" img="q3k.jpg">
+            <text>Percy Jackson decides to stay and serve in Germany for another year</text>
+            <vet id="2518">Percy Jackson</vet>
+        </event>
+
+        <event date="23/01/1941" img="xrf.jpg">
+            <text>Marcel Caron is called to serve in the Army</text>
+            <vet id="2519">Marcel Caron</vet>
+        </event>
+
+        <event date="22/01/1945" img="rps.jpg">
+            <text>Geoffrey Knowles participates in the Battle for Kangaw in Burma</text>
+            <vet id="2520">Geoffrey Knowles</vet>
+        </event>
+
+        <event date="01/06/1943" img="2gp.jpg">
+            <text>Farnand Giguere is wounded while training in Farnham, Quebec</text>
+            <vet id="2521">Fernand Giguere</vet>
+        </event>
+
+        <event date="19/02/1941" img="tdy.jpg">
+            <text>Charles Marinier enlists in the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2522">Charles Marinier</vet>
+        </event>
+
+        <event date="01/05/1945" img="wwd.jpg">
+            <text>Jean-Paul Bertrand and the 2nd Division hold a number of surrendered Germany troops</text>
+            <vet id="2523">Jean-Paul Bertrand</vet>
+        </event>
+
+        <event date="01/01/1940" img="xyh.jpg">
+            <text>Henri Botham enlists in the Air Force</text>
+            <vet id="2524">Henri Botham</vet>
+        </event>
+
+        <event date="07/12/1941" img="m5a.jpg">
+            <text>Georges Charrier is aboard HMCS Windflower when it collides with a cargo ship</text>
+            <vet id="2525">Georges Charrier</vet>
+        </event>
+
+        <event date="15/08/1945" img="fbs.jpg">
+            <text>Marc Boivin trains with the Royal Canadian Air Force (RCAF) Alouettes Squadron when the war ends in Japan</text>
+            <vet id="2526">Marc Boivin</vet>
+        </event>
+
+        <event date="20/12/1943" img="nse.jpg">
+            <text>Victor Guérin is stationed with D Company, Royal 22nd Regiment, during the Battle for Ortona</text>
+            <vet id="2528">Victor GuÈrin</vet>
+        </event>
+
+        <event date="08/05/1945" img="rvj.jpg">
+            <text>Frederick Gray serves with the Royal Canadian Air Force (RCAF) in Madras, India, during VE-Day</text>
+            <vet id="2529">Frederick Gray</vet>
+        </event>
+
+        <event date="01/05/1942" img="kst.jpg">
+            <text>Rena Chaplin begins training in the Royal Canadian Air Force (RCAF) - Women's Division</text>
+            <vet id="2530">Rena Chaplin</vet>
+        </event>
+
+        <event date="01/09/1944" img="3bh.jpg">
+            <text>Gerald Derick travels to Europe to fight in the trenches</text>
+            <vet id="2533">Gerald Derick</vet>
+        </event>
+
+        <event date="06/06/1944" img="4cv.jpg">
+            <text>Norma Dillon is on night duty in Toronto during the Normandy Invasions</text>
+            <vet id="2536">Norma Dillon</vet>
+        </event>
+
+        <event date="01/05/1940" img="t33.jpg">
+            <text>Jerry O'Conner is captured as a German Prisoners of War (POW)</text>
+            <vet id="2539">Jerry O'Connor</vet>
+        </event>
+
+        <event date="08/05/1945" img="u5w.jpg">
+            <text>Harry Fogel celebrates in London during VE-Day</text>
+            <vet id="2541">Harry Fogel</vet>
+        </event>
+
+        <event date="01/04/1944" img="ms2.jpg">
+            <text>Joseph Abramovitch lands in Italy</text>
+            <vet id="2542">Joseph Abramovitch</vet>
+        </event>
+
+        <event date="19/04/1941" img="rcj.jpg">
+            <text>Hyman Sazant enlists in the Special Forces</text>
+            <vet id="2543">Hyman Sazant</vet>
+        </event>
+
+        <event date="30/01/1943" img="i1i.jpg">
+            <text>Doug Mullen is transferred to British Columbia as part of the Air Force</text>
+            <vet id="2544">Doug Mullen</vet>
+        </event>
+
+        <event date="07/03/1941" img="kdmtogbemwbyrewfkjgu.jpg">
+            <text>Robert Perry enlists in the Royal Canadian Air Force (RCAF) as an air bomber</text>
+            <vet id="2550">Robert Perry</vet>
+        </event>
+
+        <event date="19/01/1943" img="kdw.jpg">
+            <text>John Mornan is sworn into the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2551">John Mornan</vet>
+        </event>
+
+        <event date="11/06/1944" img="qhs.jpg">
+            <text>Alexander Paton and troops land in France to capture the Carpiquet airport</text>
+            <vet id="2552">Alexander Paton</vet>
+        </event>
+
+        <event date="01/07/1945" img="hkh.jpg">
+            <text>James Lovie finishes his tour and returns to Britain</text>
+            <vet id="2553">James Lovie</vet>
+        </event>
+
+        <event date="06/06/1944" img="oan.jpg">
+            <text>Gillis Mackinnon serves in a hospital for Allied troops</text>
+            <vet id="2556">Gillis Mackinnon</vet>
+        </event>
+
+        <event date="28/04/1943" img="gah.jpg">
+            <text>George Kehl begins active service with the Navy</text>
+            <vet id="2579">George Kehl</vet>
+        </event>
+
+        <event date="01/01/1945" img="xka.jpg">
+            <text>June Melton transfers to a hospital in Dartmouth, Nova Scotia</text>
+            <vet id="2580">June Melton</vet>
+        </event>
+
+        <event date="15/06/1945" img="pns.jpg">
+            <text>Lorna Collacott gets married on her Friday off in England</text>
+            <vet id="2583">Lorna Collacott</vet>
+        </event>
+
+        <event date="01/04/1942" img="rawaduhbwjhrrjmfwsqk.jpg">
+            <text>Selwyn Stephens begins service with the Air Force</text>
+            <vet id="2584">Selwyn Stephens</vet>
+        </event>
+
+        <event date="12/02/1943" img="n0v.jpg">
+            <text>Bert Barker tries to join the Air Force 3 months too young</text>
+            <vet id="2590">Bert Barker</vet>
+        </event>
+
+        <event date="19/08/1942" img="k1r.jpg">
+            <text>Arthur Drake participates in the raid on Dieppe</text>
+            <vet id="2593">Arthur Drake</vet>
+        </event>
+
+        <event date="10/05/1945" img="yr1.jpg">
+            <text>John Kubis and crew of HMCS Rockcliffe capture a German submarine</text>
+            <vet id="2601">John Kubis</vet>
+        </event>
+
+        <event date="05/06/1944" img="qqy.jpg">
+            <text>John O'Neill and troops sail to Normandy, only to be recalled and invade the next day</text>
+            <vet id="2603">John O'Neill</vet>
+        </event>
+
+        <event date="09/09/1939" img="b0f.jpg">
+            <text>Kenneth McKenzie enlists in the Army</text>
+            <vet id="2606">Kenneth McKenzie</vet>
+        </event>
+
+        <event date="09/07/1944" img="o2s.jpg">
+            <text>John Anderson performs a bomb sweep in Bethune, France</text>
+            <vet id="2610">John Anderson</vet>
+        </event>
+
+        <event date="09/08/1944" img="rhwbtecfjxokvjiucxgc.jpg">
+            <text>Orille Hogue participates in the "big push" to close the Falaise Gap in France</text>
+            <vet id="2616">Orille Hogue</vet>
+        </event>
+
+        <event date="01/04/1945" img="4y4.jpg">
+            <text>John Harmer sees Japanese kamikaze pilots attack HMS Victorious</text>
+            <vet id="2619">John Harmer</vet>
+        </event>
+
+        <event date="09/07/1943" img="pcb.jpg">
+            <text>Sheridan Atkinson participates in the Allied landing of Sicily</text>
+            <vet id="2620">Sheridan Atkinson</vet>
+        </event>
+
+        <event date="01/01/1943" img="who.jpg">
+            <text>Joan Dowe serves in the Women's Army Corps (WAC) with the coastal defense of Britain</text>
+            <vet id="2623">Joan Dowe</vet>
+        </event>
+
+        <event date="01/01/1941" img="1gl.jpg">
+            <text>Howard O'Conner serves as bomber pilot in the Royal Air Force (RAF)</text>
+            <vet id="2624">Howard O'Connor</vet>
+        </event>
+
+        <event date="15/08/1945" img="dfp.jpg">
+            <text>Kent Ford is training for Pacific bombing operations when Victory in Japan is declared</text>
+            <vet id="2625">Kent Ford</vet>
+        </event>
+
+        <event date="06/06/1944" img="4ws.jpg">
+            <text>Elisabeth Wallis serves in a naval hospital during D-Day</text>
+            <vet id="2626">Elisabeth Wallis</vet>
+        </event>
+
+        <event date="01/06/1944" img="5er.jpg">
+            <text>Roderick White begins service in England</text>
+            <vet id="2627">Roderick White</vet>
+        </event>
+
+        <event date="01/09/1941" img="zjj.jpg">
+            <text>Peter Chance is stationed in Malaysia with the Navy</text>
+            <vet id="2628">Peter Chance</vet>
+        </event>
+
+        <event date="01/10/1940" img="k4n.jpg">
+            <text>Cyril Yarnell enlists in the Air Force and tours with the 403 Squadron</text>
+            <vet id="2630">Cyril Yarnell</vet>
+        </event>
+
+        <event date="01/05/1943" img="yvb.jpg">
+            <text>Agnes Ward and fellow Women Division (WDs) depart for England</text>
+            <vet id="2631">Agnes Ward</vet>
+        </event>
+
+        <event date="03/07/1941" img="pjr.jpg">
+            <text>Valerie Simmons survives a bombing in a London nightclub</text>
+            <vet id="2633">Valerie Simmons</vet>
+        </event>
+
+        <event date="01/08/1943" img="fyp.jpg">
+            <text>Frank Round and troops fight their way up the Liri Valley in Italy</text>
+            <vet id="2636">Frank Round</vet>
+        </event>
+
+        <event date="01/07/1943" img="muvkjzjgvapuomzdlzzt.jpg">
+            <text>John Beach finishes his medical training early and serves in the Royal Canadian Army Medical Corps (RCAMC)</text>
+            <vet id="2637">John Beach</vet>
+        </event>
+
+        <event date="01/01/1942" img="vdq.jpg">
+            <text>Allen Lucas enlists as a soldier in the Army</text>
+            <vet id="2638">Allen Lucas</vet>
+        </event>
+
+        <event date="01/11/1944" img="5p5.jpg">
+            <text>Jim Caird operates as a tank driver in the town of Rijssen, Holland</text>
+            <vet id="2639">Jim Caird</vet>
+        </event>
+
+        <event date="01/01/1940" img="mx5.jpg">
+            <text>Margaret Duff is stationed in Scotland with the Air Force</text>
+            <vet id="2655">Margaret Duff</vet>
+        </event>
+
+        <event date="18/12/1942" img="b20.jpg">
+            <text>Robert Fletcher is commisioned into the Air Force and serves in North Africa</text>
+            <vet id="2656">Robert Fletcher</vet>
+        </event>
+
+        <event date="17/03/1944" img="twz.jpg">
+            <text>Bill Hoag is bombed while stationed in Burma</text>
+            <vet id="2662">Bill Hoag</vet>
+        </event>
+
+        <event date="01/11/1942" img="eoz.jpg">
+            <text>Frank Boyd enlists in the 101 RAF Squadron</text>
+            <vet id="2667">Frank Boyd</vet>
+        </event>
+
+        <event date="25/12/1944" img="hbxrbfemnfxexyzxjmxb.jpg">
+            <text>Frederick Nash and crew crash into a German submarine</text>
+            <vet id="2668">Frederick Nash</vet>
+        </event>
+
+        <event date="01/10/1939" img="1lp.jpg">
+            <text>Dietrich Puetter enlists in the German Air Force</text>
+            <vet id="2679">Dietrich Puetter</vet>
+        </event>
+
+        <event date="01/01/1941" img="w53.jpg">
+            <text>Gordon Redcliffe joins the Air Force as a mechanic</text>
+            <vet id="2681">Gordon Redcliffe</vet>
+        </event>
+
+        <event date="25/04/1944" img="r3k.jpg">
+            <text>William Husson bombs the Obersaltzburg, Hitler's hideaway in the Swiss Alps</text>
+            <vet id="2685">William Husson</vet>
+        </event>
+
+        <event date="17/01/1944" img="idpgjyttggmzforuwzen.jpg">
+            <text>Bruce Bullock is injured while fighting in the Battle for Monte Cassino</text>
+            <vet id="2686">Bruce Bullock</vet>
+        </event>
+
+        <event date="01/01/1942" img="tep.jpg">
+            <text>Lorne Yule enlists in the Air Force as a mechanic</text>
+            <vet id="2695">Lorne Yule</vet>
+        </event>
+
+        <event date="01/10/1944" img="3gm.jpg">
+            <text>Maurice Hundleby is sent to the European front</text>
+            <vet id="2696">Maurice Hundleby</vet>
+        </event>
+
+        <event date="09/07/1944" img="ecixezknlotgvuxfostx.jpg">
+            <text>Margaret Fletcher tends to troops injured in the Battle of Caen</text>
+            <vet id="2698">Margaret Fletcher</vet>
+        </event>
+
+        <event date="01/01/1943" img="2qp.jpg">
+            <text>Lillian Wylie serves in the British Women's Land Army working in agriculture</text>
+            <vet id="2705">Lillian Wylie (nÈe Warren)</vet>
+        </event>
+
+        <event date="01/09/1942" img="hzgntfpaeoavakmmyezr.jpg">
+            <text>Nora Oliver joins the WRENS and works for Lord Mountbatten's headquarters</text>
+            <vet id="2706">Nora Oliver (nÈe Carrington)</vet>
+        </event>
+
+        <event date="01/01/1940" img="ghn.jpg">
+            <text>Isobel Smith joins the air force first as a cook, then as a nurse's aid</text>
+            <vet id="2709">Isobel Smith</vet>
+        </event>
+
+        <event date="16/10/1940" img="mfljrgceicqygnaujfbr.jpg">
+            <text>Charles Lepine enlists in the Royal Canadian Air Force (RCAF)</text>
+            <vet id="2714">Charles Lepine</vet>
+        </event>
+
+        <event date="29/12/1942" img="nia.jpg">
+            <text>Fred Russell enlists in the Air Force as a musician</text>
+            <vet id="2715">Fred Russell</vet>
+        </event>
+
+        <event date="01/01/1942" img="0fa.jpg">
+            <text>Daisy Bird enlists in the Women's Auxiliary Air Force</text>
+            <vet id="2716">Daisy Bird</vet>
+        </event>
+
+        <event date="22/02/1944" img="loz.jpg">
+            <text>Fred Coonstable begins service in the Navy</text>
+            <vet id="2717">Fred Constable</vet>
+        </event>
+
+        <event date="20/12/1945" img="cyfvlqdelfcuqmfiyyqx.jpg">
+            <text>John Kirk returns home to Victoria, British Columbia</text>
+            <vet id="2720">John Kirk</vet>
+        </event>
+
+        <event date="07/11/1944" img="cfqybhwblurgfalxzrff.jpg">
+            <text>Philip Bissell enlists in the Navy</text>
+            <vet id="2723">Philip Bissell</vet>
+        </event>
+
+        <event date="01/10/1939" img="y2f.jpg">
+            <text>Terence Elworthy is a cadet when he is called to service in Hong Kong</text>
+            <vet id="2737">Terence Elworthy</vet>
+        </event>
+
+        <event date="01/03/1943" img="lbucpjbqnddqjnzsflht.jpg">
+            <text>Pater Thomas and crew are attacked by a German submarine in the Bay of Biscay</text>
+            <vet id="2740">Peter Thomas</vet>
+        </event>
+
+        <event date="01/05/1941" img="nvqqtvzmbgdvndawjggt.jpg">
+            <text>Kenneth Pask enlists in the Air Force and serves in the South Pacific</text>
+            <vet id="2741">Kenneth Pask</vet>
+        </event>
+
+        <event date="01/01/1941" img="w42.jpg">
+            <text>Norma Curry joins the Women's Auxiliary Air Force</text>
+            <vet id="2742">Norma Curry</vet>
+        </event>
+
+        <event date="15/01/1945" img="sgsbdvalyylggowjukpx.jpg">
+            <text>Mr. Richards arrives in Horsham, England</text>
+            <vet id="2743">C Richards</vet>
+        </event>
+
+        <event date="01/01/1943" img="icskgmzsyutxermkwyry.jpg">
+            <text>Albert Walsh enlists in the Army</text>
+            <vet id="2744">Albert Walsh</vet>
+        </event>
+
+        <event date="19/01/1945" img="bnzkyukbuqxyxivwukoo.jpg">
+            <text>Arthur Anderson is relocated in a Prisoner of War (POW) camp</text>
+            <vet id="2756">Arthur Anderson</vet>
+        </event>
+
+        <event date="19/08/1942" img="050.jpg">
+            <text>Wilson Large fights in the Battle of Dieppe</text>
+            <vet id="2777">Wilson Large</vet>
+        </event>
+
+        <event date="06/09/1943" img="zlnuohjgrtptabcicbin.jpg">
+            <text>Henry Seewald joins the Air Force and builds radios</text>
+            <vet id="2800">Henry Seewald</vet>
+        </event>
+
+        <event date="01/05/1943" img="03w.jpg">
+            <text>Wilma Cooke travels to European Front as a nurse</text>
+            <vet id="2816">Wilma Cooke</vet>
+        </event>
+
+        <event date="01/05/1943" img="uw5.jpg">
+            <text>Hilda Senter serves is Egypt with the Air Force</text>
+            <vet id="2818">Hilda Senter</vet>
+        </event>
+
+        <event date="30/06/1943" img="mddvhwcuhrlkvnjmhbxs.jpg">
+            <text>Joyce Mullen finishes her training with the Royal Canadian Air Force Women's Division</text>
+            <vet id="2837">Joyce Mullen</vet>
+        </event>
+
+        <event date="06/04/1944" img="qydxnraltcqpnonoetyh.jpg">
+            <text>John Shaw completes his Engine Room Artificer Apprenticeship with the Navy</text>
+            <vet id="2850">John Shaw</vet>
+        </event>
+
+        <event date="01/02/1945" img="ubgcyufzvvliypxgwndk.jpg">
+            <text>Walter Weir joins The Royal Regina Rifles Regiment in the Army</text>
+            <vet id="2851">Walter Weir</vet>
+        </event>
+
+        <event date="03/09/1943" img="dunuxkuayfrhvteqfjgz.jpg">
+            <text>Henry Love and troops cross the Straits of Messina in Italy</text>
+            <vet id="2853">Howard Love</vet>
+        </event>
+
+        <event date="22/02/1942" img="bwlvamovbrmpjjoffxfy.jpg">
+            <text>John Yeomans is shot down while returning from air raid over Germany</text>
+            <vet id="2855">John Yeomans</vet>
+        </event>
+
+        <event date="27/12/1944" img="fmixzgnxdtmxccaatshe.jpg">
+            <text>Donald Bowman and crew on HMSC Edmunston sink a German submarine</text>
+            <vet id="2863">Donald Bowman</vet>
         </event>
 
     </events>

@@ -48,8 +48,6 @@ package ghostmonk.interactive.timeline.components.ui
 			GLOW.alpha = 0;
 			view.filters = [GLOW];
 			_field.textColor = 0x000000;
-			//Animator.filterTween( view, GLOW );
-			//Animator.tween( _field, { _text_color:0x000000, time:Tween.BASE_TIME } );
 		}
 		
 		override protected function onRollover( e:MouseEvent = null ) : void
@@ -57,8 +55,6 @@ package ghostmonk.interactive.timeline.components.ui
 			GLOW.alpha = 1;
 			view.filters = [GLOW];
 			_field.textColor = 0xFFFFFF;
-			//Animator.filterTween( view, GLOW );
-			//Animator.tween( _field, { _text_color:0xFFFFFF, time:Tween.BASE_TIME } );
 		}	
 	}
 }

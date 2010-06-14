@@ -11,7 +11,14 @@ package ghostmonk.interactive.timeline
 	 * 
 	 */
 	public class AppFacade extends Facade
-	{	
+	{
+		public static var LANGUAGE:String = "en";
+		
+		public static function isEnglish() : Boolean
+		{
+			return LANGUAGE.slice( 0, 2 ) == "en";
+		}
+		
 		override protected function initializeController() : void 
 		{	
 			super.initializeController();

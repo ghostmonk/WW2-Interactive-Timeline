@@ -4,6 +4,7 @@ package ghostmonk.interactive.timeline.framework.controller
 	
 	import com.ghostmonk.net.XMLLoader;
 	
+	import ghostmonk.interactive.timeline.AppFacade;
 	import ghostmonk.interactive.timeline.components.Background;
 	import ghostmonk.interactive.timeline.components.MainTitle;
 	import ghostmonk.interactive.timeline.data.BootStrapData;
@@ -34,6 +35,7 @@ package ghostmonk.interactive.timeline.framework.controller
 		
 		private function onConfigDataLoaded( data:XML ) : void
 		{
+			AppFacade.LANGUAGE = data.@lang.toString();
 			var config:ConfigProxy = new ConfigProxy( new ConfigData( data ) );
 			facade.registerProxy( config );
 			

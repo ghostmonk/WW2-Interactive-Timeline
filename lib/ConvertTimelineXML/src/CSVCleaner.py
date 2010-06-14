@@ -1,9 +1,8 @@
-'''
-Created on 2010-05-18
-
-@author: ghostmonk
-'''
 from string import strip
+from test.test_iterlen import len
+
+outfile = "timelineConfig_en.xml";
+infile = "ENTimeline_June13~.txt";
 
 def printDict( data ):
     for id, value in data.iteritems():
@@ -31,7 +30,9 @@ def getEventNode( data ):
     return output;
 
 def getXMLNode( data ):
-    
+    if len( data ) < 5:
+        print data;
+        return ( 2, '' );
     eventDict = {};
     eventDict[ 'date' ] = strip( data[0] ); 
     eventDict[ 'text' ] = strip( data[1] );
@@ -57,6 +58,7 @@ def getXMLNode( data ):
 
 def cleanLine( line ) :
     output = strip( line );
+    output = output.replace( "http://www.thememoryproject.com/stories/veteran-profile.aspx?itemid=", "" );
     output = output.replace( "http://www.thememoryproject.com/Stories/Veteran-Profile.aspx?itemid=", "" );
     output = output.replace( "http://www.thememoryproject.com/VeteranAssets/Artifact/Thumb_Small/", "" );
     return output;
@@ -64,13 +66,14 @@ def cleanLine( line ) :
 def readFile():
     
     badDataCollector = [];
+    countBadData = 0;
     parsedFile = "";
     openNode = "";
     eventNodeClose = '        </event>\n';
     isFirst = True;
     eventCount = 0;
     vetCount = 0;
-    rawFile = open("Timeline_may18~.txt", "rb");
+    rawFile = open(infile, "rb");
     
     for line in rawFile:
         line = cleanLine( line ) + "\n";
@@ -90,10 +93,11 @@ def readFile():
             vetCount += 1;
             openNode += xmlTuple[ 1 ];
         elif type == 3:
-            printDict( xmlTuple[ 1 ] );
+            #printDict( xmlTuple[ 1 ] );
+            countBadData += 1;
             badDataCollector += xmlTuple[ 1 ];
     
-    
+    print countBadData;
     print eventCount;
     print vetCount;
     return parsedFile;
@@ -113,7 +117,7 @@ outputFooter = """
     
 </timelineData>"""
 
-cleanFile = open( "timelineConfig_en.xml", "w" );
+cleanFile = open( outfile, "w" );
 cleanFile.write( outputHeader );
 cleanFile.write( readFile() );
 cleanFile.write( outputFooter );

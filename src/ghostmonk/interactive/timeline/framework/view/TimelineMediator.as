@@ -15,13 +15,13 @@ package ghostmonk.interactive.timeline.framework.view
 	public class TimelineMediator extends Mediator
 	{
 		public static const NAME:String = "TimelineMediator";
-		private static const PADDING:int = 60;
+		private static const PADDING:int = 55;
 		
-		private var _vetranTimeline:Timeline;
-		private var _warEventTimeline:Timeline;
-		private var _data:TimelineDataProxy;
 		private var _stage:Stage;
 		private var _initDelayInterval:uint;
+		private var _data:TimelineDataProxy;
+		private var _vetranTimeline:Timeline;
+		private var _warEventTimeline:Timeline;
 		
 		public function TimelineMediator( soldierTimeline:Timeline, eventTimeline:Timeline, categories:Array, stage:Stage )
 		{
@@ -93,8 +93,11 @@ package ghostmonk.interactive.timeline.framework.view
 				_warEventTimeline.showIcon( id, false );
 			
 			_vetranTimeline.removeAll();
-			for each( var vetId:String in _data.vetranCollection.getIDsByYear( year ) )
-				_vetranTimeline.showIcon( vetId, false );
+			for each( var vetID:String in _data.vetranCollection.getIDsByYear( year ) )
+			{
+				var vetDate:Date = _data.vetranCollection.getVetranByID( vetID ).getRandDateByYear( year );
+				_vetranTimeline.showIcon( vetID, false, vetDate );
+			}
 		}
 		
 		private function setup( categories:Array ) : void
@@ -112,7 +115,7 @@ package ghostmonk.interactive.timeline.framework.view
 		private function normalView() : void
 		{
 			var timelineHeight:Number = _warEventTimeline.height;
-			_warEventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5;
+			_warEventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5 + 30;
 			_vetranTimeline.y = _warEventTimeline.y + timelineHeight + PADDING;
 			_stage.addChild( _vetranTimeline );
 			_stage.addChild( _warEventTimeline );

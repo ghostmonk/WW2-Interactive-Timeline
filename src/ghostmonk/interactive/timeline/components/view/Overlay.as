@@ -14,10 +14,12 @@ package ghostmonk.interactive.timeline.components.view
 	import flash.text.StyleSheet;
 	import flash.text.TextFieldAutoSize;
 	
+	import ghostmonk.interactive.timeline.AppFacade;
 	import ghostmonk.interactive.timeline.data.collections.Vetran;
 	import ghostmonk.interactive.timeline.data.collections.WarEventData;
 	import ghostmonk.interactive.timeline.events.OverlayEvent;
 	import ghostmonk.interactive.timeline.utils.Animator;
+	import ghostmonk.interactive.timeline.utils.DateFormatter;
 	import ghostmonk.interactive.timeline.utils.Tween;
 	
 	[Event (name="close", type="ghostmonk.interactive.timeline.events.OverlayEvent")]
@@ -25,7 +27,7 @@ package ghostmonk.interactive.timeline.components.view
 	public class Overlay extends OverlayAsset
 	{
 		private static const IMG_HEIGHT:Number = 145;
-		private static const PADDING:Number = 10;
+		private static const PADDING:Number = 25;
 		private var _closeBtn:SimpleMovieClipButton;
 		private var _rotatingBuffer:RotatingBufferIcon;
 		private var _currentBitmap:Bitmap;
@@ -63,13 +65,14 @@ package ghostmonk.interactive.timeline.components.view
 		
 		public function buildIn() : void
 		{
+			_closeBtn.enable();
 			failedImg.visible = false;
 			Animator.tween( this, Tween.ALPHA_IN );
 		}
 		
 		public function buildOut() : void
 		{
-			Animator.setCallback( parent.removeChild, [ this ] );
+			if( this.parent ) Animator.setCallback( parent.removeChild, [ this ] );
 			Animator.tween( this, Tween.ALPHA_OUT );	
 		}
 		
@@ -77,7 +80,7 @@ package ghostmonk.interactive.timeline.components.view
 		{
 			titleText = vetName ? vetName : data.title;
 			var bodyContent:String = data.text.substr( 0, 1 ).toUpperCase() + data.text.substr( 1 );
-			bodyText( data.date.toDateString() + "\n" + bodyContent, vetrans );
+			bodyText( DateFormatter.getFullDate( data.date, AppFacade.isEnglish() ) + "\n" + bodyContent, vetrans, vetName );
 			loadImg( _imgLink + data.img );
 		}
 		
@@ -88,11 +91,24 @@ package ghostmonk.interactive.timeline.components.view
 			title.text = value;
 		}
 		
-		private function bodyText( value:String, vetrans:Array ) : void
+		private function bodyText( value:String, vetrans:Array, vetName:String ) : void
 		{
 			var vetLinks:String = "\n" + _vetsTitle + "\n";
 			for each( var vet:Vetran in vetrans )
-				vetLinks += "<a href='" + _vetLink + vet.id + "' target='_blank'>" + vet.name + "</a>, ";
+			{
+				if( vetName != null ) 
+				{
+					if( vet.name == vetName ) 
+					{
+						vetLinks = "\nProfile Link \n";
+						vetLinks += "<a href='" + _vetLink + vet.id + "' target='_blank'>" + vet.name + "</a>, ";
+					}
+				}
+				else 
+				{
+					vetLinks += "<a href='" + _vetLink + vet.id + "' target='_blank'>" + vet.name + "</a>, ";
+				}
+			}
 			vetLinks = StringUtils.trimEnd( vetLinks, ", " );
 			
 			bodyField.autoSize = TextFieldAutoSize.LEFT;
@@ -123,6 +139,7 @@ package ghostmonk.interactive.timeline.components.view
 		
 		private function onClick( e:MouseEvent ) : void
 		{
+			_closeBtn.disable();
 			dispatchEvent( new OverlayEvent( OverlayEvent.CLOSE ) );
 		}
 		

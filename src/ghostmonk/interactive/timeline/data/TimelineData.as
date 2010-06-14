@@ -1,9 +1,9 @@
 package ghostmonk.interactive.timeline.data
 {
-	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
-	import ghostmonk.interactive.timeline.data.collections.WarEventData;
 	import ghostmonk.interactive.timeline.data.collections.Vetran;
 	import ghostmonk.interactive.timeline.data.collections.VetranCollection;
+	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
+	import ghostmonk.interactive.timeline.data.collections.WarEventData;
 	
 	public class TimelineData
 	{
@@ -60,8 +60,7 @@ package ghostmonk.interactive.timeline.data
 				eventData.text = rawData.text.toString();
 				eventData.vetIDs = getVetIDs( rawData.vet );
 				addVetrans( rawData.vet, eventData.guid );
-				var dateArray:Array = rawData.@date.toString().split( "/" );
-				eventData.date = new Date( int( dateArray[ 2 ] ), int( dateArray[ 1 ] ), int( dateArray[ 0 ] ) );
+				eventData.date = getDate( rawData.@date.toString() );
 				output.addEvent( eventData );
 			}
 			return output;
@@ -81,9 +80,15 @@ package ghostmonk.interactive.timeline.data
 			{
 				var vet:Vetran = _vetrans.createVetran( vetData.@id.toString(), vetData.toString() );
 				vet.addWarEventID( warEventID );
-				var dateArray:Array = vetData.parent().@date.toString().split( "/" );
-				vet.addDate( new Date( int( dateArray[ 2 ] ), int( dateArray[ 1 ] ), int( dateArray[ 0 ] ) ) );
+				vet.addDate( getDate( vetData.parent().@date.toString() ) );
 			}
+		}
+		
+		private function getDate( dateString:String ) : Date
+		{
+			if( dateString.length != 10 ) trace( dateString );
+			var dateArray:Array = dateString.split( "/" );
+			return new Date( int( dateArray[ 2 ] ), int( dateArray[ 1 ] ) - 1, int( dateArray[ 0 ] ) )
 		}
 	}
 }

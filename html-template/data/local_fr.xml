@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization lang="fr">
+	<timelineData>data/timelineConfig_fr.xml</timelineData>
+	<mainTitle>Ligne du temps de la Seconde Guerre mondiale</mainTitle>
+	<vetransTitle>Lien vers le profil du vétéran</vetransTitle>
+	<categories>
+		<category>Dates importantes</category>
+		<category>Vétérans</category>
+	</categories>
+	<months>Jan Fev Mar Avr Mai Juin Juil Aout Sep Oct Nov Dec</months>
+	<years>Tous 1939 1940 1941 1942 1943 1944 1945</years>
+</localization>

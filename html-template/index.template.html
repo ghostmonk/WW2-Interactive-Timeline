@@ -9,7 +9,8 @@
             var flashvars = {};
             var params = {};
             params.bgcolor = "${bgcolor}";
-            flashvars.configURL = "data/local_en.xml";
+            //flashvars.configURL = "data/local_en.xml";
+            flashvars.configURL = "data/local_fr.xml";
             
             swfobject.embedSWF("${swf}.swf", "${application}", "${width}", "${height}", "${version_major}.${version_minor}.${version_revision}", "js/swfobject/expressInstall.swf", flashvars, params);
         

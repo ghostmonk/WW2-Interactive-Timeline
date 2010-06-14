@@ -2,6 +2,7 @@
 package ghostmonk.interactive.timeline.framework.view
 {
 	import com.ghostmonk.events.IDEvent;
+	import com.ghostmonk.utils.TimedCallback;
 	
 	import flash.display.Sprite;
 	import flash.display.Stage;
@@ -48,6 +49,7 @@ package ghostmonk.interactive.timeline.framework.view
 		public function set years( value:Array ) : void
 		{
 			_years = value;
+			TimedCallback.create( sendNotification, 300, FILTER_ALL, _years );
 		}
 		
 		public function get view() : Sprite
@@ -60,7 +62,7 @@ package ghostmonk.interactive.timeline.framework.view
 			_filterBar.selectItem( e.id );
 			if( e.id == 0 ) 
 			{
-				sendNotification( FILTER_ALL );
+				sendNotification( FILTER_ALL, _years );
 				Animator.tween( _monthBar, Tween.ALPHA_OUT );
 			}
 			else 
@@ -72,7 +74,7 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function positionAssets() : void
 		{
-			_filterBar.y = _monthBar.height + 5;
+			_filterBar.y = _monthBar.height + 400;
 			_monthBar.x = ( _filterBar.width - _monthBar.width ) * 0.5 + 45;
 			_monthBar.disable();
 			

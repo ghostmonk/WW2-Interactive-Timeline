@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<localization>
+<localization lang="eng">
 	<timelineData>data/timelineConfig_en.xml</timelineData>
 	<mainTitle>World War II Timeline</mainTitle>
 	<vetransTitle>Veteran Profile Links</vetransTitle>

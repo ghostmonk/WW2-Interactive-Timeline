@@ -25,6 +25,8 @@ package ghostmonk.interactive.timeline.components.timeline
 		private var _height:int;
 		private var _xDiv:Number;
 		private var _yDiv:Number;
+		private var _xMax:int;
+		private var _yMax:int;
 		
 		public function setDimensions( divider:TimelineDivider, icon:Icon ) : void
 		{
@@ -32,6 +34,10 @@ package ghostmonk.interactive.timeline.components.timeline
 			_yDiv = icon.view.height;
 			_width = divider.baseWidth;
 			_height = divider.baseHeight;
+			
+			_xMax = Math.ceil( _width / _xDiv );
+			_yMax = Math.ceil( _height / _yDiv );
+			
 			reset();
 			if( _width ) setDivisionWidth();
 		}
@@ -40,13 +46,10 @@ package ghostmonk.interactive.timeline.components.timeline
 		{
 			_positionTracker = [];
 			
-			var xMax:int = Math.ceil( _width / _xDiv );
-			var yMax:int = Math.ceil( _height / _yDiv );
-			
-			for( var x:int = 0; x < xMax; x++ )
+			for( var x:int = 0; x < _xMax; x++ )
 			{
 				_positionTracker[ x ] = [];
-				for( var y:int = 0; y < yMax; y++ ) _positionTracker[ x ][ y ] = EMPTY;
+				for( var y:int = 0; y < _yMax; y++ ) _positionTracker[ x ][ y ] = EMPTY;
 			}
 		}
 		
@@ -80,18 +83,21 @@ package ghostmonk.interactive.timeline.components.timeline
 		
 		private function getTranslatedPoint( xPos:Number ) : Point
 		{
-			var xNode:int = Math.ceil( xPos / _xDiv );	 
+			var xNode:int = Math.ceil( xPos / _xDiv );
+			var prevXNode:int = xNode - 1;	 
+			var nextXNode:int = xNode + 1;	 
 			var yNode:int = testYColumn( xNode );
 			
 			if( yNode == -1 ) 
 			{
-				var iters:int = 0;
-				/*while( iters < 5 )
+				yNode = testYColumn( nextXNode );
+				if( yNode == -1 ) 
 				{
-					xNode += 1;
-					yNode = testYColumn( xNode );
-					iters++;
-				}*/
+					yNode = testYColumn( prevXNode );
+					if( yNode == -1 ) {
+						return new Point( -1, -1 );
+					}
+				}
 			}
 			return new Point( xNode * _xDiv, yNode * _yDiv );
 		}
@@ -100,7 +106,7 @@ package ghostmonk.interactive.timeline.components.timeline
 		{
 			var iterations:int = Math.floor( _positionTracker[ 0 ].length * 0.5 );
 			var up:int = iterations - 1;
-			var down:int = up;
+			var down:int = up + 1;
 			
 			if( _positionTracker[ 0 ].length % 2 != 0 )
 			{
@@ -125,6 +131,7 @@ package ghostmonk.interactive.timeline.components.timeline
 			y = Math.min( _positionTracker[ x ].length - 1, y );
 			var output:Boolean = _positionTracker[ x ][ y ] == EMPTY;
 			_positionTracker[ x ][ y ] = FULL;
+			
 			return output;
 		}
 		

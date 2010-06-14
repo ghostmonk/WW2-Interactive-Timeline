@@ -4,9 +4,11 @@ package ghostmonk.interactive.timeline.framework.view
 	
 	import ghostmonk.interactive.timeline.components.Background;
 	import ghostmonk.interactive.timeline.components.MainTitle;
+	import ghostmonk.interactive.timeline.utils.Animator;
 	
+	import org.puremvc.as3.interfaces.INotification;
 	import org.puremvc.as3.patterns.mediator.Mediator;
-
+	
 	/**
 	 * 
 	 * @author ghostmonk 16/08/2009
@@ -21,7 +23,7 @@ package ghostmonk.interactive.timeline.framework.view
 		private var _background:Background;
 		
 		public function StageMediator( viewComponent:Stage ) 
-		{		
+		{	
 			super( NAME, viewComponent );
 			stage.stageFocusRect = false;
 		}
@@ -31,7 +33,34 @@ package ghostmonk.interactive.timeline.framework.view
 			_title = value;
 			_title.x = ( stage.width - _title.width ) * 0.5;
 			_title.y = PADDING;
+			_title.date.text = "";
 			stage.addChild( _title );
+		}
+		
+		override public function listNotificationInterests() : Array
+		{
+			return [ 	
+				FilterMediator.FILTER_ALL,
+				FilterMediator.FILTER_YEAR  	
+			];
+		}
+		
+		override public function handleNotification( note:INotification ) : void
+		{
+			switch( note.getName() )
+			{
+				case FilterMediator.FILTER_ALL:	
+					_title.dateText = getRange( note.getBody() as Array );
+					break;
+				case FilterMediator.FILTER_YEAR:
+					_title.dateText = note.getBody().toString();
+					break;
+			}
+		}
+		
+		private function getRange( yearArray:Array ) : String
+		{
+			return yearArray[ 1 ] + " - " + yearArray[ yearArray.length - 1 ];
 		}
 		
 		public function set background( value:Background ) : void

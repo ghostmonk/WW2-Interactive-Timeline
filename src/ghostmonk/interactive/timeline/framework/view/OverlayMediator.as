@@ -2,7 +2,6 @@ package ghostmonk.interactive.timeline.framework.view
 {
 	import com.ghostmonk.display.graphics.shapes.SimpleRectangle;
 	import com.ghostmonk.events.ArrayNavEvent;
-	import com.ghostmonk.ui.navigation.ArrayNavigator;
 	
 	import flash.display.Stage;
 	
@@ -25,8 +24,9 @@ package ghostmonk.interactive.timeline.framework.view
 		private var _data:TimelineDataProxy;
 		private var _view:Overlay;
 		private var _stageGuard:SimpleRectangle;
-		private var _incrementNav:ArrayNavigator;
+		//private var _incrementNav:ArrayNavigator;
 		private var _targetVetran:Vetran;
+		private var _currentYear:Number;
 		
 		public function OverlayMediator( viewComponent:Overlay, stage:Stage )
 		{
@@ -37,9 +37,9 @@ package ghostmonk.interactive.timeline.framework.view
 			_view = viewComponent;
 			_view.addEventListener( OverlayEvent.CLOSE, onCloseOverlay );
 			
-			_incrementNav = new ArrayNavigator( _view.next, _view.previous );
-			_incrementNav.addEventListener( ArrayNavEvent.CHANGE, onArrayNav );
-			_incrementNav.disable();
+			//_incrementNav = new ArrayNavigator( _view.next, _view.previous );
+			//_incrementNav.addEventListener( ArrayNavEvent.CHANGE, onArrayNav );
+			//_incrementNav.disable();
 			
 			super( NAME, viewComponent );
 		}
@@ -61,7 +61,9 @@ package ghostmonk.interactive.timeline.framework.view
 			return [ 
 				Icon.WAR_EVENT,
 				Icon.VET,
-				TimelineDataProxy.TIMELINE_DATA_READY
+				TimelineDataProxy.TIMELINE_DATA_READY,
+				FilterMediator.FILTER_YEAR,
+				FilterMediator.FILTER_ALL
 			];
 		}
 		
@@ -80,15 +82,38 @@ package ghostmonk.interactive.timeline.framework.view
 				case Icon.VET:
 					showVetranOverlay( note.getBody() as String );
 					break;
+					
+				case FilterMediator.FILTER_ALL:
+					_currentYear = 0;
+					break;
+					
+				case FilterMediator.FILTER_YEAR:
+					_currentYear = note.getBody() as Number;
+					break;
 			}
 		}
 		
 		private function showVetranOverlay( id:String ) : void
 		{
 			_targetVetran = _data.vetranCollection.getVetranByID( id );
-			var warEventIDs:Array = _targetVetran.warEventIDs;	
+			var warEventIDs:Array = _targetVetran.warEventIDs;
 			var eventList:Array = _data.warEventCollection.getListByIDs( warEventIDs );
-			_incrementNav.navSource = eventList;
+			
+			var warEvent:WarEventData = _data.warEventCollection.getDataByID( warEventIDs[ Math.floor( Math.random() * warEventIDs.length ) ] );
+			
+			var testYear:Number = _currentYear > 0 ? _currentYear : _targetVetran.seedDate.fullYear;
+			
+			for each( var id:String in warEventIDs )
+			{
+				var eachEvent:WarEventData = _data.warEventCollection.getDataByID( id );
+				if( eachEvent.date.fullYear == testYear ) 
+				{
+					warEvent = eachEvent;
+					break;
+				} 
+			}
+			
+			setContent( warEvent, _targetVetran.name );
 			show();
 		}
 		
@@ -110,7 +135,7 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function onCloseOverlay( e:OverlayEvent = null ) : void
 		{
-			_incrementNav.disable();
+			//_incrementNav.disable();
 			_stage.removeChild( _stageGuard );
 			_view.buildOut();
 		}

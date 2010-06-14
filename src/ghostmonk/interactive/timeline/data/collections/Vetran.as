@@ -6,6 +6,7 @@ package ghostmonk.interactive.timeline.data.collections
 		private var _id:String;
 		private var _dates:Array;
 		private var _warEventIDs:Array;
+		private var _seedDate:Date;
 		
 		public function Vetran( id:String, name:String )
 		{
@@ -13,6 +14,11 @@ package ghostmonk.interactive.timeline.data.collections
 			_id = id;
 			_dates = [];
 			_warEventIDs = [];
+		}
+		
+		public function get seedDate() : Date
+		{
+			return _seedDate;
 		}
 		
 		public function get warEventIDs() : Array
@@ -33,6 +39,26 @@ package ghostmonk.interactive.timeline.data.collections
 		public function get dates() : Array
 		{
 			return _dates;
+		}
+		
+		public function get randomDate() : Date
+		{
+			_seedDate = _dates[ Math.floor( _dates.length * Math.random() ) ] as Date;
+			return _seedDate;
+		}
+		
+		public function getRandDateByYear( year:int ) : Date
+		{
+			var targetYears:Array = [];
+			for each( var date:Date in _dates )
+			{
+				if( date.fullYear == year ) targetYears.push( date );
+			} 
+			
+			if( targetYears.length == 0 ) return null;
+			
+			
+			return targetYears[ Math.floor( Math.random() * targetYears.length ) ] as Date;;
 		}
 		
 		public function addWarEventID( value:String ) : void

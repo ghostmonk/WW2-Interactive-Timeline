@@ -10,6 +10,7 @@ package ghostmonk.interactive.timeline.data
 		private var _thumbLink:String;
 		private var _vetProfileLink:String;
 		private var _eventDataCollection:WarEventCollection;
+		private var _vetEventCollection:WarEventCollection;
 		private var _vetrans:VetranCollection;
  		
 		public function TimelineData( data:XML )
@@ -18,6 +19,7 @@ package ghostmonk.interactive.timeline.data
 			_thumbLink = data.links.smallThumb.@url.toString();
 			_vetProfileLink = data.links.vetProfile.@url.toString();
 			
+			_vetEventCollection = getEventData( data.veterans.veteran, true );
 			_eventDataCollection = getEventData( data.events.event );
 			data = null;
 		}
@@ -37,6 +39,11 @@ package ghostmonk.interactive.timeline.data
 			return _eventDataCollection;
 		}
 		
+		public function get vetEventCollection() : WarEventCollection
+		{
+			return _vetEventCollection;
+		}
+		
 		public function get vetranCollection() : VetranCollection
 		{
 			return _vetrans;
@@ -47,7 +54,7 @@ package ghostmonk.interactive.timeline.data
 			return _vetrans.getVetranByID( id ).name;
 		}
 		
-		private function getEventData( list:XMLList ) : WarEventCollection
+		private function getEventData( list:XMLList, isVeteran:Boolean = false ) : WarEventCollection
 		{
 			var output:WarEventCollection = new WarEventCollection();
 			
@@ -56,7 +63,7 @@ package ghostmonk.interactive.timeline.data
 				var eventData:WarEventData = new WarEventData();
 				eventData.img = rawData.@img.toString();
 				eventData.shortDescription = rawData.shortDesc;
-				eventData.title = rawData.title;
+				eventData.title = isVeteran ? rawData.vet[0].toString() : rawData.title;
 				eventData.text = rawData.text.toString();
 				eventData.vetIDs = getVetIDs( rawData.vet );
 				addVetrans( rawData.vet, eventData.guid );

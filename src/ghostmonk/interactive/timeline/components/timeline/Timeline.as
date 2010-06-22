@@ -88,13 +88,14 @@ package ghostmonk.interactive.timeline.components.timeline
 			_positionCalc.setDimensions( _divider, _icons[ eventData.guid ] );
 		}
 		
-		public function createVetranIcons( vetData:VetranCollection ) : void
+		public function createVeteranEventIcons( data:WarEventCollection ) : void
 		{
-			for each( var data:Vetran in vetData.totalList )
-			{	
-				createMarker( data.id, Icon.VET, data.name, data.randomDate );
+			for each( var eventData:WarEventData in data.totalList )
+			{
+				var label:String = eventData.date.toDateString().substr( 4 ) + " \n " + eventData.shortDescription;
+				createMarker( eventData.guid, Icon.VET, label, eventData.date );
 			}
-			_positionCalc.setDimensions( _divider, _icons[ data.id ] );
+			_positionCalc.setDimensions( _divider, _icons[ eventData.guid ] );
 		}
 		
 		public function showIcon( id:String, isFullView:Boolean, date:Date = null ) : void

@@ -1,8 +1,8 @@
 package ghostmonk.interactive.timeline.framework.model
 {
 	import ghostmonk.interactive.timeline.data.TimelineData;
-	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
 	import ghostmonk.interactive.timeline.data.collections.VetranCollection;
+	import ghostmonk.interactive.timeline.data.collections.WarEventCollection;
 	
 	import org.puremvc.as3.patterns.proxy.Proxy;
 
@@ -32,6 +32,11 @@ package ghostmonk.interactive.timeline.framework.model
 		public function get warEventCollection() : WarEventCollection
 		{
 			return _timelineData.eventCollection;
+		}
+		
+		public function get veteranEventCollection() : WarEventCollection
+		{
+			return _timelineData.vetEventCollection;
 		}
 		
 		public function get vetranCollection() : VetranCollection

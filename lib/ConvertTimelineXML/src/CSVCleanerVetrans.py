@@ -1,7 +1,7 @@
 from string import strip
 
-outfile = "vetrans_en.xml";
-infile = "ENVetrans_June13~.txt";
+outfile = "vetrans_fr.xml";
+infile = "FRVetrans_June13~.txt";
 
 def cleanLine( line ) :
     output = strip( line );
@@ -26,10 +26,10 @@ def readFile():
         text = strip( lineData[4] );
         img = strip( lineData[5] );
         
-        node = '\n        <event date="' + date + '" ' + 'img="' + img + '">';
+        node = '\n        <veteran date="' + date + '" ' + 'img="' + img + '">';
         node += '\n            <text>' + text + '</text>';
         node += '\n            <vet id="' + vetID + '">' + fName + ' ' + lName + '</vet>';
-        node += '\n        </event>\n'
+        node += '\n        </veteran>\n'
         
         parsedFile += node;
     

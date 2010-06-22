@@ -10,6 +10,7 @@ package ghostmonk.interactive.timeline.framework.controller
 	import flash.display.Stage;
 	import flash.text.TextField;
 	
+	import ghostmonk.interactive.timeline.AppFacade;
 	import ghostmonk.interactive.timeline.components.timeline.TimelineFilter;
 	import ghostmonk.interactive.timeline.components.ui.FilterEffectButton;
 	import ghostmonk.interactive.timeline.framework.model.ConfigProxy;
@@ -31,7 +32,8 @@ package ghostmonk.interactive.timeline.framework.controller
 		
 		private function createFilterMediator( stage:Stage, proxy:ConfigProxy ) : void
 		{
-			var monthBar:TimelineFilter = getFilter( proxy.months, SmallTextBtnAsset, 45 );
+			var padding:Number = AppFacade.LANGUAGE == "eng" ? 30: 33;
+			var monthBar:TimelineFilter = getFilter( proxy.months, SmallTextBtnAsset, padding );
 			var yearBar:TimelineFilter = getFilter( proxy.years, LargeTextBtnAsset, 54 );
 			var mediator:FilterMediator = new FilterMediator( monthBar, yearBar, stage );
 			mediator.years = proxy.years; 

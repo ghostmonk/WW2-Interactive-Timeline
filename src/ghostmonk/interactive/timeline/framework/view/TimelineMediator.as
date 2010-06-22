@@ -20,14 +20,14 @@ package ghostmonk.interactive.timeline.framework.view
 		private var _stage:Stage;
 		private var _initDelayInterval:uint;
 		private var _data:TimelineDataProxy;
-		private var _vetranTimeline:Timeline;
+		private var _veteranTimeline:Timeline;
 		private var _warEventTimeline:Timeline;
 		
 		public function TimelineMediator( soldierTimeline:Timeline, eventTimeline:Timeline, categories:Array, stage:Stage )
 		{
 			super( NAME );
-			_vetranTimeline = soldierTimeline;
-			_vetranTimeline.addEventListener( TimelineEvent.ICON_CLICK, onVetranIconClick );
+			_veteranTimeline = soldierTimeline;
+			_veteranTimeline.addEventListener( TimelineEvent.ICON_CLICK, onVetranIconClick );
 			_warEventTimeline = eventTimeline;
 			_warEventTimeline.addEventListener( TimelineEvent.ICON_CLICK, onWarEventIconClick );
 			_stage = stage;
@@ -66,7 +66,7 @@ package ghostmonk.interactive.timeline.framework.view
 		{
 			clearInterval( _initDelayInterval );
 			_warEventTimeline.createWarEventIcons( _data.warEventCollection );
-			_vetranTimeline.createVetranIcons( _data.vetranCollection );
+			_veteranTimeline.createVeteranEventIcons( _data.veteranEventCollection );
 			showAll();
 		}
 		
@@ -83,7 +83,7 @@ package ghostmonk.interactive.timeline.framework.view
 		private function showAll() : void
 		{
 			_warEventTimeline.showAll();
-			_vetranTimeline.showAll();
+			_veteranTimeline.showAll();
 		}
 		
 		private function onYearNav( year:int ) : void
@@ -92,12 +92,10 @@ package ghostmonk.interactive.timeline.framework.view
 			for each( var id:String in _data.warEventCollection.getIDsByYear( year ) )
 				_warEventTimeline.showIcon( id, false );
 			
-			_vetranTimeline.removeAll();
-			for each( var vetID:String in _data.vetranCollection.getIDsByYear( year ) )
-			{
-				var vetDate:Date = _data.vetranCollection.getVetranByID( vetID ).getRandDateByYear( year );
-				_vetranTimeline.showIcon( vetID, false, vetDate );
-			}
+			_veteranTimeline.removeAll();
+			for each( var vetID:String in _data.veteranEventCollection.getIDsByYear( year ) )
+				_veteranTimeline.showIcon( vetID, false );
+			
 		}
 		
 		private function setup( categories:Array ) : void
@@ -106,8 +104,8 @@ package ghostmonk.interactive.timeline.framework.view
 			_warEventTimeline.header.field1.text = eventTitle[ 0 ];
 			_warEventTimeline.header.field2.text = eventTitle[ 1 ];
 			
-			_vetranTimeline.header.image.gotoAndStop( 2 );
-			_vetranTimeline.header.field1.text = categories[ 1 ];
+			_veteranTimeline.header.image.gotoAndStop( 2 );
+			_veteranTimeline.header.field1.text = categories[ 1 ];
 			
 			normalView();
 		}
@@ -115,9 +113,9 @@ package ghostmonk.interactive.timeline.framework.view
 		private function normalView() : void
 		{
 			var timelineHeight:Number = _warEventTimeline.height;
-			_warEventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5 + 30;
-			_vetranTimeline.y = _warEventTimeline.y + timelineHeight + PADDING;
-			_stage.addChild( _vetranTimeline );
+			_warEventTimeline.y = ( _stage.stageHeight - ( 2 * timelineHeight + PADDING ) ) * 0.5 + 60;
+			_veteranTimeline.y = _warEventTimeline.y + timelineHeight + PADDING;
+			_stage.addChild( _veteranTimeline );
 			_stage.addChild( _warEventTimeline );
 		}
 	}

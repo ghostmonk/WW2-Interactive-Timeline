@@ -33,15 +33,15 @@ package ghostmonk.interactive.timeline.framework.view
 			_title = value;
 			_title.x = ( stage.width - _title.width ) * 0.5;
 			_title.y = PADDING;
-			_title.date.text = "";
+			//_title.date.text = "";
 			stage.addChild( _title );
 		}
 		
 		override public function listNotificationInterests() : Array
 		{
 			return [ 	
-				FilterMediator.FILTER_ALL,
-				FilterMediator.FILTER_YEAR  	
+				//FilterMediator.FILTER_ALL,
+				//FilterMediator.FILTER_YEAR  	
 			];
 		}
 		
@@ -50,10 +50,10 @@ package ghostmonk.interactive.timeline.framework.view
 			switch( note.getName() )
 			{
 				case FilterMediator.FILTER_ALL:	
-					_title.dateText = getRange( note.getBody() as Array );
+					//_title.dateText = getRange( note.getBody() as Array );
 					break;
 				case FilterMediator.FILTER_YEAR:
-					_title.dateText = note.getBody().toString();
+					//_title.dateText = note.getBody().toString();
 					break;
 			}
 		}

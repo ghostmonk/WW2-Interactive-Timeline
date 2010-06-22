@@ -8,6 +8,7 @@ package ghostmonk.interactive.timeline.framework.view
 	import flash.display.Stage;
 	import flash.filters.DropShadowFilter;
 	
+	import ghostmonk.interactive.timeline.AppFacade;
 	import ghostmonk.interactive.timeline.components.timeline.TimelineFilter;
 	import ghostmonk.interactive.timeline.utils.Animator;
 	import ghostmonk.interactive.timeline.utils.Tween;
@@ -24,7 +25,7 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private var _holder:Sprite;
 		private var _monthBar:TimelineFilter;
-		private var _filterBar:TimelineFilter;
+		private var _yearFilter:TimelineFilter;
 		private var _stage:Stage;
 		private var _years:Array;
 		
@@ -33,17 +34,17 @@ package ghostmonk.interactive.timeline.framework.view
 			_holder = new Sprite();
 			super( NAME, _holder );
 			
-			_filterBar = yearNav;
+			_yearFilter = yearNav;
 			_monthBar = monthBar;
 			_monthBar.filters = [ DROP ];
-			_filterBar.filters = [ DROP ]
+			_yearFilter.filters = [ DROP ]
 			_monthBar.alpha = 0;
-			_filterBar.addEventListener( IDEvent.UPDATE, onFilterClick );
+			_yearFilter.addEventListener( IDEvent.UPDATE, onFilterClick );
 			
 			_stage = stage;
 			positionAssets();
-			_filterBar.enable();
-			_filterBar.activateButton( 0 );
+			_yearFilter.enable();
+			_yearFilter.activateButton( 0 );
 		}
 		
 		public function set years( value:Array ) : void
@@ -59,7 +60,7 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function onFilterClick( e:IDEvent ) : void
 		{
-			_filterBar.selectItem( e.id );
+			_yearFilter.selectItem( e.id );
 			if( e.id == 0 ) 
 			{
 				sendNotification( FILTER_ALL, _years );
@@ -74,15 +75,17 @@ package ghostmonk.interactive.timeline.framework.view
 		
 		private function positionAssets() : void
 		{
-			_filterBar.y = _monthBar.height + 400;
-			_monthBar.x = ( _filterBar.width - _monthBar.width ) * 0.5 + 45;
+			_monthBar.y = _yearFilter.height + 5;
+			var offset:Number = AppFacade.LANGUAGE == "eng" ? 45 : 70;  
+			_monthBar.x = ( _yearFilter.width - _monthBar.width ) * 0.5 + offset;
 			_monthBar.disable();
 			
 			_holder.addChild( _monthBar );
-			_holder.addChild( _filterBar );
+			_holder.addChild( _yearFilter );
 			
-			_holder.x = _stage.stageWidth - _holder.width - 50;
-			_holder.y = _stage.stageHeight - _holder.height - 10;
+			var holderOff:Number = AppFacade.LANGUAGE == "eng" ? 20 : 30;  
+			_holder.x = _stage.stageWidth - _holder.width - holderOff;
+			_holder.y = 110;
 			
 			_stage.addChild( _holder );
 		}

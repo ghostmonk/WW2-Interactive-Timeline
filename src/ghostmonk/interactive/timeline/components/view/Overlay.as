@@ -26,7 +26,7 @@ package ghostmonk.interactive.timeline.components.view
 
 	public class Overlay extends OverlayAsset
 	{
-		private static const IMG_HEIGHT:Number = 145;
+		private static const IMG_HEIGHT:Number = 220;
 		private static const PADDING:Number = 25;
 		private var _closeBtn:SimpleMovieClipButton;
 		private var _rotatingBuffer:RotatingBufferIcon;

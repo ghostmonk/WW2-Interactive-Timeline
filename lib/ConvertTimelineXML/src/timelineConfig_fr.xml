@@ -1269,2251 +1269,2235 @@
             <vet id="2230">Joan Johnson nee Cobb</vet>
         </event>
 		
-        <event date="01/05/1945" img="2im.jpg">
+	</events>
+	
+	<veterans>
+		
+        <veteran date="01/05/1945" img="2im.jpg">
             <text>James Brown, artilleur pendant la campagne de Mourmansk, annonce la fin de la guerre à ses camarades</text>
             <vet id="1034">James Brown</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="ez0.jpg">
+        <veteran date="19/08/1942" img="ez0.jpg">
             <text>David Peat s'enrôle dans l'Armée de terre</text>
             <vet id="1035">David Peat</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="p1m.jpg">
+        <veteran date="19/08/1942" img="p1m.jpg">
             <text>George Burrows perd l'un de ses meilleurs amis dans la Bataille de Dieppe</text>
             <vet id="1042">George Burrows</vet>
-        </event>
+        </veteran>
 
-        <event date="05/06/1944" img="z2q.jpg">
+        <veteran date="05/06/1944" img="z2q.jpg">
             <text>Jan de Vries, bombardier, se prépare aux combats du Jour J en Normandie</text>
             <vet id="1043">Jan de Vries</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1942" img="3vi.jpg">
+        <veteran date="01/02/1942" img="3vi.jpg">
             <text>Helen Crawley s'enrôle dans l'armée et deviendra estafette à motocyclette</text>
             <vet id="1045">Helen Crawley</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1939" img="xzw.jpg">
+        <veteran date="01/12/1939" img="xzw.jpg">
             <text>Robert Guy s'enrôle et s'engage comme volontaire dans le régiment de parachutistes Royal Fusiliers</text>
             <vet id="1046">Robert Guy</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1944" img="r04.jpg">
+        <veteran date="01/10/1944" img="r04.jpg">
             <text>Olive Peat est envoyée à Londres en tant que commis à la Canada House, quartier général de l'Armée canadienne</text>
             <vet id="1049">Olive Peat (nÈe Mattews)</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1943" img="mbs.jpg">
-            <text>Malcolm Andrade s'enrôle comme grenadier dans la Force aérienne</text>
-            <vet id="1050">Malcolm Andrade</vet>
-        </event>
-
-        <event date="01/10/1940" img="yjz.jpg">
+        <veteran date="01/10/1940" img="yjz.jpg">
             <text>Douglas Annis se joint à l'Armée de terre en tant que monteur de ligne</text>
             <vet id="1058">Douglas Annis</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1943" img="33s.jpg">
+        <veteran date="01/06/1943" img="33s.jpg">
             <text>Ernest Bone traverse l'Atlantique pour suivre son entraînement à la base aérienne de Winnipeg</text>
             <vet id="1059">Ernest Bone</vet>
-        </event>
+        </veteran>
 
-        <event date="07/03/1945" img="w20.jpg">
+        <veteran date="07/03/1945" img="w20.jpg">
             <text>J.A. Brunette fait partie de l'équipage du NCSM La Hulloise qui coulera le sous-marin U-1302</text>
             <vet id="1060">J.A. RenÈ Brunette</vet>
-        </event>
+        </veteran>
 
-        <event date="13/10/1944" img="2xh.jpg">
+        <veteran date="13/10/1944" img="2xh.jpg">
             <text>Bill Davis participate à la Bataille de Scheldt</text>
             <vet id="1061">Bill Davis</vet>
-        </event>
+        </veteran>
 
-        <event date="28/04/1942" img="qfg.jpg">
+        <veteran date="28/04/1942" img="qfg.jpg">
             <text>Elizabeth Dimock se rend en Afrique du Sud pour se joindre au Service de soins médicaux sud-africain</text>
             <vet id="1062">Elizabeth (Betty) Dimock</vet>
-        </event>
+        </veteran>
 
-        <event date="15/06/1944" img="u3v.jpg">
+        <veteran date="15/06/1944" img="u3v.jpg">
             <text>Helen Rochon est stationnée à Londres, en Angleterre, quand se produit un raid aérien</text>
             <vet id="1065">Helen Rochon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1943" img="wow.jpg">
+        <veteran date="01/03/1943" img="wow.jpg">
             <text>Carol Duffus s'enrôle dans le Service féminin de la Marine royale canadienne (WCRNS), où elle sera agente de formation</text>
             <vet id="1066">Carol Duffus</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1942" img="4qd.jpg">
+        <veteran date="01/07/1942" img="4qd.jpg">
             <text>Hubert Gray participe en tant que grenadier des Forces alliées à la Bataille d'El Alamein, en Égypte</text>
             <vet id="1067">Hubert Gray</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1945" img="idt.jpg">
+        <veteran date="01/02/1945" img="idt.jpg">
             <text>Bob Farquharson s'envole vers la Birmanie pour ravitailler les soldats alliés</text>
             <vet id="1068">Bob Farquharson</vet>
-        </event>
+        </veteran>
 
-        <event date="29/04/1944" img="axl.jpg">
+        <veteran date="29/04/1944" img="axl.jpg">
             <text>Tom Rappel et l'équipage du NCSM Haida attaquent deux destroyers allemands au large de l'Île de Bas, en France</text>
             <vet id="1069">Tom Rappel</vet>
-        </event>
+        </veteran>
 
-        <event date="02/03/1941" img="ewr.jpg">
+        <veteran date="02/03/1941" img="ewr.jpg">
             <text>Frank Aldred traverse l'équateur à bord du Navire de sa Majesté Prince Henry</text>
             <vet id="1070">Frank Aldred</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1943" img="kx5.jpg">
+        <veteran date="01/12/1943" img="kx5.jpg">
             <text>Bernard Finestone et les soldats des British Colombia Dragoons traversent le fleuve Moro, en Italie</text>
             <vet id="1071">Bernard Finestone</vet>
-        </event>
+        </veteran>
 
-        <event date="07/03/1945" img="p5c.jpg">
+        <veteran date="07/03/1945" img="p5c.jpg">
             <text>John Forbes est blessé pendant la bataille de Nijmegen, aux Pays-Bas</text>
             <vet id="1073">John Forbes</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="2w0.jpg">
+        <veteran date="01/01/1941" img="2w0.jpg">
             <text>Corinne Sévigny se joint à Québec au Service féminin de l'Armée canadienne (CWAC)</text>
             <vet id="1074">Corinne SÈvigny</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1939" img="njd.jpg">
+        <veteran date="01/10/1939" img="njd.jpg">
             <text>Anthony Slugoski s'enrôle dans la Force aérienne et commence son entraînement</text>
             <vet id="1075">Anthony Slugoski</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1942" img="5ux.jpg">
+        <veteran date="01/09/1942" img="5ux.jpg">
             <text>Harvey Burns s'entraîne avec la Marine royale canadienne à Cornwallis, en Nouvelle-Écosse</text>
             <vet id="1077">Harvey Burns</vet>
-        </event>
+        </veteran>
 
-        <event date="25/04/1945" img="gyf.jpg">
+        <veteran date="25/04/1945" img="gyf.jpg">
             <text>John Springer est blessé près de la frontière de l'Allemagne et des Pays-Bas</text>
             <vet id="1079">John Springer</vet>
-        </event>
+        </veteran>
 
-        <event date="05/06/1944" img="rc2.jpg">
+        <veteran date="05/06/1944" img="rc2.jpg">
             <text>Cyril Roach quitte l'île de Wight avec son équipage pour participer au débarquement du Jour J</text>
             <vet id="1080">Cyril Roach</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="h4z.jpg">
+        <veteran date="01/01/1943" img="h4z.jpg">
             <text>Jack Stapleton se joint à la marine marchande et participera à un déploiement à Calcutta, en Inde</text>
             <vet id="1081">Jack Stapleton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="5rp.jpg">
+        <veteran date="01/01/1943" img="5rp.jpg">
             <text>Margarita Trull se joint au Service féminin de la Marine royale (WRENS), où elle sera cryptologue (agent secret)</text>
             <vet id="1082">Margarita Trull</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1940" img="xhv.jpg">
+        <veteran date="01/09/1940" img="xhv.jpg">
             <text>Leonard Allbon est stationné au Royaume-Uni lorsque débute la Bataille d'Angleterre</text>
             <vet id="1085">Leonard Allbon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1943" img="sqt.jpg">
+        <veteran date="01/06/1943" img="sqt.jpg">
             <text>Marie Duchesnay se joint au Service féminin de la Marine royale (WRENS) et commence sa formation en codage et décodage</text>
             <vet id="1086">Marie Duchesnay</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="v1w.jpg">
+        <veteran date="06/06/1944" img="v1w.jpg">
             <text>John Honsberger assiste au débarquement des soldats lors du Jour J</text>
             <vet id="1087">John Honsberger</vet>
-        </event>
+        </veteran>
 
-        <event date="16/09/1944" img="0b1.jpg">
+        <veteran date="16/09/1944" img="0b1.jpg">
             <text>Hugh Bartley atterrit en catastrophe en Belgique à bord de son appareil Mosquito</text>
             <vet id="1088">Hugh Bartley</vet>
-        </event>
+        </veteran>
 
-        <event date="05/01/1945" img="zoi.jpg">
+        <veteran date="05/01/1945" img="zoi.jpg">
             <text>Jean Cauchy effectue son dernier raid aérien au-dessus d'Hanovre</text>
             <vet id="1089">Jean Cauchy</vet>
-        </event>
+        </veteran>
 
-        <event date="24/12/1944" img="3ob.jpg">
+        <veteran date="24/12/1944" img="3ob.jpg">
             <text>Edward Beaven se trouve en service à Bethléem la veille de Noël</text>
             <vet id="1091">Edward Beaven</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1944" img="wgx.jpg">
+        <veteran date="01/09/1944" img="wgx.jpg">
             <text>Edward Borland fête la libération de Dieppe en compagnie de soldats canadiens et de civils français</text>
             <vet id="1092">Edward Borland</vet>
-        </event>
+        </veteran>
 
-        <event date="05/03/1945" img="xvd.jpg">
+        <veteran date="05/03/1945" img="xvd.jpg">
             <text>Robert Lundmark suit une formation de mécanicien de moteurs à Saskatoon</text>
             <vet id="1094">Robert Lundmark</vet>
-        </event>
+        </veteran>
 
-        <event date="30/11/1945" img="vcn.jpg">
+        <veteran date="30/11/1945" img="vcn.jpg">
             <text>Stirling Squarebriggs est démobilisé de l'Armée de terre</text>
             <vet id="1095">Stirling Squarebriggs</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="lls.jpg">
+        <veteran date="08/05/1945" img="lls.jpg">
             <text>Hubert Lalonde était stationné à Woerdon quand la guerre a pris fin</text>
             <vet id="1096">Hubert Lalonde</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1942" img="wzh.jpg">
+        <veteran date="20/12/1942" img="wzh.jpg">
             <text>Leonard Link se rend en Alberta pour y subir des examens de gaz toxique</text>
             <vet id="1099">Leonard Link</vet>
-        </event>
+        </veteran>
 
-        <event date="10/09/1942" img="vmy.jpg">
+        <veteran date="10/09/1942" img="vmy.jpg">
             <text>Harold Bronson est admis en tant que navigateur aérien dans l'Aviation royale du Canada (ARC)</text>
             <vet id="1102">Harold Bronson</vet>
-        </event>
+        </veteran>
 
-        <event date="12/09/1939" img="004.jpg">
+        <veteran date="12/09/1939" img="004.jpg">
             <text>Philip Kazimir s'enrôle comme conducteur dans le régiment Argyles D</text>
             <vet id="1103">Philip Kazimir</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1941" img="fod.jpg">
+        <veteran date="01/09/1941" img="fod.jpg">
             <text>Mike Hawryliw participe à des essais de gaz toxique à  Suffield, en Alberta</text>
             <vet id="1104">Mike Hawryliw</vet>
-        </event>
+        </veteran>
 
-        <event date="30/06/1942" img="gaq.jpg">
+        <veteran date="30/06/1942" img="gaq.jpg">
             <text>Roy Heron s'enrôle dans l'Armée canadienne</text>
             <vet id="1106">Roy Heron</vet>
-        </event>
+        </veteran>
 
-        <event date="06/11/1943" img="dwt.jpg">
+        <veteran date="06/11/1943" img="dwt.jpg">
             <text>Arthur Webster convole en justes noces avant d'être envoyé outre-mer</text>
             <vet id="1107">Arthur Webster</vet>
-        </event>
+        </veteran>
 
-        <event date="13/02/1945" img="011.jpg">
+        <veteran date="13/02/1945" img="011.jpg">
             <text>Mervyn Couse était pilote pendant le bombardement de Dresde</text>
             <vet id="1108">Mervyn Couse</vet>
-        </event>
+        </veteran>
 
-        <event date="17/04/1942" img="wxm.jpg">
+        <veteran date="17/04/1942" img="wxm.jpg">
             <text>Geraldine Muter est mobilisée au sein du Programme d'entraînement aérien du Commonwealth</text>
             <vet id="1111">Geraldine Muter</vet>
-        </event>
+        </veteran>
 
-        <event date="08/08/1944" img="phg.jpg">
+        <veteran date="08/08/1944" img="phg.jpg">
             <text>Charles Kewen obtient une permission de deux semaines alors qu'il est stationné en Inde</text>
             <vet id="1113">Charles Kewen</vet>
-        </event>
+        </veteran>
 
-        <event date="19/12/1944" img="pmv.jpg">
+        <veteran date="19/12/1944" img="pmv.jpg">
             <text>Melbourne Le Marquand se voit mettre la Médaille militaire pour ses exploits à Bruuk, aux Pays-Bas</text>
             <vet id="1115">Melbourne Le Marquand</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="usr.jpg">
+        <veteran date="01/01/1942" img="usr.jpg">
             <text>Alexander Scott s'enrôle dans la Force aérienne</text>
             <vet id="1116">Alexander Scott</vet>
-        </event>
+        </veteran>
 
-        <event date="27/08/1942" img="klh.jpg">
+        <veteran date="27/08/1942" img="klh.jpg">
             <text>Edith Middleton s'enrôle et travaillera comme « bûcheronne » en Écosse</text>
             <vet id="1117">Edith Middleton</vet>
-        </event>
+        </veteran>
 
-        <event date="18/04/1945" img="pkd.jpg">
+        <veteran date="18/04/1945" img="pkd.jpg">
             <text>Brian MacConnell a abattu un avion allemand Arado</text>
             <vet id="1118">Brian MacConnell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1945" img="vkc.jpg">
+        <veteran date="01/09/1945" img="vkc.jpg">
             <text>Donald McIntosh voyage à bord du Navire de sa Majesté Queen Mary où se trouve sir Winston Churchill</text>
             <vet id="1119">Donald McIntosh</vet>
-        </event>
+        </veteran>
 
-        <event date="15/09/1944" img="gy2.jpg">
+        <veteran date="15/09/1944" img="gy2.jpg">
             <text>Donald Racicot a servi dans l'armée en tant que mécanicien</text>
             <vet id="1121">Donald Racicot</vet>
-        </event>
+        </veteran>
 
-        <event date="03/01/1942" img="zfewbxlgjikcqjcsxvkh.jpg">
+        <veteran date="03/01/1942" img="zfewbxlgjikcqjcsxvkh.jpg">
             <text>Bill Watterson s'enrôle dans l'Armée de terre</text>
             <vet id="1123">Bill Watterson</vet>
-        </event>
+        </veteran>
 
-        <event date="20/08/1942" img="eue.jpg">
+        <veteran date="20/08/1942" img="eue.jpg">
             <text>Murray Ginsberg se joint à la fanfare du Corps royal canadien de matériel militaire</text>
             <vet id="1124">Murray Ginsberg</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="mlp.jpg">
+        <veteran date="01/01/1945" img="mlp.jpg">
             <text>Ed Pearson est nommé « Special Operations Executive » (SOE) et s'envole pour le Sri Lanka (alors le Ceylan)</text>
             <vet id="1125">Ed Pearson</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1942" img="vjm.jpg">
+        <veteran date="01/06/1942" img="vjm.jpg">
             <text>Cecil Hancock s'enrôle dans la Force aérienne et fait son entraînement dans les Prairies</text>
             <vet id="1129">Cecil Hancock</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="pga.jpg">
+        <veteran date="08/05/1945" img="pga.jpg">
             <text>Louis Curran était stationné dans les tranchées des Pays-Bas quand la guerre a pris fin</text>
             <vet id="1130">Louis Curran</vet>
-        </event>
+        </veteran>
 
-        <event date="07/09/1940" img="guj.jpg">
+        <veteran date="07/09/1940" img="guj.jpg">
             <text>May Gillman était infirmière pendant les bombardements de Londres</text>
             <vet id="1133">May Gillman</vet>
-        </event>
+        </veteran>
 
-        <event date="30/09/1944" img="mnv.jpg">
+        <veteran date="30/09/1944" img="mnv.jpg">
             <text>John McCarst monte pour la première fois à bord d'un navire « Ranger », le NCMS Midland</text>
             <vet id="1134">John McCarst</vet>
-        </event>
+        </veteran>
 
-        <event date="23/06/1944" img="hqt.jpg">
+        <veteran date="23/06/1944" img="hqt.jpg">
             <text>Norman Dawber s'envole pour la France avec le Escadron 438 de l'Aviation royale du Canada (ARC)</text>
             <vet id="1135">Norman Dawber</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1940" img="hqi.jpg">
+        <veteran date="01/02/1940" img="hqi.jpg">
             <text>L'escadron d'Howard Love est rééquipé d'aéronefs Liberator</text>
             <vet id="1136">Howard Love</vet>
-        </event>
+        </veteran>
 
-        <event date="06/11/1940" img="1ax.jpg">
+        <veteran date="06/11/1940" img="1ax.jpg">
             <text>Adeline Bowland se trouve à bord d'un navire qui sera torpillé en route vers l'Europe</text>
             <vet id="1138">Adeline Bowland</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1940" img="fbr.jpg">
+        <veteran date="01/12/1940" img="fbr.jpg">
             <text>John Stephen fait son service à bord du Navire de sa Majesté  Majola</text>
             <vet id="1139">John Stephen</vet>
-        </event>
+        </veteran>
 
-        <event date="25/11/1943" img="cvn.jpg">
+        <veteran date="25/11/1943" img="cvn.jpg">
             <text>Pierre Bauset est atteint par balles à son retour de Francfort</text>
             <vet id="1140">Pierre Bauset</vet>
-        </event>
+        </veteran>
 
-        <event date="18/11/1944" img="nkr.jpg">
+        <veteran date="18/11/1944" img="nkr.jpg">
             <text>Charles Scott fait son service à bord du NCSM Fergus</text>
             <vet id="1141">Charles Scott</vet>
-        </event>
+        </veteran>
 
-        <event date="19/07/1944" img="53c.jpg">
+        <veteran date="19/07/1944" img="53c.jpg">
             <text>Kenneth Wootton participe à la Bataille de la crête de Verrières</text>
             <vet id="1142">Kenneth Wootton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="qyp.jpg">
+        <veteran date="01/04/1945" img="qyp.jpg">
             <text>Anatole Cote atterrit en catastrophe aux Pays-Bas et parvient à échapper à l'ennemi grâce à l'aide d'un Hollandais</text>
             <vet id="1145">Anatole CÙtÈ</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="ptz.jpg">
+        <veteran date="01/01/1942" img="ptz.jpg">
             <text>John Slater se joint au Corps royal canadien des transmissions</text>
             <vet id="1147">John Slater</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="glb.jpg">
+        <veteran date="01/07/1943" img="glb.jpg">
             <text>Thomas Atherton se joint à la marine marchande et s'embarque à destination de l'Inde</text>
             <vet id="1150">Thomas Atherton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1943" img="aqt.jpg">
+        <veteran date="01/12/1943" img="aqt.jpg">
             <text>John Covan et l'équipage du SS Green Gables Park évitent l'attaque d'un sous-marin japonais</text>
             <vet id="1154">John Covan</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1945" img="4ks.jpg">
+        <veteran date="01/02/1945" img="4ks.jpg">
             <text>Walter Hayden termine sa période de service au sein du Escadron 432</text>
             <vet id="1158">Walter Hayden</vet>
-        </event>
+        </veteran>
 
-        <event date="21/05/1942" img="gcq.jpg">
+        <veteran date="21/05/1942" img="gcq.jpg">
             <text>George Evans est à bord du SS Pieter de Hoogh qui sera attaqué à son départ d'Islande</text>
             <vet id="1161">George Evans</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="rra.jpg">
+        <veteran date="01/01/1944" img="rra.jpg">
             <text>Margaret Brownlee est stationnée en Angleterre en tant que conductrice</text>
             <vet id="1163">Margaret Brownlee</vet>
-        </event>
+        </veteran>
 
-        <event date="20/01/1944" img="npo.jpg">
+        <veteran date="20/01/1944" img="npo.jpg">
             <text>Robert Govan se prépare à la bataille de Dunkerque, en France</text>
             <vet id="1164">Robert Govan</vet>
-        </event>
+        </veteran>
 
-        <event date="23/10/1944" img="j3j.jpg">
+        <veteran date="23/10/1944" img="j3j.jpg">
             <text>Ed Green effectue un raid aérien au-dessus de la ville d'Essen</text>
             <vet id="1165">Ed Green</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1941" img="kod.jpg">
+        <veteran date="01/02/1941" img="kod.jpg">
             <text>Bruce Little survit aux attaques d'un sous-marin allemand pendant sa traversée de l'Atlantique</text>
             <vet id="1167">Bruce Little</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="0ma.jpg">
+        <veteran date="01/04/1945" img="0ma.jpg">
             <text>Robert Rodgers est gardien des prisonniers de guerre allemands détenus au Québec</text>
             <vet id="1173">Robert Rodgers</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="xp1.jpg">
+        <veteran date="06/06/1944" img="xp1.jpg">
             <text>Rex Fendick atterit à Sword Beach dans le cadre des opérations du Jour J</text>
             <vet id="1176">Rex Fendick</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1943" img="tpo.jpg">
+        <veteran date="25/12/1943" img="tpo.jpg">
             <text>Alec MacInnis passe un quatrième Noël consécutif loin de sa famille</text>
             <vet id="1178">Alec MacInnis</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1944" img="ndy.jpg">
+        <veteran date="09/07/1944" img="ndy.jpg">
             <text>Allan Backman participe à la Bataille de Caen</text>
             <vet id="1181">Allan Backman</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1943" img="a1b.jpg">
+        <veteran date="01/10/1943" img="a1b.jpg">
             <text>Lewis Billard commence son entraînement au sein de l'Armée royale du Canada (ARC)</text>
             <vet id="1185">Lewis Billard</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="gob.jpg">
+        <veteran date="01/01/1945" img="gob.jpg">
             <text>Jean Carroll est stationnée en Écosse, où elle travaille comme infirmière dans un hôpital</text>
             <vet id="1189">Jean Carroll</vet>
-        </event>
+        </veteran>
 
-        <event date="16/12/1944" img="ecv.jpg">
+        <veteran date="16/12/1944" img="ecv.jpg">
             <text>Fred Allison participe à la Bataille des Ardennes</text>
             <vet id="1199">Fred Allison</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="i22.jpg">
+        <veteran date="01/07/1943" img="i22.jpg">
             <text>Robert Atkins fait son service aux îles Aléoutiennes</text>
             <vet id="1201">Robert Atkins</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1944" img="cnh.jpg">
+        <veteran date="01/11/1944" img="cnh.jpg">
             <text>Lawrence Wagg fait le voyage d'Afrique du Nord vers l'Italie</text>
             <vet id="1209">Lawrence Wagg</vet>
-        </event>
+        </veteran>
 
-        <event date="19/10/1941" img="soqqgurfufezsnkczlgv.jpg">
+        <veteran date="19/10/1941" img="soqqgurfufezsnkczlgv.jpg">
             <text>Mavis Butlin s'enrôle dans le Service féminin de la Marine royale canadienne (WCRNS)</text>
             <vet id="1213">Mavis Butlin</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1942" img="5r0.jpg">
+        <veteran date="01/03/1942" img="5r0.jpg">
             <text>Murray Copot entreprend son service actif sur le NCSM Chippewa</text>
             <vet id="1216">Murray Copot</vet>
-        </event>
+        </veteran>
 
-        <event date="30/03/1944" img="yum.jpg">
+        <veteran date="30/03/1944" img="yum.jpg">
             <text>Ella Curtis fait la rencontre de la princesse Alice, qui rend visite à  l'Armée royale du Canada (ARC) lors de sa venue au Canada</text>
             <vet id="1217">Ella Curtis</vet>
-        </event>
+        </veteran>
 
-        <event date="22/08/1942" img="jxo.jpg">
+        <veteran date="22/08/1942" img="jxo.jpg">
             <text>Bruce Agnew se joint à l'Armée royale du Canada (ARC)</text>
             <vet id="1219">Bruce Agnew</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1943" img="205.jpg">
+        <veteran date="01/09/1943" img="205.jpg">
             <text>M. Alward a survécu aux attaques des sous-marins allemands dans l'Atlantique</text>
             <vet id="1220">C. Alward</vet>
-        </event>
+        </veteran>
 
-        <event date="07/05/1945" img="n4z.jpg">
+        <veteran date="07/05/1945" img="n4z.jpg">
             <text>Doris Wallace joue dans le corps de cornemuse du Service féminin de l'Armée canadienne (CWAC) pour des soldats qui attendent de rentrer chez eux</text>
             <vet id="1224">Doris Wallace</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="pnl.jpg">
+        <veteran date="19/08/1942" img="pnl.jpg">
             <text>Douglas Warren participe à la bataille aérienne de Dieppe</text>
             <vet id="1225">Douglas Warren</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="evb.jpg">
+        <veteran date="06/06/1944" img="evb.jpg">
             <text>Jospeh Hawkins était grenadier pendant la bataille aérienne du Jour J</text>
             <vet id="1226">Joseph Hawkins</vet>
-        </event>
+        </veteran>
 
-        <event date="27/10/1944" img="qqs.jpg">
+        <veteran date="27/10/1944" img="qqs.jpg">
             <text>Douglas Drew était mécanicien dans l'Armée royale du Canada (ARC) en Afrique du Nord</text>
             <vet id="1229">Douglas Drew</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="i1g.jpg">
+        <veteran date="19/08/1942" img="i1g.jpg">
             <text>Jean-Marcel D'Aoust a participé à la très rude bataille de Dieppe</text>
             <vet id="1231">Jean-Marcel D'Aoust</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="csh.jpg">
+        <veteran date="06/06/1944" img="csh.jpg">
             <text>George McLean et son équipage transportent un hôpital mobile à Omaha Beach, en Normandie</text>
             <vet id="1244">George McLean</vet>
-        </event>
+        </veteran>
 
-        <event date="25/03/1945" img="qnk.jpg">
+        <veteran date="25/03/1945" img="qnk.jpg">
             <text>James Moffat parvient à atterrir sans encombre dans une petite ville de Belgique après une collision en vol</text>
             <vet id="1249">James Moffat</vet>
-        </event>
+        </veteran>
 
-        <event date="21/08/1944" img="lnq.jpg">
+        <veteran date="21/08/1944" img="lnq.jpg">
             <text>Charles Owens est stationné à Antwerp après avoir franchi la poche de Falaise</text>
             <vet id="1252">Charles Owens</vet>
-        </event>
+        </veteran>
 
-        <event date="02/10/1944" img="mjc.jpg">
+        <veteran date="02/10/1944" img="mjc.jpg">
             <text>Wilbert Prentice participe à un peloton de transport pendant la bataille de Scheldt</text>
             <vet id="1256">Wilbert Prentice</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="vgq.jpg">
+        <veteran date="01/01/1944" img="vgq.jpg">
             <text>David Seagar suit un entraînement dans la jungle indienne avant d'être envoyé en Birmanie</text>
             <vet id="1260">David Seager</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="yjh.jpg">
+        <veteran date="01/04/1945" img="yjh.jpg">
             <text>Emile Thibault est libérée d'un camp de prisonniers de guerre allemand</text>
             <vet id="1263">Emile Thibault</vet>
-        </event>
+        </veteran>
 
-        <event date="02/10/1944" img="s3o.jpg">
+        <veteran date="02/10/1944" img="s3o.jpg">
             <text>David Havard conduit une chenillette porte-Bren pendant la bataille de Schedlt</text>
             <vet id="1270">David Havard</vet>
-        </event>
+        </veteran>
 
-        <event date="25/05/1942" img="4ly.jpg">
+        <veteran date="25/05/1942" img="4ly.jpg">
             <text>Leonard Whiffen se trouve à bord du Navire de sa Majesté HMS lorsque celui-ci coule un Bismark allemand</text>
             <vet id="1271">Leonard Whiffen</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="oeeydwngbjgkttgpttlm.jpg">
+        <veteran date="06/06/1944" img="oeeydwngbjgkttgpttlm.jpg">
             <text>Francis Godon atterrit à Juno Beach le Jour J pour être aussitôt capturé par les Allemands</text>
             <vet id="1280">Francis Godon</vet>
-        </event>
+        </veteran>
 
-        <event date="19/06/1944" img="3n1.jpg">
+        <veteran date="19/06/1944" img="3n1.jpg">
             <text>Bill Hembroff entreprend son service actif sur le NCSM Chippewa</text>
             <vet id="1290">Bill Hembroff</vet>
-        </event>
+        </veteran>
 
-        <event date="19/05/1944" img="v2n.jpg">
+        <veteran date="19/05/1944" img="v2n.jpg">
             <text>Paul-Emile Lamouche est capturé et fait prisonnier de guerre à Cassino, en Italie</text>
             <vet id="1291">Paul-…mile Lamouche</vet>
-        </event>
+        </veteran>
 
-        <event date="16/12/1944" img="3gq.jpg">
+        <veteran date="16/12/1944" img="3gq.jpg">
             <text>Malcolm McLeod et des soldats canadiens viennent en aide à l'armée britannique pendant la Bataille des Ardennes</text>
             <vet id="1293">Malcolm McLeod</vet>
-        </event>
+        </veteran>
 
-        <event date="23/10/1941" img="ps4.jpg">
+        <veteran date="23/10/1941" img="ps4.jpg">
             <text>William Kondra s'enrôle dans l'Aviation royale du Canada (ARC), où ses exploits lui vaudront de nombreuses médailles de guerre</text>
             <vet id="1294">William Kondra</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1946" img="nqv.jpg">
-            <text>Norman Wrigglesworth transite à Hong Kong après la guerre pour y déposer un groupe de soldats</text>
-            <vet id="1297">Norman Wrigglesworth</vet>
-        </event>
-
-        <event date="01/01/1944" img="ksy.jpg">
+        <veteran date="01/01/1944" img="ksy.jpg">
             <text>Grace Breau-Theriault travaille comme infirmière à Pinewood, en Angleterre</text>
             <vet id="1298">Grace Breau-Theriault</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1944" img="wbb.jpg">
+        <veteran date="01/12/1944" img="wbb.jpg">
             <text>Joseph Friedman est blessé pendant un raid de bombardement au-dessus de la ville de Witten</text>
             <vet id="1299">Joseph Friedman</vet>
-        </event>
+        </veteran>
 
-        <event date="14/06/1944" img="xit.jpg">
+        <veteran date="14/06/1944" img="xit.jpg">
             <text>Malcolm MacConnell participe à 20 opérations du 50e escadron de la RAF</text>
             <vet id="1307">Malcolm MacConnell</vet>
-        </event>
+        </veteran>
 
-        <event date="24/05/1941" img="ddk.jpg">
+        <veteran date="24/05/1941" img="ddk.jpg">
             <text>Malcolm Lunan répare certains des bateaux du convoi qui ont été coulés avec le Navire de sa Majesté Hood</text>
             <vet id="1310">Malcom Lunan</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1940" img="tl4.jpg">
+        <veteran date="01/06/1940" img="tl4.jpg">
             <text>Joseph Rivard s'enrôle dans l'Armée de terre</text>
             <vet id="1311">Joseph Rivard</vet>
-        </event>
+        </veteran>
 
-        <event date="24/12/1943" img="xlo.jpg">
+        <veteran date="24/12/1943" img="xlo.jpg">
             <text>Norman Silver et l'équipage du NCSM Quatsino parviennent à éviter les sous-marins allemands</text>
             <vet id="1312">Norman Silver</vet>
-        </event>
+        </veteran>
 
-        <event date="01/08/1944" img="f0v.jpg">
+        <veteran date="01/08/1944" img="f0v.jpg">
             <text>Peter Van Breevoort et son frère sont détenus au camp de concentration de Vught</text>
             <vet id="1313">Peter Van Breevoort</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="kds.jpg">
+        <veteran date="01/01/1943" img="kds.jpg">
             <text>Jim Peters et l'équipage du NCSM Regina font monter des prisonniers italiens à bord</text>
             <vet id="1314">Jim Peters</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="rhh.jpg">
+        <veteran date="01/01/1942" img="rhh.jpg">
             <text>William Gelineau s'enrôle comme grenadier dans l'Aviation royale du Canada (ARC)</text>
             <vet id="1315">William GÈlineau</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1940" img="e1d.jpg">
+        <veteran date="01/10/1940" img="e1d.jpg">
             <text>Robert Routledge est appelé en service actif par l'Armée de terre</text>
             <vet id="1316">Robert Routledge</vet>
-        </event>
+        </veteran>
 
-        <event date="17/08/1945" img="2u4.jpg">
+        <veteran date="17/08/1945" img="2u4.jpg">
             <text>Jean Marie Milot fait son entraînement dans l'infanterie</text>
             <vet id="1317">Jean Marie Milot</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="yjb.jpg">
+        <veteran date="01/01/1943" img="yjb.jpg">
             <text>Jean Clermont et son escadron sont attaqués par les Allemands à Canterbury</text>
             <vet id="1319">Jean Clermont</vet>
-        </event>
+        </veteran>
 
-        <event date="23/01/1942" img="dez.jpg">
+        <veteran date="23/01/1942" img="dez.jpg">
             <text>Ernest Randle s'enrôle dans la Marine</text>
             <vet id="1320">Ernest Randle</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1945" img="yyo.jpg">
+        <veteran date="01/03/1945" img="yyo.jpg">
             <text>Robert Kerr est capturé et deviendra conducteur dans un camp de prisonniers de guerre allemand</text>
             <vet id="1321">Robert Kerr</vet>
-        </event>
+        </veteran>
 
-        <event date="17/01/1944" img="d1y.jpg">
+        <veteran date="17/01/1944" img="d1y.jpg">
             <text>Leonidas Lemaire participe à la bataille de Monte Cassino</text>
             <vet id="1322">Leonidas Lemaire</vet>
-        </event>
+        </veteran>
 
-        <event date="15/11/1942" img="z2i.jpg">
+        <veteran date="15/11/1942" img="z2i.jpg">
             <text>André-Paul Turin est stationné en Algérie avec l'Armée française</text>
             <vet id="1323">AndrÈ-Paul Turin</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1940" img="uh5.jpg">
+        <veteran date="01/11/1940" img="uh5.jpg">
             <text>Fred Linnington voyage avec la marine marchande de Montréal jusqu'aux Caraïbes</text>
             <vet id="1324">Fred Linnington</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="0d3.jpg">
+        <veteran date="01/01/1942" img="0d3.jpg">
             <text>Harold Harden traverse l'Atlantique pour participer à la campagne de Mourmansk</text>
             <vet id="1325">Harold Harden</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="si1.jpg">
+        <veteran date="01/01/1941" img="si1.jpg">
             <text>Malcolm Young entreprend son service dans le 8e Régiment de reconnaissance</text>
             <vet id="1326">Malcolm Young</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1942" img="ifw.jpg">
+        <veteran date="01/11/1942" img="ifw.jpg">
             <text>Olive Henderson entreprend une formation en codage pour le Service féminin de la Marine royale canadienne (WCRNS)</text>
             <vet id="1327">Olive Henderson</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="3gc.jpg">
+        <veteran date="19/08/1942" img="3gc.jpg">
             <text>Arthur Fraser est fait prisonnier pendant la Bataille de Dieppe</text>
             <vet id="1331">Arthur Fraser</vet>
-        </event>
+        </veteran>
 
-        <event date="24/05/1942" img="ivhukbgzvslsoplcttex.jpg">
+        <veteran date="24/05/1942" img="ivhukbgzvslsoplcttex.jpg">
             <text>Raymond Lewis conduit une chenillette porte-Bren sur la ligne Hitler</text>
             <vet id="1333">Raymond "Ray" Lewis</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1942" img="2gr.jpg">
+        <veteran date="20/12/1942" img="2gr.jpg">
             <text>Geoffrey Jell arrive en Égypte en prévision de la Bataille d'El Alamein</text>
             <vet id="1337">Geoffrey Jell</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="s5n.jpg">
+        <veteran date="06/06/1944" img="s5n.jpg">
             <text>Earl Stiles est médecin militaire lors du Jour J de l'invasion de la Normandie</text>
             <vet id="1338">Earl Stiles</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1943" img="bzq.jpg">
+        <veteran date="08/05/1943" img="bzq.jpg">
             <text>Russell Smith fait son entraînement au Camp Borden, en Ontario</text>
             <vet id="1339">Russell Smith</vet>
-        </event>
+        </veteran>
 
-        <event date="24/12/1942" img="gof.jpg">
+        <veteran date="24/12/1942" img="gof.jpg">
             <text>Gordon Partridge suit une formation de navigateur dans  l'Aviation royale du Canada (ARC)</text>
             <vet id="1340">Gordon Partridge</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1942" img="pvp.jpg">
+        <veteran date="01/07/1942" img="pvp.jpg">
             <text>Ralph Taylor est affecté à bord au dragage de mines</text>
             <vet id="1341">Ralph Taylor</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1943" img="r4u.jpg">
+        <veteran date="01/05/1943" img="r4u.jpg">
             <text>Al Wallace est capturé et détenu dans un camp de prisonniers de guerre</text>
             <vet id="1342">Al Wallace</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1941" img="u1p.jpg">
+        <veteran date="01/04/1941" img="u1p.jpg">
             <text>James Ritchie effectue son service dans le Corps royal canadien des transmissions</text>
             <vet id="1345">James Ritchie</vet>
-        </event>
+        </veteran>
 
-        <event date="10/06/1944" img="hll.jpg">
+        <veteran date="10/06/1944" img="hll.jpg">
             <text>Len Van Roon envoie un mot à sa famille au lendemain du Jour J pour dire qu'il est sain et sauf</text>
             <vet id="1350">Len Van Roon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1942" img="zap.jpg">
+        <veteran date="01/04/1942" img="zap.jpg">
             <text>Edison Yeado est détenu dans un camp de prisonniers de guerre japonais après l'attaque de son navire marchand</text>
             <vet id="1351">Edison Yeadon</vet>
-        </event>
+        </veteran>
 
-        <event date="20/10/1944" img="zey.jpg">
+        <veteran date="20/10/1944" img="zey.jpg">
             <text>Allan Smith est transféré du camp de concentration de Buchenwald à un camp de prisonniers de guerre</text>
             <vet id="1357">Allan Smith</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="hbxaawrrjxpjwvqwstex.jpg">
+        <veteran date="01/01/1945" img="hbxaawrrjxpjwvqwstex.jpg">
             <text>Herb Pragnell est stationné en Italie, près de la ligne gothique</text>
             <vet id="1362">Herb Pragnell</vet>
-        </event>
+        </veteran>
 
-        <event date="12/12/1944" img="ock.jpg">
+        <veteran date="12/12/1944" img="ock.jpg">
             <text>Marguerite Plante apprend que son frère est tombé au combat en Italie</text>
             <vet id="1368">Marguerite Plante</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="cgprglqmnzrymbzzltlo.jpg">
+        <veteran date="01/01/1944" img="cgprglqmnzrymbzzltlo.jpg">
             <text>Charles Ross se joint à l'Unité de film et de photographie de l'Armée canadienne</text>
             <vet id="1371">Charles Ross</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="hwp.jpg">
+        <veteran date="06/06/1944" img="hwp.jpg">
             <text>Okill Stuart participe au Jour J avec la 3e Division de l'infanterie canadienne</text>
             <vet id="1375">Okill Stuart</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="eoi.jpg">
+        <veteran date="06/06/1944" img="eoi.jpg">
             <text>George Mann renverse son premier camion lors du Débarquement de  Normandie</text>
             <vet id="1376">George Mann</vet>
-        </event>
+        </veteran>
 
-        <event date="10/01/1945" img="rrj.jpg">
+        <veteran date="10/01/1945" img="rrj.jpg">
             <text>William Adelman est atteint par balles pendant qu'il est stationné en Italie</text>
             <vet id="1380">William Adelman</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1944" img="wup.jpg">
+        <veteran date="01/07/1944" img="wup.jpg">
             <text>Gordon Bannerman visite le Vatican pendant qu'il est stationné en Italie</text>
             <vet id="1384">Gordon Bannerman</vet>
-        </event>
+        </veteran>
 
-        <event date="17/09/1943" img="l3r.jpg">
+        <veteran date="17/09/1943" img="l3r.jpg">
             <text>Glennis Boyce s'enrôle dans la division féminine de l'Aviation royale du Canada (ARC)</text>
             <vet id="1386">Glennis Boyce</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="yklvrfphumjzeuxrnqxs.jpg">
+        <veteran date="01/01/1943" img="yklvrfphumjzeuxrnqxs.jpg">
             <text>Helen Arbuthnot fait partie du Service de santé de l'armée royale canadienne</text>
             <vet id="1391">Helen Arbuthnot</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1940" img="lcf.jpg">
+        <veteran date="01/11/1940" img="lcf.jpg">
             <text>Jack Smallwood entreprend son service sur le NCSM Skeena</text>
             <vet id="1397">Jack Smallwood</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="vjf.jpg">
+        <veteran date="01/01/1944" img="vjf.jpg">
             <text>James Smitherman traverse l'Atlantique à bord du NCSM Bittersweet</text>
             <vet id="1398">James Smitherman</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1942" img="e0w.jpg">
+        <veteran date="01/07/1942" img="e0w.jpg">
             <text>Donald Stevenson entreprend son service dans l'Aviation royale du Canada (ARC)</text>
             <vet id="1404">Donald Stevenson</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="opx.jpg">
+        <veteran date="19/08/1942" img="opx.jpg">
             <text>Armond Emond a combattu à Dieppe dans le 14e Régiment blindé</text>
             <vet id="1412">Armand Emond</vet>
-        </event>
+        </veteran>
 
-        <event date="19/02/1944" img="mvi.jpg">
+        <veteran date="19/02/1944" img="mvi.jpg">
             <text>Eric Jensen était cuisinier à bord du NCSM Haida</text>
             <vet id="1418">Eric Jensen</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1942" img="i10.jpg">
+        <veteran date="01/09/1942" img="i10.jpg">
             <text>Jacques Nadeau tente à maintes reprises de s'évader d'un camp de prisonniers de guerre, mais sans succès</text>
             <vet id="1423">Jacques Nadeau</vet>
-        </event>
+        </veteran>
 
-        <event date="07/09/1944" img="ypc.jpg">
+        <veteran date="07/09/1944" img="ypc.jpg">
             <text>Sidney Appleyard s'enrôle et deviendra gardien d'un camp prisonniers de guerre</text>
             <vet id="1427">Sidney Appleyard</vet>
-        </event>
+        </veteran>
 
-        <event date="25/05/1943" img="mgf.jpg">
+        <veteran date="25/05/1943" img="mgf.jpg">
             <text>John Potter est à bord du NCSM Regina quand l'équipage de celui-ci parvient à couler un sous-marin italien</text>
             <vet id="1429">John Potter</vet>
-        </event>
+        </veteran>
 
-        <event date="30/09/1943" img="mms.jpg">
+        <veteran date="30/09/1943" img="mms.jpg">
             <text>Otto Hemmerling est affecté à un poste radar des îles de la Reine-Charlotte</text>
             <vet id="1448">Otto Hemmerling</vet>
-        </event>
+        </veteran>
 
-        <event date="09/09/1939" img="5g1.jpg">
+        <veteran date="09/09/1939" img="5g1.jpg">
             <text>Andrew Miller s'enrôle dans l'Armée de terre</text>
             <vet id="1450">Andrew Miller</vet>
-        </event>
+        </veteran>
 
-        <event date="15/10/1942" img="lus.jpg">
+        <veteran date="15/10/1942" img="lus.jpg">
             <text>Frank Dion s'enrôle dans la Marine</text>
             <vet id="1452">Frank Dion</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="egl.jpg">
+        <veteran date="01/01/1942" img="egl.jpg">
             <text>Borden Tymchuk fait son service comme pompier sur le front intérieur</text>
             <vet id="1456">Borden Tymchuk</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="ya1.jpg">
+        <veteran date="01/01/1942" img="ya1.jpg">
             <text>Douglas Smith commence son entraînement de pilote au sein de l'Aviation royale du Canada (ARC)</text>
             <vet id="1457">Douglas Smith</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1943" img="gdf.jpg">
+        <veteran date="01/06/1943" img="gdf.jpg">
             <text>Nellie Rettenbacher s'enrôle dans l'Armée canadienne</text>
             <vet id="1458">Nellie Rettenbacher</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1943" img="n30.jpg">
+        <veteran date="20/12/1943" img="n30.jpg">
             <text>Fred Maiden est stationné en Italie pendant la Bataille d'Ortona</text>
             <vet id="1460">Fred Maiden</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="5ib.jpg">
+        <veteran date="01/01/1941" img="5ib.jpg">
             <text>Gertrude Luscombe s'enrôle à Vancouver et travaillera dans la salle de mess de l'armée</text>
             <vet id="1463">Gertrude Luscombe nÈe Lovgren</vet>
-        </event>
+        </veteran>
 
-        <event date="15/08/1945" img="l5z.jpg">
+        <veteran date="15/08/1945" img="l5z.jpg">
             <text>Ruby Foley et ses camarades de l'Aviation royale du Canada (ARC) partent fermer les stations de l'Est</text>
             <vet id="1465">Ruby Foley</vet>
-        </event>
+        </veteran>
 
-        <event date="05/06/1944" img="qy4.jpg">
+        <veteran date="05/06/1944" img="qy4.jpg">
             <text>Brian Murphy arrive à Rome en compagnie d'un groupe de soldats</text>
             <vet id="1466">Brian Murphy</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1946" img="bpy.jpg">
-            <text>William Britch et Carol, son épouse de guerre, convolent avant leur retour au pays</text>
-            <vet id="1468">William Britch</vet>
-        </event>
-
-        <event date="13/10/1943" img="bcs.jpg">
+        <veteran date="13/10/1943" img="bcs.jpg">
             <text>Alan Cameron s'enrôle dans l'Armée de terre</text>
             <vet id="1469">Alan Cameron</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1943" img="xqkjitlpsqcnepogbdwg.jpg">
+        <veteran date="01/12/1943" img="xqkjitlpsqcnepogbdwg.jpg">
             <text>Eugenie Turner est affecté outre-mer au sein de la force de bombardement de l'Aviation royale du Canada (ARC)</text>
             <vet id="1470">Eugenie Turner</vet>
-        </event>
+        </veteran>
 
-        <event date="24/05/1944" img="2ah.jpg">
+        <veteran date="24/05/1944" img="2ah.jpg">
             <text>Nigel Taylor est blessé tandis que son unité progresse vers la ligne Hitler</text>
             <vet id="1473">Nigel Taylor</vet>
-        </event>
+        </veteran>
 
-        <event date="12/04/1942" img="lkg.jpg">
+        <veteran date="12/04/1942" img="lkg.jpg">
             <text>Michael Faryna est stationné à Brandon, au Manitoba, où il est mécanicien d'aviation</text>
             <vet id="1474">Michael Faryna</vet>
-        </event>
+        </veteran>
 
-        <event date="20/02/1940" img="2e1.jpg">
+        <veteran date="20/02/1940" img="2e1.jpg">
             <text>Donald Green s'enrôle dans la Marine</text>
             <vet id="1477">Donald Green</vet>
-        </event>
+        </veteran>
 
-        <event date="03/09/1941" img="n32.jpg">
+        <veteran date="03/09/1941" img="n32.jpg">
             <text>Geoffry Arlington fait son service en tant qu'instructeur de vol de l'Aviation royale du Canada (ARC)</text>
             <vet id="1478">Geoffrey Alington</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1941" img="4fj.jpg">
+        <veteran date="01/07/1941" img="4fj.jpg">
             <text>Steve Lubky fait son service comme mécanicien conducteur dans l'Armée de terre</text>
             <vet id="1479">Steve Lubky</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="teh.jpg">
+        <veteran date="01/01/1941" img="teh.jpg">
             <text>Harold Walton s'enrôle dans l'Armée de terre</text>
             <vet id="1480">Harold Walton</vet>
-        </event>
+        </veteran>
 
-        <event date="07/01/1944" img="cfu.jpg">
+        <veteran date="07/01/1944" img="cfu.jpg">
             <text>Kenneth France fait son service dans la force de bombardement de l'Aviation royale du Canada (ARC)</text>
             <vet id="1481">Kenneth France</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="tlmfujmukxxkqszoqtan.jpg">
+        <veteran date="06/06/1944" img="tlmfujmukxxkqszoqtan.jpg">
             <text>Doris Mitchell observe les avions survoler le Sussex en route vers la Normandie</text>
             <vet id="1482">Doris Mitchell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/08/1941" img="ksu.jpg">
+        <veteran date="01/08/1941" img="ksu.jpg">
             <text>Henry Mason s'enrôle dans la Marine</text>
             <vet id="1483">Henry Mason</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="je1.jpg">
+        <veteran date="01/04/1945" img="je1.jpg">
             <text>Gerald James est libéré d'un camp de prisonniers de guerre</text>
             <vet id="1486">Gerald James</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="jul.jpg">
+        <veteran date="01/01/1942" img="jul.jpg">
             <text>Robert Roth s'enrôle dans l'Armée de terre</text>
             <vet id="1487">Robert Roth</vet>
-        </event>
+        </veteran>
 
-        <event date="18/09/1942" img="sx3.jpg">
+        <veteran date="18/09/1942" img="sx3.jpg">
             <text>Arthur Brown s'enrôle et participera à la Bataille de Monte Cassino</text>
             <vet id="1488">Arthur Brown</vet>
-        </event>
+        </veteran>
 
-        <event date="16/05/1945" img="5vv.jpg">
+        <veteran date="16/05/1945" img="5vv.jpg">
             <text>Ron Rhine rentre à la maison à bord du NCSM Niobe et sera démobilisé à son retour au pays</text>
             <vet id="1493">Ron Rhine</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="524.jpg">
+        <veteran date="01/01/1940" img="524.jpg">
             <text>Lewis Chow s'enrôle et fera son service en tant qu'espion</text>
             <vet id="1494">Lewis Chow</vet>
-        </event>
+        </veteran>
 
-        <event date="06/08/1945" img="y3d.jpg">
+        <veteran date="06/08/1945" img="y3d.jpg">
             <text>Bruce Findley termine son service dans le Pacifique quand la première bombe atomique est larguée sur Hiroshima</text>
             <vet id="1495">Bruce Findlay</vet>
-        </event>
+        </veteran>
 
-        <event date="26/05/1940" img="mkh.jpg">
+        <veteran date="26/05/1940" img="mkh.jpg">
             <text>Harry Ramsey reçoit l'ordre de se replier lors de l'évacuation de Dunkerque, en France</text>
             <vet id="1498">Harry Ramsey</vet>
-        </event>
+        </veteran>
 
-        <event date="26/06/1941" img="e2z.jpg">
+        <veteran date="26/06/1941" img="e2z.jpg">
             <text>Winifred Sirois se joint à l'armée et entreprend une formation de signalisation en code Morse</text>
             <vet id="1499">Winifred Sirois</vet>
-        </event>
+        </veteran>
 
-        <event date="20/06/1941" img="uvz.jpg">
+        <veteran date="20/06/1941" img="uvz.jpg">
             <text>Albert Sanderson s'enrôle dans la Force aérienne</text>
             <vet id="1500">Albert Sanderson</vet>
-        </event>
+        </veteran>
 
-        <event date="12/08/1944" img="0r0.jpg">
+        <veteran date="12/08/1944" img="0r0.jpg">
             <text>Douglas Storey participe aux combats de la poche Falaise</text>
             <vet id="1501">Douglas Storey</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1943" img="ped.jpg">
+        <veteran date="01/09/1943" img="ped.jpg">
             <text>Ray Sowerby s'enrôle dans l'Armée de terre</text>
             <vet id="1502">Ray Sowerby</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="a0h.jpg">
+        <veteran date="01/04/1945" img="a0h.jpg">
             <text>Clifford Hobbs servira dans l'Armée de terre aux Pays-Bas</text>
             <vet id="1504">Clifford Hobbis</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1944" img="oad.jpg">
+        <veteran date="01/04/1944" img="oad.jpg">
             <text>John Pavey s'enrôle dans la Marine comme apprenti-matelot</text>
             <vet id="1505">John Pavey</vet>
-        </event>
+        </veteran>
 
-        <event date="20/07/1940" img="13o.jpg">
+        <veteran date="20/07/1940" img="13o.jpg">
             <text>Philip Zeman s'enrôle dans l'Aviation royale du Canada (ARC)</text>
             <vet id="1506">Philip Zeman</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1945" img="n2k.jpg">
+        <veteran date="01/03/1945" img="n2k.jpg">
             <text>Robert Mason obtient une permission spéciale pour rendre visite à sa mère malade</text>
             <vet id="1511">Robert Mason</vet>
-        </event>
+        </veteran>
 
-        <event date="10/05/1945" img="kxm.jpg">
+        <veteran date="10/05/1945" img="kxm.jpg">
             <text>Rod McNeill et un soldat allemand annoncent la fin de la guerre à des tireurs d'élite allemands</text>
             <vet id="1515">Rod McNeill</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="b0i.jpg">
+        <veteran date="08/05/1945" img="b0i.jpg">
             <text>Arthur Lyon est stationné en Allemagne quand la guerre prend fin</text>
             <vet id="1517">Arthur Lyon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="t4f.jpg">
+        <veteran date="01/01/1942" img="t4f.jpg">
             <text>Herbert Shillington est stationné en Afrique du Nord à Tunis, en Tunisie</text>
             <vet id="1518">Herbert Shillington</vet>
-        </event>
+        </veteran>
 
-        <event date="16/01/1943" img="0gx.jpg">
+        <veteran date="16/01/1943" img="0gx.jpg">
             <text>John Marchand s'enrôle dans l'Armée de terre</text>
             <vet id="1521">John Marchand</vet>
-        </event>
+        </veteran>
 
-        <event date="24/02/1942" img="ajv.jpg">
+        <veteran date="24/02/1942" img="ajv.jpg">
             <text>John Penner s'enrôle dans la Force aérienne</text>
             <vet id="1524">John Penner</vet>
-        </event>
+        </veteran>
 
-        <event date="20/05/1942" img="s0y.jpg">
+        <veteran date="20/05/1942" img="s0y.jpg">
             <text>Frank Moore s'enrôle dans la Marine, où il sera chauffeur 2e classe</text>
             <vet id="1527">Frank Moore</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="jb0.jpg">
+        <veteran date="08/05/1945" img="jb0.jpg">
             <text>Bill Ramsbottom célèbre à Camp Shilo le Jour de la Victoire en Europe</text>
             <vet id="1528">Bill Ramsbottom</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1943" img="h0w.jpg">
+        <veteran date="09/07/1943" img="h0w.jpg">
             <text>Eric Saunders participe à l'invasion alliée de la Sicile</text>
             <vet id="1530">Eric Saunders</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="xsw.jpg">
+        <veteran date="01/07/1943" img="xsw.jpg">
             <text>Stuart Richardson s'enrôle dans l'Aviation royale du Canada (ARC)</text>
             <vet id="1531">Stuart Richardson</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="i5j.jpg">
+        <veteran date="01/01/1941" img="i5j.jpg">
             <text>James Fox est envoyé au Royaume-Uni en tant qu'ingénieur de l'armée</text>
             <vet id="1532">James Fox</vet>
-        </event>
+        </veteran>
 
-        <event date="10/09/1945" img="fpenageilrxhpggaxzdv.jpg">
+        <veteran date="10/09/1945" img="fpenageilrxhpggaxzdv.jpg">
             <text>Stephen Bandurka termine son service dans l'armée</text>
             <vet id="1534">Stephen Bandurka</vet>
-        </event>
+        </veteran>
 
-        <event date="05/05/1944" img="w0m.jpg">
+        <veteran date="05/05/1944" img="w0m.jpg">
             <text>Jack Williams obtient sa certification d'instructeur de vol de l'Aviation royale du Canada (ARC)</text>
             <vet id="1535">Jack Williams</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1943" img="5pw.jpg">
+        <veteran date="01/12/1943" img="5pw.jpg">
             <text>Eric Hawley se joint à la Force aérienne</text>
             <vet id="1536">Eric Hawley</vet>
-        </event>
+        </veteran>
 
-        <event date="11/11/1945" img="ooa.jpg">
+        <veteran date="11/11/1945" img="ooa.jpg">
             <text>Michael Sich visite en France le monument commémoratif de la bataille de Vimy</text>
             <vet id="1538">Michael Sich</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1943" img="m1k.jpg">
+        <veteran date="01/04/1943" img="m1k.jpg">
             <text>Edgar Branch aide un pilote britannique dont l'avion s'est écrasé</text>
             <vet id="1539">Edgar Branch</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="cxn.jpg">
+        <veteran date="01/01/1940" img="cxn.jpg">
             <text>Arthur Gillan s'enrôle dans la Marine</text>
             <vet id="1541">Arthur Gillan</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1944" img="tq4.jpg">
+        <veteran date="01/06/1944" img="tq4.jpg">
             <text>Joan Brownson s'enrôle dans l'Armée de terre</text>
             <vet id="1680">Joan Brownson, nÈe Roberts</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="5el.jpg">
+        <veteran date="08/05/1945" img="5el.jpg">
             <text>Glenn Price prépare avec d'autres soldats les véhicules du défilé de la Victoire aux Pays-Bas</text>
             <vet id="1702">Glenn Price</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="wak.jpg">
+        <veteran date="08/05/1945" img="wak.jpg">
             <text>Rex Fendick est stationné dans la Manche quand est annoncée la Victoire en Europe</text>
             <vet id="1735">Rex Rose</vet>
-        </event>
+        </veteran>
 
-        <event date="03/01/1942" img="ojzgufyvlxhuuglskrxq.jpg">
+        <veteran date="03/01/1942" img="ojzgufyvlxhuuglskrxq.jpg">
             <text>Art Meyer prend la mer à destination de l'Europe au sein du Corps du génie royal canadien</text>
             <vet id="1738">Art Meyer</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="5ry.jpg">
+        <veteran date="06/06/1944" img="5ry.jpg">
             <text>John Charlwood débarque à Juno Beach pour le Jour J</text>
             <vet id="1797">John Charlwood</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1943" img="g5v.jpg">
+        <veteran date="01/03/1943" img="g5v.jpg">
             <text>David Macdonald, mécanicien, fait son service outre-mer dans la Force aérienne</text>
             <vet id="1798">David MacDonald</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1942" img="leibymwvvguepmwzypnt.jpg">
+        <veteran date="01/10/1942" img="leibymwvvguepmwzypnt.jpg">
             <text>Sam Garnet se joint à l'Aviation royale du Canada (ARC)</text>
             <vet id="1802">Sam Garnet</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="lzuhdhbmraxnbcktezad.jpg">
+        <veteran date="25/12/1944" img="lzuhdhbmraxnbcktezad.jpg">
             <text>Joseph Gautreau a servi dans l'Armée de terre en Belgique</text>
             <vet id="1804">Joseph Gautreau</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1944" img="53f.jpg">
+        <veteran date="01/09/1944" img="53f.jpg">
             <text>Fraser Muir fait son premier voyage au sein de la force de bombardement</text>
             <vet id="1811">Fraser Muir</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="4ly.jpg">
+        <veteran date="01/01/1942" img="4ly.jpg">
             <text>Harold MacLauchlan a servi dans la Marine</text>
             <vet id="1821">Harold MacLauchlan</vet>
-        </event>
+        </veteran>
 
-        <event date="17/09/1944" img="bwumxdzeypfgwkkdcefp.jpg">
+        <veteran date="17/09/1944" img="bwumxdzeypfgwkkdcefp.jpg">
             <text>Bruce Cox est parachutiste pendant la bataille d'Arnhem</text>
             <vet id="1838">Bruce Cox</vet>
-        </event>
+        </veteran>
 
-        <event date="06/11/1943" img="sputvfzjcgqjkeylpcsq.jpg">
+        <veteran date="06/11/1943" img="sputvfzjcgqjkeylpcsq.jpg">
             <text>Pauline Cox Walker fait son service à bord d'un navire qui sera torpillé</text>
             <vet id="1840">Pauline Cox Walker</vet>
-        </event>
+        </veteran>
 
-        <event date="08/08/1942" img="jyl.jpg">
+        <veteran date="08/08/1942" img="jyl.jpg">
             <text>Murray Whetung s'enrôle dans l'Armée de terre</text>
             <vet id="1901">Murray Whetung</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="ybi.jpg">
+        <veteran date="01/01/1943" img="ybi.jpg">
             <text>William Jepps s'enrôle dans l'Armée de terre et participera à la campagne de Mourmansk</text>
             <vet id="1903">William Jepps</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1944" img="hrgwdawqtctjlxmgjplv.jpg">
+        <veteran date="01/09/1944" img="hrgwdawqtctjlxmgjplv.jpg">
             <text>John Neville participe à un déploiement en France</text>
             <vet id="1920">John Neville</vet>
-        </event>
+        </veteran>
 
-        <event date="16/04/1945" img="ibt.jpg">
+        <veteran date="16/04/1945" img="ibt.jpg">
             <text>Louis Howard se trouve à bord du NCSM Sarnia quand celui-ci échoue à établir le contact avec le NCSM Esquimalt</text>
             <vet id="2137">Louis Howard</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="ztp.jpg">
+        <veteran date="25/12/1944" img="ztp.jpg">
             <text>Hewitt Quick participe en tant que parachutiste à un déploiement en Europe</text>
             <vet id="2160">Hewitt Quick</vet>
-        </event>
+        </veteran>
 
-        <event date="21/06/1940" img="3ik.jpg">
+        <veteran date="21/06/1940" img="3ik.jpg">
             <text>Wladyslaw Pasaj parvient à monter à bord d'un train pour l'Écosse après s'être caché des Allemands</text>
             <vet id="2165">Wladyslaw Pasaj</vet>
-        </event>
+        </veteran>
 
-        <event date="20/08/1944" img="t2r.jpg">
+        <veteran date="20/08/1944" img="t2r.jpg">
             <text>Leo Pikulski prend part à la bataille de la crête Montormel</text>
             <vet id="2169">Leo Pikulski</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="z1l.jpg">
+        <veteran date="01/01/1943" img="z1l.jpg">
             <text>Marie Venne fait son service dans la division féminine de l'Aviation royale du Canada (ARC)</text>
             <vet id="2172">Marie Venne</vet>
-        </event>
+        </veteran>
 
-        <event date="15/07/1943" img="d23.jpg">
+        <veteran date="15/07/1943" img="d23.jpg">
             <text>Art Lang participe à un déploiement de l'armée outre-mer</text>
             <vet id="2176">Art Lang</vet>
-        </event>
+        </veteran>
 
-        <event date="17/12/1943" img="uak.jpg">
+        <veteran date="17/12/1943" img="uak.jpg">
             <text>Alice Samuels fait son entraînement à Vermilion au sein du Service féminin de l'Armée canadienne (CWAC)</text>
             <vet id="2177">Alice Samuel</vet>
-        </event>
+        </veteran>
 
-        <event date="30/11/1942" img="eem.jpg">
+        <veteran date="30/11/1942" img="eem.jpg">
             <text>Daniel Lee s'enrôle dans l'Armée de terre</text>
             <vet id="2178">Daniel Lee</vet>
-        </event>
+        </veteran>
 
-        <event date="12/06/1939" img="gqw.jpg">
+        <veteran date="12/06/1939" img="gqw.jpg">
             <text>Jospeh Forest s'enrôle dans l'Armée de terre</text>
             <vet id="2188">Joseph Forest</vet>
-        </event>
+        </veteran>
 
-        <event date="21/02/1945" img="bgi.jpg">
+        <veteran date="21/02/1945" img="bgi.jpg">
             <text>Rodolophe Lavoie termine sa première période de service au sein de l'Aviation royale du Canada (ARC)</text>
             <vet id="2190">Rodolophe Lavoie</vet>
-        </event>
+        </veteran>
 
-        <event date="12/09/1944" img="lmc.jpg">
+        <veteran date="12/09/1944" img="lmc.jpg">
             <text>John Deluca participe en Allemagne au raid de Wanne-Eckel</text>
             <vet id="2191">John Deluca</vet>
-        </event>
+        </veteran>
 
-        <event date="29/06/1942" img="wgq.jpg">
+        <veteran date="29/06/1942" img="wgq.jpg">
             <text>Gerald Connick envoie ses vœux d'anniversaire à sa femme restée au pays</text>
             <vet id="2192">Gerald Connick</vet>
-        </event>
+        </veteran>
 
-        <event date="04/07/1944" img="1ny.jpg">
+        <veteran date="04/07/1944" img="1ny.jpg">
             <text>Leslie Clarke est blessé lors de combats à Carpiquet</text>
             <vet id="2193">Leslie Clarke</vet>
-        </event>
+        </veteran>
 
-        <event date="18/12/1942" img="z5l.jpg">
+        <veteran date="18/12/1942" img="z5l.jpg">
             <text>Kenneth Richardson est en route vers l'Europe lorsque naît son fils</text>
             <vet id="2195">Kenneth Richardson</vet>
-        </event>
+        </veteran>
 
-        <event date="09/05/1943" img="pg2.jpg">
+        <veteran date="09/05/1943" img="pg2.jpg">
             <text>Bob Worrell est promu caporal dans l'Armée de terre</text>
             <vet id="2198">Bob Worrell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1942" img="rwh.jpg">
+        <veteran date="01/07/1942" img="rwh.jpg">
             <text>Horace Hetherington fait son entraînement en Angleterre au sein de l'Armée canadienne</text>
             <vet id="2202">Horace Hetherington</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1943" img="elo.jpg">
+        <veteran date="20/12/1943" img="elo.jpg">
             <text>Leraine Munn est signaleur dans l'infanterie pendant la Bataille d'Ortona</text>
             <vet id="2205">Leraine Munn</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1942" img="uby.jpg">
+        <veteran date="01/11/1942" img="uby.jpg">
             <text>Giles Doucet et son équipage tombent sur un groupe de sous-marins dans l'océan Atlantique</text>
             <vet id="2206">Giles Doucet</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="zueocfqhvbloctyfgwxp.jpg">
+        <veteran date="08/05/1945" img="zueocfqhvbloctyfgwxp.jpg">
             <text>Ivan Killam est gardien à York quand la fin de la guerre est annoncée</text>
             <vet id="2210">Ivan Killam</vet>
-        </event>
+        </veteran>
 
-        <event date="11/10/1943" img="glu.jpg">
+        <veteran date="11/10/1943" img="glu.jpg">
             <text>Doreen Newton se joint au Service féminin de l'Armée canadienne (CWAC)</text>
             <vet id="2211">Doreen Newton</vet>
-        </event>
+        </veteran>
 
-        <event date="20/06/1945" img="kxw.jpg">
+        <veteran date="20/06/1945" img="kxw.jpg">
             <text>Clinton Hayward rentre au pays à bord du SS Île de France</text>
             <vet id="2212">Clinton Hayward</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1943" img="2se.jpg">
+        <veteran date="01/03/1943" img="2se.jpg">
             <text>Robert Breau poursuit son entraînement militaire à Greenock, en Écosse</text>
             <vet id="2214">Robert Breau</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="2vz.jpg">
+        <veteran date="01/01/1940" img="2vz.jpg">
             <text>Fred Kirkpatrick s'enrôle dans l'Armée de terre et servira à la base de Chatham</text>
             <vet id="2216">Fred Kirkpatrick</vet>
-        </event>
+        </veteran>
 
-        <event date="15/06/1940" img="wua.jpg">
+        <veteran date="15/06/1940" img="wua.jpg">
             <text>Mark Macdonald s'enrôle dans l'Armée de terre et servira dans le régiment de North Shore</text>
             <vet id="2219">Mark MacDonald</vet>
-        </event>
+        </veteran>
 
-        <event date="08/08/1944" img="ggd.jpg">
+        <veteran date="08/08/1944" img="ggd.jpg">
             <text>Allan MacDonald assiste à la bataille de la crête de Verrières</text>
             <vet id="2220">Allan MacDonald</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1944" img="ib1.jpg">
+        <veteran date="01/06/1944" img="ib1.jpg">
             <text>John Everard MacLean est hébergé avec d'autres recrues à Ditchling, au Royaume-Uni</text>
             <vet id="2223">John Everard MacLean</vet>
-        </event>
+        </veteran>
 
-        <event date="28/05/1944" img="esk.jpg">
+        <veteran date="28/05/1944" img="esk.jpg">
             <text>Bob Phair est blessé au combat en Sicile</text>
             <vet id="2226">Bob Phair</vet>
-        </event>
+        </veteran>
 
-        <event date="26/05/1943" img="jsa.jpg">
+        <veteran date="26/05/1943" img="jsa.jpg">
             <text>Donovan Woelfle s'enrôle dans la marine marchande</text>
             <vet id="2228">Donovan Woelfle</vet>
-        </event>
+        </veteran>
 
-        <event date="15/08/1945" img="vff.jpg">
+        <veteran date="15/08/1945" img="vff.jpg">
             <text>Joan Johnson se rend à Trafalgar Square pour célébrer le Jour de la Victoire en Europe</text>
             <vet id="2230">Joan Johnson, nÈe Cobb</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="kmd.jpg">
+        <veteran date="01/01/1942" img="kmd.jpg">
             <text>Gordon Waters quitte la Force aérienne pour se joindre à l'Armée de terre</text>
             <vet id="2231">Gordon Waters</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="s4j.jpg">
+        <veteran date="01/01/1942" img="s4j.jpg">
             <text>Benjamin Kenny se joint à l'Aviation royale du Canada (ARC)</text>
             <vet id="2234">Benjamin Kenny</vet>
-        </event>
+        </veteran>
 
-        <event date="07/06/1944" img="rd2.jpg">
+        <veteran date="07/06/1944" img="rd2.jpg">
             <text>John Leach fait débarquer des chars d'assaut supplémentaires sur les côtes de la Normandie</text>
             <vet id="2241">John Leach</vet>
-        </event>
+        </veteran>
 
-        <event date="06/07/1944" img="lro.jpg">
+        <veteran date="06/07/1944" img="lro.jpg">
             <text>Fred Bryant fait son service en France en tant que médecin militaire</text>
             <vet id="2243">Fred Bryant</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1944" img="cey.jpg">
+        <veteran date="01/07/1944" img="cey.jpg">
             <text>Owen Lockyer débarque en Normandie avec le 4e Régiment blindé canadien</text>
             <vet id="2247">Owen Lockyer</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="uio.jpg">
+        <veteran date="01/01/1943" img="uio.jpg">
             <text>Ruby Somers se joint au service féminin de la Marine royale (WRN) et sera stationnée à Terre-Neuve</text>
             <vet id="2248">Ruby Somers</vet>
-        </event>
+        </veteran>
 
-        <event date="17/02/1945" img="um1.jpg">
+        <veteran date="17/02/1945" img="um1.jpg">
             <text>Henry Masters s'enrôle dans l'Armée de terre</text>
             <vet id="2250">Henry Masters</vet>
-        </event>
+        </veteran>
 
-        <event date="13/01/1940" img="2ln.jpg">
+        <veteran date="13/01/1940" img="2ln.jpg">
             <text>Eileen Green épouse Tom Green tout en faisant partie du Service féminin de la Marine royale (WRNS)</text>
             <vet id="2256">Eileen Green, nÈe Short</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="nuk.jpg">
+        <veteran date="01/01/1941" img="nuk.jpg">
             <text>Molly Campbell fait son service en tant qu'infirmière dans une pouponnière d'Angleterre</text>
             <vet id="2257">Molly Campbell</vet>
-        </event>
+        </veteran>
 
-        <event date="29/08/1946" img="i1l.jpg">
-            <text>Ken Frost est repêché par l'Armée de terre</text>
-            <vet id="2260">Ken Frost</vet>
-        </event>
-
-        <event date="06/06/1944" img="g3m.jpg">
+        <veteran date="06/06/1944" img="g3m.jpg">
             <text>Belmont Shannon participe aux débarquements du Jour J</text>
             <vet id="2261">Belmont Shannon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="ddo.jpg">
+        <veteran date="01/07/1943" img="ddo.jpg">
             <text>William Hitchon est affecté pendant son service à la protection de la famille royale</text>
             <vet id="2262">William Hitchon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1945" img="fxf.jpg">
+        <veteran date="01/09/1945" img="fxf.jpg">
             <text>Clyde Bougie se rend à Hong Kong pour y libérer des prisonniers de guerre</text>
             <vet id="2266">Clyde Bougie</vet>
-        </event>
+        </veteran>
 
-        <event date="06/07/1943" img="qwuipvcvisuoipqvbfig.jpg">
+        <veteran date="06/07/1943" img="qwuipvcvisuoipqvbfig.jpg">
             <text>Audrey Detheridge est appelée à Toronto par le Service féminin de l'Armée canadienne (CWAC)</text>
             <vet id="2267">Audrey Detheridge</vet>
-        </event>
+        </veteran>
 
-        <event date="08/03/1945" img="gm1.jpg">
+        <veteran date="08/03/1945" img="gm1.jpg">
             <text>Edward Jesseman est blessé pendant son service en Allemagne</text>
             <vet id="2269">Edward Jesseman</vet>
-        </event>
+        </veteran>
 
-        <event date="19/07/1942" img="gts.jpg">
+        <veteran date="19/07/1942" img="gts.jpg">
             <text>John Bylik s'enrôle dans la Marine</text>
             <vet id="2270">John Bilyk</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1943" img="smf.jpg">
+        <veteran date="01/09/1943" img="smf.jpg">
             <text>John Cathie débarque avec son unité en Italie</text>
             <vet id="2271">John Cathie</vet>
-        </event>
+        </veteran>
 
-        <event date="28/06/1941" img="hxr.jpg">
+        <veteran date="28/06/1941" img="hxr.jpg">
             <text>Harold Shaw et son frère jumeau s'enrôlent tous deux dans la Force aérienne</text>
             <vet id="2272">Harold Shaw</vet>
-        </event>
+        </veteran>
 
-        <event date="02/07/1941" img="ejqwxlepaniwdiukwbso.jpg">
+        <veteran date="02/07/1941" img="ejqwxlepaniwdiukwbso.jpg">
             <text>Sol Zulauf s'enrôle dans l'Armée de terre</text>
             <vet id="2273">Sol Zulauf</vet>
-        </event>
+        </veteran>
 
-        <event date="24/12/1943" img="bfasuqyvnfmsgbtegtnr.jpg">
+        <veteran date="24/12/1943" img="bfasuqyvnfmsgbtegtnr.jpg">
             <text>Mendel Thrasher subit un interrogatoire aux mains des Allemands dàs son arrivée dans un camp de prisonniers</text>
             <vet id="2274">Mendel Thrasher</vet>
-        </event>
+        </veteran>
 
-        <event date="30/06/1940" img="wzv.jpg">
+        <veteran date="30/06/1940" img="wzv.jpg">
             <text>Jan Szklarz faisait partie de l'Armée polonaise quand il a été capturé par les Allemands</text>
             <vet id="2276">Jan Szklarz</vet>
-        </event>
+        </veteran>
 
-        <event date="10/01/1940" img="qouycgfyyhxdglnefqjp.jpg">
+        <veteran date="10/01/1940" img="qouycgfyyhxdglnefqjp.jpg">
             <text>Harold Hall s'enrôle dans l'Armée de terre</text>
             <vet id="2277">Harold Hall</vet>
-        </event>
+        </veteran>
 
-        <event date="13/07/1943" img="ov0.jpg">
+        <veteran date="13/07/1943" img="ov0.jpg">
             <text>Frederick Chapman débarque en Sicile avec son régiment</text>
             <vet id="2280">Frederick Chapman</vet>
-        </event>
+        </veteran>
 
-        <event date="13/08/1944" img="gvv.jpg">
+        <veteran date="13/08/1944" img="gvv.jpg">
             <text>Joe Bill est blessé au combat en France</text>
             <vet id="2282">Joe Bill</vet>
-        </event>
+        </veteran>
 
-        <event date="29/07/1941" img="0pv.jpg">
+        <veteran date="29/07/1941" img="0pv.jpg">
             <text>Warren Urquhart  s'enrôle dans la Marine</text>
             <vet id="2285">Warren Urquhart</vet>
-        </event>
+        </veteran>
 
-        <event date="24/12/1943" img="uho.jpg">
+        <veteran date="24/12/1943" img="uho.jpg">
             <text>Bill Teleske est stationné dans les tranchées d'Ortona, en Italie, la veille de Noël</text>
             <vet id="2286">Bill Teleske</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1944" img="zwe.jpg">
+        <veteran date="01/10/1944" img="zwe.jpg">
             <text>Ross Hamilton fait son service à Sussex dans l'escadron 407 de l'Aviation royale du Canada (ARC)</text>
             <vet id="2288">Ross Hamilton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1940" img="aqv.jpg">
+        <veteran date="01/06/1940" img="aqv.jpg">
             <text>Roman Zaraza fait son service en Lithuanie au sein de l'Armée polonaise</text>
             <vet id="2289">Roman Zaraza</vet>
-        </event>
+        </veteran>
 
-        <event date="21/08/1944" img="lmc.jpg">
+        <veteran date="21/08/1944" img="lmc.jpg">
             <text>Godfrey Schaupmeyer et sa division ont combattu à la poche de Falaise</text>
             <vet id="2291">Godfrey Schaupmeyer</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1943" img="sf3.jpg">
+        <veteran date="01/03/1943" img="sf3.jpg">
             <text>Stephen Boczar et son escadron ont fait des raids aériens au-dessus de Berlin</text>
             <vet id="2293">Stephen Boczar</vet>
-        </event>
+        </veteran>
 
-        <event date="04/01/1943" img="vij.jpg">
+        <veteran date="04/01/1943" img="vij.jpg">
             <text>Rudy Deutsch s'enrôle dans l'Armée de terre en tant que brancardier</text>
             <vet id="2295">Rudy Deutsch</vet>
-        </event>
+        </veteran>
 
-        <event date="15/05/1944" img="a42.jpg">
+        <veteran date="15/05/1944" img="a42.jpg">
             <text>Gordon Wright participe au blocus de la Manche en prévision du Jour J</text>
             <vet id="2298">Gordon Wright</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1944" img="uzl.jpg">
+        <veteran date="09/07/1944" img="uzl.jpg">
             <text>Frank Wong fait son service dans la 2e National Workshop Unit à Caen, en France</text>
             <vet id="2299">Frank Wong</vet>
-        </event>
+        </veteran>
 
-        <event date="16/01/1944" img="sdj.jpg">
+        <veteran date="16/01/1944" img="sdj.jpg">
             <text>Victor Wong fait son service dans l'Armée canadienne</text>
             <vet id="2310">Victor Wong</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="0q3.jpg">
+        <veteran date="01/01/1942" img="0q3.jpg">
             <text>Peggy Lee fait son service dans le Corps d'ambulanciers St. John's</text>
             <vet id="2313">Peggy Lee</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="3yh.jpg">
+        <veteran date="01/01/1942" img="3yh.jpg">
             <text>Norm Jenkins s'enrôle dans l'Aviation royale du Canada (ARC), où il supervisera la fabrication d'hélices et de moteurs</text>
             <vet id="2317">Norm Jenkins</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="weu.jpg">
+        <veteran date="06/06/1944" img="weu.jpg">
             <text>Joseph Sullivan sert dans la 3e Division d'infanterie canadienne lors du Jour J</text>
             <vet id="2318">Joseph Sullivan</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="gjl.jpg">
+        <veteran date="25/12/1944" img="gjl.jpg">
             <text>Fred Guest termine sa période de service avec la force de bombardement pendant la Bataille des Ardennes</text>
             <vet id="2319">Fred Guest</vet>
-        </event>
+        </veteran>
 
-        <event date="07/06/1944" img="lm3.jpg">
+        <veteran date="07/06/1944" img="lm3.jpg">
             <text>Gordon Ritchie et l'Escadron 429 de l'Aviation royale du Canada (ARC) sont attaqués pendant une mission en France</text>
             <vet id="2320">Gordon Ritchie</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1943" img="fenyfizggokwhpedgmrj.jpg">
+        <veteran date="20/12/1943" img="fenyfizggokwhpedgmrj.jpg">
             <text>Gordon MacKenzie participe à la Bataille d'Ortona</text>
             <vet id="2321">Gordon MacKenzie</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1944" img="myb.jpg">
+        <veteran date="01/12/1944" img="myb.jpg">
             <text>Leonard Bookbinder fait son service dans la Marine à bord du NCSM New Liskeard</text>
             <vet id="2325">Leonard Bookbinder</vet>
-        </event>
+        </veteran>
 
-        <event date="29/12/1942" img="wgi.jpg">
+        <veteran date="29/12/1942" img="wgi.jpg">
             <text>Robert O'Conner s'enrôle dans la Force aérienne</text>
             <vet id="2327">Robert O'Connor</vet>
-        </event>
+        </veteran>
 
-        <event date="04/07/1944" img="1pl.jpg">
+        <veteran date="04/07/1944" img="1pl.jpg">
             <text>William Rawluk débarque en France au sein des Calgary Highlanders</text>
             <vet id="2329">William Rawluk</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1944" img="42z.jpg">
+        <veteran date="01/02/1944" img="42z.jpg">
             <text>Jean Holmes s'enrôle dans l'armée comme infirmière et fera son service en Angleterre</text>
             <vet id="2331">Jean Holmes</vet>
-        </event>
+        </veteran>
 
-        <event date="10/07/1943" img="wmi.jpg">
+        <veteran date="10/07/1943" img="wmi.jpg">
             <text>Maurice White débarque en Sicile, en Italie</text>
             <vet id="2333">Maurice White</vet>
-        </event>
+        </veteran>
 
-        <event date="23/07/1940" img="m55.jpg">
+        <veteran date="23/07/1940" img="m55.jpg">
             <text>Roy Page ment au sujet de son âge pour entrer dans l'armée</text>
             <vet id="2356">Roy Page</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="551.jpg">
+        <veteran date="25/12/1944" img="551.jpg">
             <text>Doug Dickson demande sa fiancée en mariage en lui offrant une bague qu'il a obtenue en volant sous un pont de Lethridge, en Alberta</text>
             <vet id="2357">Doug Dickson</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="jt5.jpg">
+        <veteran date="01/01/1943" img="jt5.jpg">
             <text>George Ens s'enrôle et par faire son entraînement au Camp  Borden, en Ontario</text>
             <vet id="2358">George Ens</vet>
-        </event>
+        </veteran>
 
-        <event date="29/04/1943" img="lry.jpg">
+        <veteran date="29/04/1943" img="lry.jpg">
             <text>Jim Venables fait partie de l'Escadron 435 affecté en Birmanie</text>
             <vet id="2359">Jim Venables</vet>
-        </event>
+        </veteran>
 
-        <event date="25/09/1944" img="vfv.jpg">
+        <veteran date="25/09/1944" img="vfv.jpg">
             <text>Russell Earl participe à un raid de bombardement à Calais, en France</text>
             <vet id="2360">Russell Earl</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1944" img="oif.jpg">
+        <veteran date="01/06/1944" img="oif.jpg">
             <text>Paul Bentley se trouve stationné à Shaftesbury, en Angleterre, peu avant le Jour J</text>
             <vet id="2362">Paul Bentley</vet>
-        </event>
+        </veteran>
 
-        <event date="01/08/1941" img="2ck.jpg">
+        <veteran date="01/08/1941" img="2ck.jpg">
             <text>Harold Ward est transféré dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2366">Harold Ward</vet>
-        </event>
+        </veteran>
 
-        <event date="10/08/1943" img="i5d.jpg">
+        <veteran date="10/08/1943" img="i5d.jpg">
             <text>Arthur Dean participe en tant que bombardier aérien à un raid au-dessus de Nuremburg, en Allemagne</text>
             <vet id="2367">Arthur Dean</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1944" img="uh1.jpg">
+        <veteran date="01/12/1944" img="uh1.jpg">
             <text>Archie Stover se joint aux troupes de renfort envoyées en France</text>
             <vet id="2369">Archie Stover</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="ovj.jpg">
+        <veteran date="25/12/1944" img="ovj.jpg">
             <text>George Ufnal et son unité passent Noël à Ortona, en Italie</text>
             <vet id="2370">George Ufnal</vet>
-        </event>
+        </veteran>
 
-        <event date="15/12/1944" img="0zu.jpg">
+        <veteran date="15/12/1944" img="0zu.jpg">
             <text>Bill Baluk effectue sa première mission dans la force de bombardement au-dessus de Ludwickshaven, en Allemagne</text>
             <vet id="2371">Bill Baluk</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1942" img="fpoaiapokxmndmvntfpm.jpg">
+        <veteran date="01/09/1942" img="fpoaiapokxmndmvntfpm.jpg">
             <text>Joe Hickson s'enrôle dans la Force aérienne</text>
             <vet id="2372">Joe Hickson</vet>
-        </event>
+        </veteran>
 
-        <event date="07/09/1940" img="bvq.jpg">
+        <veteran date="07/09/1940" img="bvq.jpg">
             <text>Diane Hawthorne est en service dans l'armée pendant la guerre-éclair de Londres</text>
             <vet id="2373">Diane Hawthorne</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="fh3.jpg">
+        <veteran date="06/06/1944" img="fh3.jpg">
             <text>Vernon Barr participe aux combats du Jour J</text>
             <vet id="2374">Vernon Barr</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="cdz.jpg">
+        <veteran date="01/01/1944" img="cdz.jpg">
             <text>Alexander Bramson entreprend son service à bord du NCSM Ettrick</text>
             <vet id="2376">Alexander Bramson</vet>
-        </event>
+        </veteran>
 
-        <event date="03/05/1944" img="qzq.jpg">
+        <veteran date="03/05/1944" img="qzq.jpg">
             <text>Lawrence Weldon effectue son entraînement dans la Marine à Toronto, en Ontario</text>
             <vet id="2378">Lawrence Weldon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="mkr.jpg">
+        <veteran date="01/01/1943" img="mkr.jpg">
             <text>Beryl Howe s'enrôle en tant que crypotologue dans le Service féminin de la Marine royale (WRNS)</text>
             <vet id="2380">Beryl Howe, nÈe Howard</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1944" img="lg2.jpg">
+        <veteran date="09/07/1944" img="lg2.jpg">
             <text>Alfred Warford est en service dans l'Armée de terre pendant la Bataille de Caen</text>
             <vet id="2381">Alfred Warford</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="oam.jpg">
+        <veteran date="01/01/1944" img="oam.jpg">
             <text>John Wasilenchuk et son équipage sont torpillés au large de l'Afrique du Nord</text>
             <vet id="2382">John Wasilenchuk</vet>
-        </event>
+        </veteran>
 
-        <event date="20/10/1940" img="4d3.jpg">
+        <veteran date="20/10/1940" img="4d3.jpg">
             <text>Catherine Anderson est appelé en mission dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2384">Catherine Anderson</vet>
-        </event>
+        </veteran>
 
-        <event date="11/08/1940" img="ekh.jpg">
+        <veteran date="11/08/1940" img="ekh.jpg">
             <text>Edwin Badger s'enrôle dans la Marine</text>
             <vet id="2387">Edwin Badger</vet>
-        </event>
+        </veteran>
 
-        <event date="09/09/1939" img="umo.jpg">
+        <veteran date="09/09/1939" img="umo.jpg">
             <text>Edward Plummer s'enrôle dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2393">Edward Plummer</vet>
-        </event>
+        </veteran>
 
-        <event date="28/05/1945" img="mmk.jpg">
+        <veteran date="28/05/1945" img="mmk.jpg">
             <text>Ian Herd apprend que ses camarades navigateurs sont morts dans l'écrasement de leur appareil au large du Sri Lanka</text>
             <vet id="2395">Ian Herd</vet>
-        </event>
+        </veteran>
 
-        <event date="11/01/1943" img="ajirtqehzgygloassalq.jpg">
+        <veteran date="11/01/1943" img="ajirtqehzgygloassalq.jpg">
             <text>Eugene Steeves s'enrôle dans la Force aérienne</text>
             <vet id="2423">Eugene Steeves</vet>
-        </event>
+        </veteran>
 
-        <event date="10/11/1943" img="xrdqrkhzjtmlkjnepahw.jpg">
+        <veteran date="10/11/1943" img="xrdqrkhzjtmlkjnepahw.jpg">
             <text>Richard Dutka est capturé par les Allemands, qui ont abattu son avion lors d'un raid de bombardement</text>
             <vet id="2427">Richard Dutka</vet>
-        </event>
+        </veteran>
 
-        <event date="24/10/1943" img="zmh.jpg">
+        <veteran date="24/10/1943" img="zmh.jpg">
             <text>Kenneth Marchant termine son entraînement de base puis il est envoyé en Colombie-Britannique</text>
             <vet id="2428">Kenneth Marchant</vet>
-        </event>
+        </veteran>
 
-        <event date="12/06/1944" img="3zr.jpg">
+        <veteran date="12/06/1944" img="3zr.jpg">
             <text>George Heron et les troupes de soutien de son équipage se trouvent déjà en Normandie</text>
             <vet id="2432">George Heron</vet>
-        </event>
+        </veteran>
 
-        <event date="27/06/1944" img="tde.jpg">
+        <veteran date="27/06/1944" img="tde.jpg">
             <text>Herbert Britton débarque en France avec son équipage</text>
             <vet id="2434">Herbert Britton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/12/1942" img="1ww.jpg">
+        <veteran date="01/12/1942" img="1ww.jpg">
             <text>Hugh Kidney s'enrôle dans l'Armée de terre, où il sera estafette</text>
             <vet id="2435">Hugh Kidney</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="0ei.jpg">
+        <veteran date="01/01/1943" img="0ei.jpg">
             <text>Aldfred Carpenter est affecté au dragage de mines dans la Marine</text>
             <vet id="2436">Alfred Carpenter</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="szuhdamubnocajzryvsz.jpg">
+        <veteran date="01/07/1943" img="szuhdamubnocajzryvsz.jpg">
             <text>Harry Inns et l'Escadron d'attaque 621 parviennent finalement jusqu'à la côte est de l'Afrique</text>
             <vet id="2438">Harry Inns</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="z3l.jpg">
+        <veteran date="01/04/1945" img="z3l.jpg">
             <text>Robert Yule monte à bord du RMS Aquitania pour aller servir en Europe</text>
             <vet id="2440">Robert Yule</vet>
-        </event>
+        </veteran>
 
-        <event date="11/09/1939" img="fa3.jpg">
+        <veteran date="11/09/1939" img="fa3.jpg">
             <text>Albert Hogg s'enrôle dans l'Armée de terre en tant qu'étudiant en médecine</text>
             <vet id="2441">Albert Hogg</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1943" img="ecf.jpg">
+        <veteran date="01/02/1943" img="ecf.jpg">
             <text>Blanche Lund se produit comme danseuse devant les soldats du Service spécial de la Marine</text>
             <vet id="2446">Blanche Lund</vet>
-        </event>
+        </veteran>
 
-        <event date="19/09/1944" img="orn.jpg">
+        <veteran date="19/09/1944" img="orn.jpg">
             <text>Richard Clements est appelé à servir dans l'Armée de terre</text>
             <vet id="2449">Richard Clements</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1944" img="sdn.jpg">
+        <veteran date="01/01/1944" img="sdn.jpg">
             <text>Paul Chan participe à un déploiement de soldats au Sri Lanka</text>
             <vet id="2454">Paul Chan</vet>
-        </event>
+        </veteran>
 
-        <event date="07/03/1945" img="fi0.jpg">
+        <veteran date="07/03/1945" img="fi0.jpg">
             <text>Wendell Harper est attaqué par surprise par un avion chasseur allemand</text>
             <vet id="2458">Wendell Harper</vet>
-        </event>
+        </veteran>
 
-        <event date="09/01/1940" img="p4d.jpg">
+        <veteran date="09/01/1940" img="p4d.jpg">
             <text>Oscar Fetini se joint à l'armée de terre de son Égypte natale</text>
             <vet id="2459">Oscar Fiteni</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="ylwfajesabcgzylkdrzp.jpg">
+        <veteran date="01/01/1945" img="ylwfajesabcgzylkdrzp.jpg">
             <text>Weldon Moffatt effectue sa première mission pour l'Aviation royale du Canada (ARC)</text>
             <vet id="2460">Weldon Moffatt</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="inhjrhnyuslwcgkeyxjj.jpg">
+        <veteran date="25/12/1944" img="inhjrhnyuslwcgkeyxjj.jpg">
             <text>Stanley Creelman passe le jour de Noël à mener bataille à Ortona, en Italie</text>
             <vet id="2462">Stanley Creelman</vet>
-        </event>
+        </veteran>
 
-        <event date="11/02/1940" img="1nk.jpg">
+        <veteran date="11/02/1940" img="1nk.jpg">
             <text>Daniel Goniea est appelé à servir dans la Marine</text>
             <vet id="2463">Daniel Goniea</vet>
-        </event>
+        </veteran>
 
-        <event date="15/07/1944" img="lr2.jpg">
+        <veteran date="15/07/1944" img="lr2.jpg">
             <text>William Sheppard débarque en Normandie</text>
             <vet id="2466">William Sheppard</vet>
-        </event>
+        </veteran>
 
-        <event date="08/06/1944" img="cvr.jpg">
+        <veteran date="08/06/1944" img="cvr.jpg">
             <text>Lloyd Queen fait partie des troupes de renfort qui débarquent à Juno Beach</text>
             <vet id="2478">Lloyd Queen</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1944" img="gxo.jpg">
+        <veteran date="01/07/1944" img="gxo.jpg">
             <text>Herbert Heron convole en justes noces au Canada</text>
             <vet id="2479">Herbert Heron</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="tl0.jpg">
+        <veteran date="01/01/1943" img="tl0.jpg">
             <text>Cyril Hammond fait son entraînement au sein de l'Aviation royale du Canada (ARC)</text>
             <vet id="2480">Cyril Hammond</vet>
-        </event>
+        </veteran>
 
-        <event date="28/08/1942" img="3pr.jpg">
+        <veteran date="28/08/1942" img="3pr.jpg">
             <text>Frank Reneau entreprend son service dans la Marine</text>
             <vet id="2485">Frank Reneau</vet>
-        </event>
+        </veteran>
 
-        <event date="07/09/1942" img="4x3.jpg">
+        <veteran date="07/09/1942" img="4x3.jpg">
             <text>Robert McGirr s'enrôle dans l'Armée de terre</text>
             <vet id="2489">Robert McGirr</vet>
-        </event>
+        </veteran>
 
-        <event date="22/07/1944" img="qrarbvnvfwezelaldckd.jpg">
+        <veteran date="22/07/1944" img="qrarbvnvfwezelaldckd.jpg">
             <text>Stanley Anderson est blessé au combat</text>
             <vet id="2491">Stanley Anderson</vet>
-        </event>
+        </veteran>
 
-        <event date="15/03/1940" img="lgk.jpg">
+        <veteran date="15/03/1940" img="lgk.jpg">
             <text>William Elliot s'enrôle dans l'Armée de terre en tant que conducteur</text>
             <vet id="2493">William Elliott</vet>
-        </event>
+        </veteran>
 
-        <event date="12/04/1943" img="wre.jpg">
+        <veteran date="12/04/1943" img="wre.jpg">
             <text>Clarence Sweeney s'enrôle dans la Marine</text>
             <vet id="2496">Clarence Sweeney</vet>
-        </event>
+        </veteran>
 
-        <event date="03/04/1945" img="exlraecgldrgmarvoncn.jpg">
+        <veteran date="03/04/1945" img="exlraecgldrgmarvoncn.jpg">
             <text>Joan Manning rencontre par hasard un ami d'enfance avant qu'il ne soit renvoyé au combat</text>
             <vet id="2499">Joan Manning</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="yac.jpg">
+        <veteran date="01/01/1942" img="yac.jpg">
             <text>Raymond Lefrançois choisit finalement la Marine plutôt que l'Armée de terre</text>
             <vet id="2509">Raymond Lefrancois</vet>
-        </event>
+        </veteran>
 
-        <event date="02/09/1940" img="n5f.jpg">
+        <veteran date="02/09/1940" img="n5f.jpg">
             <text>Léo Fortin commence son entraînement de base au Québec</text>
             <vet id="2510">LÈo Fortin</vet>
-        </event>
+        </veteran>
 
-        <event date="24/03/1944" img="351.jpg">
+        <veteran date="24/03/1944" img="351.jpg">
             <text>Clifford Mizzen se qualifie comme mitrailleur de bord</text>
             <vet id="2511">Clifford Mizzen</vet>
-        </event>
+        </veteran>
 
-        <event date="17/09/1943" img="ugf.jpg">
+        <veteran date="17/09/1943" img="ugf.jpg">
             <text>Romuald Pépin obtient sa certification de mitrailleur dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2512">Romuald Pepin</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="xdcrizpwnlzbnudizoqd.jpg">
+        <veteran date="08/05/1945" img="xdcrizpwnlzbnudizoqd.jpg">
             <text>Emile Turcot fait partie du groupe de soldats qui prendront la ville d'Oldenburg, en Allemagne, avant que la guerre ne prenne fin</text>
             <vet id="2513">Emile Turcot</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="jxq.jpg">
+        <veteran date="19/08/1942" img="jxq.jpg">
             <text>Roland Gravel survit à un raid sur Dieppe</text>
             <vet id="2515">Roland Gravel</vet>
-        </event>
+        </veteran>
 
-        <event date="15/08/1945" img="lzn.jpg">
+        <veteran date="15/08/1945" img="lzn.jpg">
             <text>Jacques Catudel est stationné à Vancouver lors du Jour de la Victoire contre le Japon</text>
             <vet id="2516">Jacques Catudal</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="3bt.jpg">
+        <veteran date="01/01/1945" img="3bt.jpg">
             <text>Léon DesLauriers s'enrôle dans l'Armée de terre</text>
             <vet id="2517">LÈon DesLauriers</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="q3k.jpg">
+        <veteran date="08/05/1945" img="q3k.jpg">
             <text>Percy Jackson décide de rester en Allemagne pour y servir une autre année</text>
             <vet id="2518">Percy Jackson</vet>
-        </event>
+        </veteran>
 
-        <event date="23/01/1941" img="xrf.jpg">
+        <veteran date="23/01/1941" img="xrf.jpg">
             <text>Marcel Caron est appelé à servir dans l'Armée de terre</text>
             <vet id="2519">Marcel Caron</vet>
-        </event>
+        </veteran>
 
-        <event date="22/01/1945" img="rps.jpg">
+        <veteran date="22/01/1945" img="rps.jpg">
             <text>Geoffrey Knowles participe en Birmanie à la bataille de Kangaw</text>
             <vet id="2520">Geoffrey Knowles</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1943" img="2gp.jpg">
+        <veteran date="01/06/1943" img="2gp.jpg">
             <text>Fernand Giguère est blessé pendant son entraînement à Farnham, au Québec</text>
             <vet id="2521">Fernand Giguere</vet>
-        </event>
+        </veteran>
 
-        <event date="19/02/1941" img="tdy.jpg">
+        <veteran date="19/02/1941" img="tdy.jpg">
             <text>Charles Marinier s'enrôle dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2522">Charles Marinier</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1945" img="wwd.jpg">
+        <veteran date="01/05/1945" img="wwd.jpg">
             <text>Jean-Paul Bertrand fait partie de la 2e Division qui détient des soldats allemands qui se sont rendus</text>
             <vet id="2523">Jean-Paul Bertrand</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="xyh.jpg">
+        <veteran date="01/01/1940" img="xyh.jpg">
             <text>Henri Botham s'enrôle dans la Force aérienne</text>
             <vet id="2524">Henri Botham</vet>
-        </event>
+        </veteran>
 
-        <event date="07/12/1941" img="m5a.jpg">
+        <veteran date="07/12/1941" img="m5a.jpg">
             <text>Georges Charrier se trouve à bord du NCSM Windflower lorsque celui-ci entre en collision avec un navire de charge</text>
             <vet id="2525">Georges Charrier</vet>
-        </event>
+        </veteran>
 
-        <event date="15/08/1945" img="fbs.jpg">
+        <veteran date="15/08/1945" img="fbs.jpg">
             <text>Marc Boivin s'entraîne au Japon avec l'Escadron Alouettes de l'Aviation royale du Canada (ARC) quand la guerre prend fin</text>
             <vet id="2526">Marc Boivin</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1943" img="nse.jpg">
+        <veteran date="20/12/1943" img="nse.jpg">
             <text>Victor Guérin est stationné avec la Compagnie D du Royal 22e Régiment pendant la bataille d'Ortona</text>
             <vet id="2528">Victor GuÈrin</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="rvj.jpg">
+        <veteran date="08/05/1945" img="rvj.jpg">
             <text>Frederick Gray est en service dans l'Aviation royale du Canada (ARC) à Madras, en Inde, lors du Jour de la Victoire en Europe</text>
             <vet id="2529">Frederick Gray</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1942" img="kst.jpg">
+        <veteran date="01/05/1942" img="kst.jpg">
             <text>Rena Chaplin commence son entraînement dans le Service féminin de l'Aviation royale du Canada (ARC)</text>
             <vet id="2530">Rena Chaplin</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1944" img="3bh.jpg">
+        <veteran date="01/09/1944" img="3bh.jpg">
             <text>Gerald Derick a combattu dans les tranchées partout en Europe</text>
             <vet id="2533">Gerald Derick</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="4cv.jpg">
+        <veteran date="06/06/1944" img="4cv.jpg">
             <text>Norma Dillon est en permanence de nuit à Toronto pendant l'invasion de la Normandie</text>
             <vet id="2536">Norma Dillon</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1940" img="t33.jpg">
+        <veteran date="01/05/1940" img="t33.jpg">
             <text>Jerry O'Conner est fait prisonnier de guerre par les Allemands</text>
             <vet id="2539">Jerry O'Connor</vet>
-        </event>
+        </veteran>
 
-        <event date="08/05/1945" img="u5w.jpg">
+        <veteran date="08/05/1945" img="u5w.jpg">
             <text>Harry Fogel célèbre le Jour de la Victoire en Europe à Londres</text>
             <vet id="2541">Harry Fogel</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1944" img="ms2.jpg">
+        <veteran date="01/04/1944" img="ms2.jpg">
             <text>Joseph Abramovitch arrive en Italie</text>
             <vet id="2542">Joseph Abramovitch</vet>
-        </event>
+        </veteran>
 
-        <event date="19/04/1941" img="rcj.jpg">
+        <veteran date="19/04/1941" img="rcj.jpg">
             <text>Hyman Sazant s'enrôle dans la Compagnie de Forces spéciales</text>
             <vet id="2543">Hyman Sazant</vet>
-        </event>
+        </veteran>
 
-        <event date="30/01/1943" img="i1i.jpg">
+        <veteran date="30/01/1943" img="i1i.jpg">
             <text>Doug Mullen est transféré en Colombie-Britannique pour rejoindre la Force aérienne</text>
             <vet id="2544">Doug Mullen</vet>
-        </event>
+        </veteran>
 
-        <event date="07/03/1941" img="kdmtogbemwbyrewfkjgu.jpg">
+        <veteran date="07/03/1941" img="kdmtogbemwbyrewfkjgu.jpg">
             <text>Robert Perry s'enrôle dans l'Aviation royale du Canada (ARC) en tant que grenadier</text>
             <vet id="2550">Robert Perry</vet>
-        </event>
+        </veteran>
 
-        <event date="19/01/1943" img="kdw.jpg">
+        <veteran date="19/01/1943" img="kdw.jpg">
             <text>John Mornan prête serment à l'Aviation royale du Canada (ARC)</text>
             <vet id="2551">John Mornan</vet>
-        </event>
+        </veteran>
 
-        <event date="11/06/1944" img="qhs.jpg">
+        <veteran date="11/06/1944" img="qhs.jpg">
             <text>Alexander Paton atterrit en France avec un groupe de soldats pour prendre l'aéroport de Carpiquet</text>
             <vet id="2552">Alexander Paton</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1945" img="hkh.jpg">
+        <veteran date="01/07/1945" img="hkh.jpg">
             <text>James Lovie retourne en Grande-Bretagne après sa période de service</text>
             <vet id="2553">James Lovie</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="oan.jpg">
+        <veteran date="06/06/1944" img="oan.jpg">
             <text>Gillis Mackinnon fait son service dans un hôpital qui accueille des soldats alliés</text>
             <vet id="2556">Gillis Mackinnon</vet>
-        </event>
+        </veteran>
 
-        <event date="28/04/1943" img="gah.jpg">
+        <veteran date="28/04/1943" img="gah.jpg">
             <text>George Kehl commence son service actif dans la Marine</text>
             <vet id="2579">George Kehl</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1945" img="xka.jpg">
+        <veteran date="01/01/1945" img="xka.jpg">
             <text>June Melton est transféré dans un hôpital de Dartmouth, en Nouvelle-Écosse</text>
             <vet id="2580">June Melton</vet>
-        </event>
+        </veteran>
 
-        <event date="15/06/1945" img="pns.jpg">
+        <veteran date="15/06/1945" img="pns.jpg">
             <text>Lorna Collacott se marie en Angleterre lors de son congé du vendredi</text>
             <vet id="2583">Lorna Collacott</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1942" img="rawaduhbwjhrrjmfwsqk.jpg">
+        <veteran date="01/04/1942" img="rawaduhbwjhrrjmfwsqk.jpg">
             <text>Selwyn Stephens entreprend son service dans la Force aérienne</text>
             <vet id="2584">Selwyn Stephens</vet>
-        </event>
+        </veteran>
 
-        <event date="12/02/1943" img="n0v.jpg">
+        <veteran date="12/02/1943" img="n0v.jpg">
             <text>Bert Barker tente de s'enrôler la Force aérienne même s'il n'aura l'âge requis que dans trois mois</text>
             <vet id="2590">Bert Barker</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="k1r.jpg">
+        <veteran date="19/08/1942" img="k1r.jpg">
             <text>Arthur Drake participe au raid de Dieppe</text>
             <vet id="2593">Arthur Drake</vet>
-        </event>
+        </veteran>
 
-        <event date="10/05/1945" img="yr1.jpg">
+        <veteran date="10/05/1945" img="yr1.jpg">
             <text>John Kubisest de l'équipage du NCSM quand celui-ci capture un sous-marin allemand</text>
             <vet id="2601">John Kubis</vet>
-        </event>
+        </veteran>
 
-        <event date="05/06/1944" img="qqy.jpg">
+        <veteran date="05/06/1944" img="qqy.jpg">
             <text>John O'Neill et ses camarades font le voyage en Normadie, où ils sont rappelés dès le lendemain pour participer à l'invasion</text>
             <vet id="2603">John O'Neill</vet>
-        </event>
+        </veteran>
 
-        <event date="09/09/1939" img="b0f.jpg">
+        <veteran date="09/09/1939" img="b0f.jpg">
             <text>Kenneth McKenzie s'enrôle dans l'Armée de terre</text>
             <vet id="2606">Kenneth McKenzie</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1944" img="o2s.jpg">
+        <veteran date="09/07/1944" img="o2s.jpg">
             <text>John Anderson participe à une série de bombardements à Bethune, en France</text>
             <vet id="2610">John Anderson</vet>
-        </event>
+        </veteran>
 
-        <event date="09/08/1944" img="rhwbtecfjxokvjiucxgc.jpg">
+        <veteran date="09/08/1944" img="rhwbtecfjxokvjiucxgc.jpg">
             <text>Orille Hogue participe en France au « grand coup » visant à fermer la poche de Falaise</text>
             <vet id="2616">Orille Hogue</vet>
-        </event>
+        </veteran>
 
-        <event date="01/04/1945" img="4y4.jpg">
+        <veteran date="01/04/1945" img="4y4.jpg">
             <text>John Harmer assiste à l'attaque de pilotes kamikaze japonais contre le Navire de sa Majesté Victorious</text>
             <vet id="2619">John Harmer</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1943" img="pcb.jpg">
+        <veteran date="09/07/1943" img="pcb.jpg">
             <text>Sheridan Atkinson participe au débarquement allié en Sicile</text>
             <vet id="2620">Sheridan Atkinson</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="who.jpg">
+        <veteran date="01/01/1943" img="who.jpg">
             <text>Joan Dowe fait son service dans le Women's Army Corps (WAC) au sein de la défense côtière de Grande-Bretagne</text>
             <vet id="2623">Joan Dowe</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="1gl.jpg">
+        <veteran date="01/01/1941" img="1gl.jpg">
             <text>Howard O'Conner est pilote de bombardier dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2624">Howard O'Connor</vet>
-        </event>
+        </veteran>
 
-        <event date="15/08/1945" img="dfp.jpg">
+        <veteran date="15/08/1945" img="dfp.jpg">
             <text>Kent Ford s'entraîne en vue de bombardements dans le Pacifique quand survient le Jour de la Victoire contre le Japon</text>
             <vet id="2625">Kent Ford</vet>
-        </event>
+        </veteran>
 
-        <event date="06/06/1944" img="4ws.jpg">
+        <veteran date="06/06/1944" img="4ws.jpg">
             <text>Elisabeth Wallis est affectée à hôpital de la Marine pendant le Jour J</text>
             <vet id="2626">Elisabeth Wallis</vet>
-        </event>
+        </veteran>
 
-        <event date="01/06/1944" img="5er.jpg">
+        <veteran date="01/06/1944" img="5er.jpg">
             <text>Roderick White entreprend son service en Angleterre</text>
             <vet id="2627">Roderick White</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1941" img="zjj.jpg">
+        <veteran date="01/09/1941" img="zjj.jpg">
             <text>Peter Chance est stationné en Malaisie au sein de la Marine</text>
             <vet id="2628">Peter Chance</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1940" img="k4n.jpg">
+        <veteran date="01/10/1940" img="k4n.jpg">
             <text>Cyril Yarnell s'enrôle dans la Force aérienne et volera avec l'Escadron 403</text>
             <vet id="2630">Cyril Yarnell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1943" img="yvb.jpg">
+        <veteran date="01/05/1943" img="yvb.jpg">
             <text>Agnes Ward et ses camarades de la Division féminine partent pour l'Angleterre</text>
             <vet id="2631">Agnes Ward</vet>
-        </event>
+        </veteran>
 
-        <event date="03/07/1941" img="pjr.jpg">
+        <veteran date="03/07/1941" img="pjr.jpg">
             <text>Valerie Simmons survivra au bombardement d'une boîte de nuit londonienne</text>
             <vet id="2633">Valerie Simmons</vet>
-        </event>
+        </veteran>
 
-        <event date="01/08/1943" img="fyp.jpg">
+        <veteran date="01/08/1943" img="fyp.jpg">
             <text>Frank Round et un groupe de soldats livrent combat jusqu'à la vallée du Liri, en Italie</text>
             <vet id="2636">Frank Round</vet>
-        </event>
+        </veteran>
 
-        <event date="01/07/1943" img="muvkjzjgvapuomzdlzzt.jpg">
+        <veteran date="01/07/1943" img="muvkjzjgvapuomzdlzzt.jpg">
             <text>John Beach servira au sein du Corps de santé royal canadien (RCAMC) sitôt après sa formation médicale</text>
             <vet id="2637">John Beach</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="vdq.jpg">
+        <veteran date="01/01/1942" img="vdq.jpg">
             <text>Allen Lucas s'enrôle comme soldat dans l'Armée de terre</text>
             <vet id="2638">Allen Lucas</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1944" img="5p5.jpg">
+        <veteran date="01/11/1944" img="5p5.jpg">
             <text>Jim Caird servira comme conducteur de char dans la ville Rijssen, aux Pays-Bas</text>
             <vet id="2639">Jim Caird</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="mx5.jpg">
+        <veteran date="01/01/1940" img="mx5.jpg">
             <text>Margaret Duff est stationné en Écosse au sein de la Force aérienne</text>
             <vet id="2655">Margaret Duff</vet>
-        </event>
+        </veteran>
 
-        <event date="18/12/1942" img="b20.jpg">
+        <veteran date="18/12/1942" img="b20.jpg">
             <text>Robert Fletcher se joint à la Force aérienne et servira en Afrique du Nord</text>
             <vet id="2656">Robert Fletcher</vet>
-        </event>
+        </veteran>
 
-        <event date="17/03/1944" img="twz.jpg">
+        <veteran date="17/03/1944" img="twz.jpg">
             <text>Bill Hoag est stationné en Birmanie quand surviennent des bombardements</text>
             <vet id="2662">Bill Hoag</vet>
-        </event>
+        </veteran>
 
-        <event date="01/11/1942" img="eoz.jpg">
+        <veteran date="01/11/1942" img="eoz.jpg">
             <text>Frank Boyd s'enrôle dans l'Escadron 101 de la RAF</text>
             <vet id="2667">Frank Boyd</vet>
-        </event>
+        </veteran>
 
-        <event date="25/12/1944" img="hbxrbfemnfxexyzxjmxb.jpg">
+        <veteran date="25/12/1944" img="hbxrbfemnfxexyzxjmxb.jpg">
             <text>Frederick Nash et ses camarades d'équipage percutent un sous-marin allemand</text>
             <vet id="2668">Frederick Nash</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1939" img="1lp.jpg">
+        <veteran date="01/10/1939" img="1lp.jpg">
             <text>Dietrich Puetter s'enrôle dans la force aérienne allemande</text>
             <vet id="2679">Dietrich Puetter</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="w53.jpg">
+        <veteran date="01/01/1941" img="w53.jpg">
             <text>Gordon Redcliffe se joint à la Force aérienne en tant que mécanicien</text>
             <vet id="2681">Gordon Redcliffe</vet>
-        </event>
+        </veteran>
 
-        <event date="25/04/1944" img="r3k.jpg">
+        <veteran date="25/04/1944" img="r3k.jpg">
             <text>William Husson bombarde le mont Obersaltzburg, dans les Alpes bavaroises, lieu de refuge d'Hitler</text>
             <vet id="2685">William Husson</vet>
-        </event>
+        </veteran>
 
-        <event date="17/01/1944" img="idpgjyttggmzforuwzen.jpg">
+        <veteran date="17/01/1944" img="idpgjyttggmzforuwzen.jpg">
             <text>Bruce Bullock est blessé pendant la bataille de Monte Cassino</text>
             <vet id="2686">Bruce Bullock</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="tep.jpg">
+        <veteran date="01/01/1942" img="tep.jpg">
             <text>Lorne Yule s'enrôle comme mécanicien dans la Force aérienne</text>
             <vet id="2695">Lorne Yule</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1944" img="3gm.jpg">
+        <veteran date="01/10/1944" img="3gm.jpg">
             <text>Maurice Hundleby est envoyé sur le front européen</text>
             <vet id="2696">Maurice Hundleby</vet>
-        </event>
+        </veteran>
 
-        <event date="09/07/1944" img="ecixezknlotgvuxfostx.jpg">
+        <veteran date="09/07/1944" img="ecixezknlotgvuxfostx.jpg">
             <text>Margaret Fletcher prodigue des soins aux soldats blessés pendant la Bataille de Caen</text>
             <vet id="2698">Margaret Fletcher</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1938" img="uhj.jpg">
+        <veteran date="01/01/1938" img="uhj.jpg">
             <text>Eugene Gosh entreprend son service dans la Marine</text>
             <vet id="2702">Eugene Gosh</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="2qp.jpg">
+        <veteran date="01/01/1943" img="2qp.jpg">
             <text>Lillian Wylie travaille dans le secteur agricole au sein du service féminin l'Armée de terre britannique</text>
             <vet id="2705">Lillian Wylie (nÈe Warren)</vet>
-        </event>
+        </veteran>
 
-        <event date="01/09/1942" img="hzgntfpaeoavakmmyezr.jpg">
+        <veteran date="01/09/1942" img="hzgntfpaeoavakmmyezr.jpg">
             <text>Nora Oliver se joint au Service féminin de la Marine royale (WRENS) et travaillera au quartier général de Lord Mountbatten</text>
             <vet id="2706">Nora Oliver (nÈe Carrington)</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1940" img="ghn.jpg">
+        <veteran date="01/01/1940" img="ghn.jpg">
             <text>Isobel Smith se joint comme cuisinière à la Force aérienne et deviendra parla suite aide-infirmière</text>
             <vet id="2709">Isobel Smith</vet>
-        </event>
+        </veteran>
 
-        <event date="16/10/1940" img="mfljrgceicqygnaujfbr.jpg">
+        <veteran date="16/10/1940" img="mfljrgceicqygnaujfbr.jpg">
             <text>Charles Lepine s'enrôle dans l'Aviation royale du Canada (ARC)</text>
             <vet id="2714">Charles Lepine</vet>
-        </event>
+        </veteran>
 
-        <event date="29/12/1942" img="nia.jpg">
+        <veteran date="29/12/1942" img="nia.jpg">
             <text>Fred Russell s'enrôle dans la Force aérienne en tant que musicien</text>
             <vet id="2715">Fred Russell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1942" img="0fa.jpg">
+        <veteran date="01/01/1942" img="0fa.jpg">
             <text>Daisy Bird s'enrôle dans le Corps auxiliaire féminin de la Force aérienne</text>
             <vet id="2716">Daisy Bird</vet>
-        </event>
+        </veteran>
 
-        <event date="22/02/1944" img="loz.jpg">
+        <veteran date="22/02/1944" img="loz.jpg">
             <text>Fred Coonstable entreprend son service dans la Marine</text>
             <vet id="2717">Fred Constable</vet>
-        </event>
+        </veteran>
 
-        <event date="20/12/1945" img="cyfvlqdelfcuqmfiyyqx.jpg">
+        <veteran date="20/12/1945" img="cyfvlqdelfcuqmfiyyqx.jpg">
             <text>John Kirk rentre chez lui à Victoria, en Colombie-Britannique</text>
             <vet id="2720">John Kirk</vet>
-        </event>
+        </veteran>
 
-        <event date="07/11/1944" img="cfqybhwblurgfalxzrff.jpg">
+        <veteran date="07/11/1944" img="cfqybhwblurgfalxzrff.jpg">
             <text>Philip Bissell s'enrôle dans la Marine</text>
             <vet id="2723">Philip Bissell</vet>
-        </event>
+        </veteran>
 
-        <event date="01/10/1939" img="y2f.jpg">
+        <veteran date="01/10/1939" img="y2f.jpg">
             <text>Terence Elworthy n'est que simple cadet lorsqu'il est appelé à servir à Hong Kong</text>
             <vet id="2737">Terence Elworthy</vet>
-        </event>
+        </veteran>
 
-        <event date="01/03/1943" img="lbucpjbqnddqjnzsflht.jpg">
+        <veteran date="01/03/1943" img="lbucpjbqnddqjnzsflht.jpg">
             <text>Peter Thomas et son équipage son attaqués par un sous-marin allemand dans la baie de Biscay</text>
             <vet id="2740">Peter Thomas</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1941" img="nvqqtvzmbgdvndawjggt.jpg">
+        <veteran date="01/05/1941" img="nvqqtvzmbgdvndawjggt.jpg">
             <text>Kenneth Pask s'enrôle dans la Force aérienne et servira dans le Pacifique Sud</text>
             <vet id="2741">Kenneth Pask</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1941" img="w42.jpg">
+        <veteran date="01/01/1941" img="w42.jpg">
             <text>Norma Curry se joint au Corps auxiliaire féminin de la Force aérienne</text>
             <vet id="2742">Norma Curry</vet>
-        </event>
+        </veteran>
 
-        <event date="15/01/1945" img="sgsbdvalyylggowjukpx.jpg">
+        <veteran date="15/01/1945" img="sgsbdvalyylggowjukpx.jpg">
             <text>M. Richards arrive à Horsham, en Angleterre</text>
             <vet id="2743">C Richards</vet>
-        </event>
+        </veteran>
 
-        <event date="01/01/1943" img="icskgmzsyutxermkwyry.jpg">
+        <veteran date="01/01/1943" img="icskgmzsyutxermkwyry.jpg">
             <text>Albert Walsh s'enrôle dans l'Armée de terre</text>
             <vet id="2744">Albert Walsh</vet>
-        </event>
+        </veteran>
 
-        <event date="19/01/1945" img="bnzkyukbuqxyxivwukoo.jpg">
+        <veteran date="19/01/1945" img="bnzkyukbuqxyxivwukoo.jpg">
             <text>Arthur Anderson est déplacé dans un camp prisonniers de guerre</text>
             <vet id="2756">Arthur Anderson</vet>
-        </event>
+        </veteran>
 
-        <event date="19/08/1942" img="050.jpg">
+        <veteran date="19/08/1942" img="050.jpg">
             <text>Wilson Large participe à la Bataille de Dieppe</text>
             <vet id="2777">Wilson Large</vet>
-        </event>
+        </veteran>
 
-        <event date="06/09/1943" img="zlnuohjgrtptabcicbin.jpg">
+        <veteran date="06/09/1943" img="zlnuohjgrtptabcicbin.jpg">
             <text>Henry Seewald s'enrôle dans la Force aérienne, où il fabriquera des radios</text>
             <vet id="2800">Henry Seewald</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1943" img="03w.jpg">
+        <veteran date="01/05/1943" img="03w.jpg">
             <text>Wilma Cooke est envoyée comme infirmière sur le front européen</text>
             <vet id="2816">Wilma Cooke</vet>
-        </event>
+        </veteran>
 
-        <event date="01/05/1943" img="uw5.jpg">
+        <veteran date="01/05/1943" img="uw5.jpg">
             <text>Hilda Senter est envoyée en Égypte avec la Force aérienne</text>
             <vet id="2818">Hilda Senter</vet>
-        </event>
+        </veteran>
 
-        <event date="30/06/1943" img="mddvhwcuhrlkvnjmhbxs.jpg">
+        <veteran date="30/06/1943" img="mddvhwcuhrlkvnjmhbxs.jpg">
             <text>Joyce Mullen suit l'entraînement de la Division féminine de l'Aviation royale du Canada</text>
             <vet id="2837">Joyce Mullen</vet>
-        </event>
+        </veteran>
 
-        <event date="06/04/1944" img="qydxnraltcqpnonoetyh.jpg">
+        <veteran date="06/04/1944" img="qydxnraltcqpnonoetyh.jpg">
             <text>John Shaw réussit dans la Marine son apprentissage d'artificier en salle des machines</text>
             <vet id="2850">John Shaw</vet>
-        </event>
+        </veteran>
 
-        <event date="01/02/1945" img="ubgcyufzvvliypxgwndk.jpg">
+        <veteran date="01/02/1945" img="ubgcyufzvvliypxgwndk.jpg">
             <text>Walter Weir se joint au Royal Regina Rifles Regiment de l'Armée de terre</text>
             <vet id="2851">Walter Weir</vet>
-        </event>
+        </veteran>
 
-        <event date="03/09/1943" img="dunuxkuayfrhvteqfjgz.jpg">
+        <veteran date="03/09/1943" img="dunuxkuayfrhvteqfjgz.jpg">
             <text>Henry Love et ses camarades franchissent le détroit de Messine, en Italie</text>
             <vet id="2853">Howard Love</vet>
-        </event>
+        </veteran>
 
-        <event date="22/02/1942" img="bwlvamovbrmpjjoffxfy.jpg">
+        <veteran date="22/02/1942" img="bwlvamovbrmpjjoffxfy.jpg">
             <text>John Yeomans est atteint par balles en rentrant d'un raid aérien au-dessus de l'Allemagne</text>
             <vet id="2855">John Yeomans</vet>
-        </event>
+        </veteran>
 
-        <event date="27/12/1944" img="fmixzgnxdtmxccaatshe.jpg">
+        <veteran date="27/12/1944" img="fmixzgnxdtmxccaatshe.jpg">
             <text>Donald Bowman est à bord du NCSM Edmunston quand celui-ci parvient à couler un sous-marin allemand</text>
             <vet id="2863">Donald Bowman</vet>
-        </event>
+        </veteran>
 		
-    </events>
-    
+	</veterans>
+	
 </timelineData>
